@@ -1,0 +1,13 @@
+<div class="badge-preview" id="visitor_badge">
+  <button class="badge-toggle-button" ng-click="switchBadgeSide()" ng-bind="isFront ? 'Show Back' : 'Show Front'">
+  </button>
+	<div class="svg-template" ng-bind-html="trustedTemplate"></div> 
+</div>
+
+<div class="print-container">
+    <select class="badge-template" ng-model="selectedTemplate" ng-options="template.name for template in badgeTemplates" ng-change="storeSelectedTemplate()">
+       <option value="" disabled selected>Select a template</option>
+    </select>
+    <button class="print-button" ng-click="printBadge()">Print Badge</button>
+</div>
+

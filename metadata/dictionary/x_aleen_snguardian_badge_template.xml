@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="609c9f2b1bd8ca106962fe60cd4bcb75" label="Badge Template" max_length="40" name="x_aleen_snguardian_badge_template" type="collection">
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="front" max_length="80000" name="front" type="string_full_utf8"/>
+        <element choice="3" default="Employee" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Visitor" value="Visitor"/>
+                <element inactive_on_update="false" label="Temporary Worker" value="Temporary Worker"/>
+                <element inactive_on_update="false" label="Employee" value="Employee"/>
+                <element inactive_on_update="false" label="Contractor" value="Contractor"/>
+            </choice>
+        </element>
+        <element label="back" max_length="80000" name="back" type="string_full_utf8"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

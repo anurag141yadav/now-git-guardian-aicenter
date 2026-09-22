@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e27f0ed51bbc8210759455342a4bcbea</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_status_code">
+    <x_aleen_snguardian_status_code action="INSERT_OR_UPDATE">
+        <applicable_to>User</applicable_to>
+        <code>TERMINATED</code>
+        <is_deleted>false</is_deleted>
+        <name>Terminated</name>
+        <number>STATUSCODE1043</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 18:54:02</sys_created_on>
+        <sys_id>e27f0ed51bbc8210759455342a4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 18:54:02</sys_updated_on>
+    </x_aleen_snguardian_status_code>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 05:26:23</sys_created_on>
+        <sys_id>003371641b9946106962fe60cd4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terminated</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_003371641b9946106962fe60cd4bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 05:26:23</sys_updated_on>
+        <tablename>x_aleen_snguardian_status_code</tablename>
+    </sys_metadata_link>
+</record_update>

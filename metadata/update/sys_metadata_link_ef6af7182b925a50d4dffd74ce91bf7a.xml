@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3a2f9a512bd91a10d4dffd74ce91bf8b</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;Visitor Checkin Email&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Visitor Check in Email&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;VISITOR&lt;/scope&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-10-16 12:45:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;3a2f9a512bd91a10d4dffd74ce91bf8b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-11-22 06:24:26&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px;
+        }
+        h2 {
+            color: #0056b3;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .details {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    &lt;/style&gt;
+&lt;h2&gt;Your Check-in is Complete!&lt;/h2&gt;
+&lt;p&gt;Dear ${visitor.full_name},&lt;/p&gt;
+&lt;p&gt;Welcome to &lt;strong&gt;[Company Name]&lt;/strong&gt;! We are pleased to confirm that you have successfully checked in for your visit. Below are the details of your visit:&lt;/p&gt;
+&lt;div class="details"&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; ${start_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; ${start_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; ${location.name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; ${host.information}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Visit Duration:&lt;/strong&gt; ${visit_duration}&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;During your visit, if you need any assistance, please reach out to our front desk or contact your host directly. Your safety and comfort are our priority, so please let us know if there is anything we can do to assist you.&lt;/p&gt;
+&lt;p&gt;For security purposes, please ensure that you wear your visitor badge at all times while on the premises. When your visit is complete, remember to check out at the front desk before you leave.&lt;/p&gt;
+&lt;p&gt;We hope you have a productive and pleasant visit!&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;br /&gt;[Company Name] Team&lt;/p&gt;
+&lt;div class="footer"&gt;
+&lt;p&gt;If you have any questions or need further assistance, please contact us at [Contact Email] or [Contact Phone Number].&lt;/p&gt;
+&lt;p&gt;Thank you for visiting [Company Name].&lt;/p&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 09:52:44</sys_created_on>
+        <sys_id>ef6af7182b925a50d4dffd74ce91bf7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_ef6af7182b925a50d4dffd74ce91bf7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 09:52:44</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_tem</tablename>
+    </sys_metadata_link>
+</record_update>

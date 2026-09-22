@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5cb77471472bf61051a3e84d416d43f8" extends="discovery_credentials" label="Connector Credential" max_length="40" name="x_aleen_snguardian_connector_credntial" type="collection">
+        <element label="Refresh Token Expiry" max_length="40" name="refresh_token_expiry" type="glide_date_time"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Token Expiry" max_length="40" name="token_expiry" type="glide_date_time"/>
+        <element label="Token Type" max_length="40" name="token_type" type="string"/>
+        <element label="Refresh Token" max_length="2000" name="refresh_token" type="password2"/>
+        <element label="Token" max_length="2000" name="token" type="password2"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

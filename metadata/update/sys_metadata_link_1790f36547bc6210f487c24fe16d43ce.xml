@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>73607b6547bc6210f487c24fe16d4321</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_system">
+    <x_aleen_snguardian_system action="INSERT_OR_UPDATE">
+        <code>SERVICENOW</code>
+        <date_format>YYYY-MM-DD hh:mm:ss</date_format>
+        <description>Servicenow system</description>
+        <host>https://instance.servicenow.com</host>
+        <is_deleted>false</is_deleted>
+        <mid_server/>
+        <number>SYSTEM001</number>
+        <password/>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2025-04-09 12:58:59</sys_created_on>
+        <sys_id>73607b6547bc6210f487c24fe16d4321</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>anurag.yadav</sys_updated_by>
+        <sys_updated_on>2025-04-09 12:59:09</sys_updated_on>
+        <time_zone>UTC</time_zone>
+        <username/>
+        <version/>
+    </x_aleen_snguardian_system>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2025-04-09 12:59:13</sys_created_on>
+        <sys_id>1790f36547bc6210f487c24fe16d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SERVICENOW</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_1790f36547bc6210f487c24fe16d43ce</sys_update_name>
+        <sys_updated_by>anurag.yadav</sys_updated_by>
+        <sys_updated_on>2025-04-09 12:59:13</sys_updated_on>
+        <tablename>x_aleen_snguardian_system</tablename>
+    </sys_metadata_link>
+</record_update>

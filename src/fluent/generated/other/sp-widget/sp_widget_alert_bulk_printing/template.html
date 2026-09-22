@@ -1,0 +1,55 @@
+<div class="bulk-badge-printing">
+  <h2>Badge Printing</h2>
+  <!-- Status Message -->
+    <div id="statusMessage" class="status" ng-class="{'success': c.statusType === 'success', 'error': c.statusType === 'error'}">
+      {{ c.statusMessage }}
+    </div>
+  <div class="badge-print-container">
+   <div class="badge-header">
+    <div class="left-controls">
+        <select class="dropdown">
+            <option value="badge_id" selected>Request Number</option>
+            <option value="employee_name">User</option>
+            <option value="status">Status</option>
+        </select>
+        <input type="text" class="search-box" ng-model="filter.query" placeholder="Search">
+    </div>
+    <div class="button-group">
+        <button class="button" id="print-button" ng-disabled="!c.selectedCount" ng-click="c.generateBadgesForPrinting()">Print Badges</button>
+        <button ng-if="c.showBadgeNumberColumn" ng-disabled="!c.selectedCount" class="button" id="save-button"  ng-click="c.saveBadgeNumbers()">Save</button>
+    </div>
+</div>
+    <table class="badge-table">
+    <thead class="column_heading">
+        <tr>
+           <th class="col-checkbox"><input type="checkbox" id="selectAll" ng-model="c.selectAll" ng-change="c.toggleSelectAll()"></th>
+             <th>Request</th>
+            <th>Requested For</th>
+            <th>Status</th>
+            <!--<th>Location</th>-->
+          	<th>Stage</th>
+            <th>Created</th>
+            <th ng-if="c.showBadgeNumberColumn">Badge ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--<tr ng-repeat="request in data.requests | filter:{[filter.column]: filter.query}"> -->
+          <tr ng-repeat="request in c.getPaginatedRequests()">
+            <td class="col-checkbox">  <input type="checkbox" ng-model="request.selected" ng-change="c.updateSelectedCount()"></td>
+             <td>{{ request.requestNumber }}</td>
+            <td>{{ request.name }}</td>
+            <td> {{ request.status }}</td>
+            <!--<td> {{ request.location }}</td>-->
+            <td> {{ request.stage }}</td>
+            <td> {{ request.created }}</td>
+            <td ng-if="request.showBadgeNumber"><input type="text" class="badge-input-box" ng-model="request.badgeNumber" placeholder="Enter Badge Number"></td>
+        </tr>
+    </tbody>
+</table>
+
+    <div class="pagination-controls">      <button ng-click="c.previousPage()" ng-disabled="c.currentPage === 1">Previous</button>
+      <span>Page {{ c.currentPage }} of {{ c.getTotalPages() }}</span>
+      <button ng-click="c.nextPage()" ng-disabled="c.currentPage === c.getTotalPages()">Next</button>
+    </div>
+  </div>
+</div>

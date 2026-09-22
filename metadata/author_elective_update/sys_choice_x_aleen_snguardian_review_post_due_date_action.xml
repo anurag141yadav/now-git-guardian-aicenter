@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="post_due_date_action" table="x_aleen_snguardian_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>post_due_date_action</element>
+            <name>x_aleen_snguardian_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 05:33:26</sys_created_on>
+            <sys_id>0efc60353bae031065adbfcc73e45a0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>post_due_date_action</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_review_post_due_date_action</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 05:33:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>post_due_date_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auto Approve</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 05:33:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76f7f691477b3210f487c24fe16d4368</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 05:34:26</sys_updated_on>
+            <value>APPROVE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>post_due_date_action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auto Reject</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 05:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2f7f691477b3210f487c24fe16d436a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 05:34:31</sys_updated_on>
+            <value>REJECT</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

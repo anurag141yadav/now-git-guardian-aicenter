@@ -1,0 +1,19 @@
+<div class="row status-summary">
+  <!-- Total -->
+  <div class="col-xs-4 text-center total-box">
+    <span class="label">Scheduled</span>
+    <div class="value">{{data.scoreData.SCHEDULED || 0}}</div>
+  </div>
+
+  <!-- Open -->
+  <div class="col-xs-4 text-center open-box">
+    <span class="label">Checked In</span>
+    <div class="value">{{data.scoreData['CHECK-IN'] || 0 }}</div>
+  </div>
+
+  <!-- Closed -->
+  <div class="col-xs-4 text-center closed-box">
+    <span class="label">Checked Out</span>
+    <div class="value">{{data.scoreData['CHECKED-OUT'] || 0}}</div>
+  </div>
+</div>

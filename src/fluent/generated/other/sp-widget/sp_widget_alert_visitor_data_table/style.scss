@@ -1,0 +1,272 @@
+.panel-heading {
+  padding-left: 8px;
+}
+
+thead {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  margin-bottom: 0;
+  border-collapse: separate;
+}
+
+.table > thead > tr > th {
+  border-right: 1px solid #ddd;
+  border-bottom: none;
+  vertical-align: middle;
+
+  &:nth-child(2) {
+    border-left: none;
+  }
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+th i {
+  display: inline-block;
+  margin-left: 5px;
+  color: #A0A0A0;
+}
+
+div.data-table-high-contrast th i {
+  color: $gray; 
+}
+
+th .disabled{
+  color:#ddd;
+}
+
+.th-title {
+  display: inline-block;
+  color: $primary;
+}
+
+.panel-body {
+  overflow: auto;
+  padding: 0px;
+}
+
+
+.selected {
+  color: #fff;
+  background-color: $data-table-selected;
+  border-color: 1px solid #fff;
+}
+
+.table-striped td.selected a:not(.text-muted):not(.btn) {
+  color: $sp-tagline-color;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+.pruned-msg {
+  padding-bottom: 10px;
+  padding-left: 4px;
+  text-align: center;
+}
+
+.pruned-msg-filter-pad {
+  padding-top:8px;
+}
+
+.filter-breadcrumbs {
+  padding-top: 3px;
+}
+
+.filter-breadcrumbs ~ .table {
+  border-top: 1px solid #ddd;
+}
+
+.dropdown-toggle {
+  background: none;
+  padding: 0 0 4px 0;
+}
+
+.sp-list-cell {
+  white-space: pre-wrap;
+}
+.user_image {
+  max-width:100px;
+  max-height:100px;
+}
+.pill{
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.animate {
+  display: inline-block;
+
+  &::after {
+    
+    content: "\f05a"; 
+    color: #1E90FF; 
+    display: inline-block;
+    margin-left: 10px;
+    animation: pulse 1s infinite;
+    font-size: 1.2em;   
+    margin-right: 5px;
+    font-family: 'FontAwesome';
+  }
+}
+
+.accessible {
+  display: inline-block;
+  margin: 0px 5px; 
+  vertical-align: middle;
+
+  &::after {
+    content: "\267F"; 
+    font-size: 24px; 
+    display: inline-block;
+    margin-left: 3px;
+   }
+}
+
+.tr-extended{
+  background-color: #FFCCD2 !important;
+}
+.tr-expired {
+  color: #bdbdbd !important;
+}
+
+.tr-denied {
+  color: #fb8f8f !important;
+}
+
+.tr-cancelled {
+  color: #9a77ff !important;
+}
+
+
+.pillXXX {
+    padding: 5px 10px !important;
+    border-radius: 15px !important;
+    color: white !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+}
+.btn-warning {
+    color: #fcfdff !important;
+    background-color: #0c3d83 !important;
+    border-color: #0c3d83 !important;
+}
+
+/* Primary blue for Scheduled */
+.bg-primary {
+    background-color: #0056b3 !important; /* Darker blue */
+    color: white !important;
+}
+
+/* Yellow for Pending Approval */
+.bg-warning {
+    background-color: #ffe38f !important;
+    color: #333 !important;
+    border: 2px solid #e0a800 !important;
+}
+
+/* Teal for Checked In */
+.bg-teal {
+    background-color: #17a2b8 !important; /* Slightly darker teal */
+    color: white !important;
+}
+
+/* Light blue for Checked Out */
+.bg-lightblue {
+    background-color: #3296ff !important;
+    color: white !important;
+    border: 2px solid #015ec3 !important;
+}
+
+/* Green for Completed */
+.bg-green {
+    background-color: #218838 !important; /* Darker green */
+    color: white !important;
+}
+
+/* Strong red for Force Exit */
+.bg-red {
+    background-color: #c82333 !important; /* Darker red */
+    color: white !important;
+}
+
+/* Dark red for Over Stayed */
+.bg-darkred {
+    background-color: #721c24 !important; /* Dark maroon red */
+    color: white !important;
+}
+
+/* Gray for Expired */
+.bg-gray {
+    background-color: #7d7d7d !important;
+    color: white !important;
+    border: 2px solid #54595d !important;
+}
+
+/* Dark gray for Cancelled */
+.bg-darkgray {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+/* Dark purple for Denied */
+.bg-darkpurple {
+    background-color: #5a32a3 !important; /* Darker purple */
+    color: white !important;
+}
+/* Strong red for Emergency Exit */
+.bg-emergency-red {
+    background-color: #b71c1c !important; /* Deep red for high urgency */
+    color: white !important;
+}
+
+.bg-green-new {
+    color: white !important;
+    background-color: #4CAF50 !important;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+@keyframes pulseSlow {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+ .id-scan {
+            font-size: 1.2em;
+            line-height: 1;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
+.id-scan::before {
+  content: "\1FAAA"; /* Unicode for  (Identification Card) */
+}
+
+.input-group-query {
+  margin-right: 3px;
+  border: 1px solid #828181; /* Light gray border */
+  border-radius: 10px; /* Rounded corners - adjust this value for more/less rounding */
+  padding: 6px 12px; /* Comfortable inner spacing */
+  font-size: 15px; /* Appropriate font size */
+  outline: none; /* Removes the default focus outline */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+.input-group-query:focus {
+  border-color: #66afe9; /* Light blue border when focused */
+}
+
+.input-group-query::placeholder {
+  color: #666363; /* Light gray placeholder text */
+  opacity: 0.8; /* Ensure the lightness is consistent across browsers */
+}

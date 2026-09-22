@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="criteria" table="x_aleen_snguardian_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>criteria</element>
+            <name>x_aleen_snguardian_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:32:34</sys_created_on>
+            <sys_id>0afc60353bae031065adbfcc73e45a10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>criteria</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_review_criteria</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 12:32:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criteria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>By Location</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:32:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2f7f691477b3210f487c24fe16d4320</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 13:43:09</sys_updated_on>
+            <value>LOCATION</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criteria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>By Access Levels</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:32:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32f7f691477b3210f487c24fe16d4322</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 13:43:13</sys_updated_on>
+            <value>ACCESLEVELS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criteria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>By Review Status</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:33:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ef7f691477b3210f487c24fe16d4323</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 13:41:56</sys_updated_on>
+            <value>REVIEW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criteria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>By Expiry Period</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:34:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baf7f691477b3210f487c24fe16d4325</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 13:43:24</sys_updated_on>
+            <value>EXPIRY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criteria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>By Usage</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:35:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6f7f691477b3210f487c24fe16d4327</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 13:43:28</sys_updated_on>
+            <value>USAGE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>criteria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>By Process Deleted Data</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-09-12 11:42:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36f7f691477b3210f487c24fe16d4329</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-09-12 11:42:53</sys_updated_on>
+            <value>PROCESSDELETED</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

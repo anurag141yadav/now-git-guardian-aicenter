@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d4e9f79b1bb71650b8bea979b04bcb86</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_system_feature">
+    <x_aleen_snguardian_system_feature action="INSERT_OR_UPDATE">
+        <code>FACIAL-DETECTION</code>
+        <description>Support Image Verification using Facial Recognition</description>
+        <is_deleted>false</is_deleted>
+        <name>Face Detection</name>
+        <number>SYSFEATURE02</number>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-02-24 07:07:04</sys_created_on>
+        <sys_id>d4e9f79b1bb71650b8bea979b04bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2025-02-24 07:07:04</sys_updated_on>
+    </x_aleen_snguardian_system_feature>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-02-24 07:09:54</sys_created_on>
+        <sys_id>d5baf7db1bb71650b8bea979b04bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Face Detection</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_d5baf7db1bb71650b8bea979b04bcb0a</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2025-02-24 07:09:54</sys_updated_on>
+        <tablename>x_aleen_snguardian_system_feature</tablename>
+    </sys_metadata_link>
+</record_update>

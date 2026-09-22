@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="903d4a96eb8382500326f284dad0cde0" extends="sys_import_set_row" label="U Readers Importset" max_length="40" name="x_aleen_snguardian_u_readers_import_set" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Deleted" label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=System" label="System" max_length="40" name="u_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

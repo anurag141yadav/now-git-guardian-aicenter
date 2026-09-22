@@ -1,0 +1,33 @@
+<div class="camera-capture-widget text-center">
+  <div ng-show="!loadDiv">
+    <button class="btn btn-primary" ng-click="detect()">Start Camera</button>
+    <p ng-if="noCamFound"> No Camera found to capture photos</p>
+  </div>
+  <div ng-show="loadDiv">
+    <div ng-if="availableCameras.length > 1">
+      <label for="camera-select">Select Camera:</label>
+      <select id="camera-select" class="form-control" ng-disabled="isCaptured" ng-model="selectedCameraId" ng-options="camera.deviceId as camera.label for camera in availableCameras" ng-change="startCamera(selectedCameraId)">
+      </select>
+    </div>
+    <div ng-show="!isCaptured" class="m-t">
+      <div class="row text-center">
+        <video ng-attr-id="{{c.data.videoId}}" autoplay></video>
+      </div>
+      <div class="row text-center">
+        <p> Time remaining: {{ remainingTime }} seconds </p>
+      </div>
+      <div class="row text-center">
+        <button class="btn btn-primary" ng-click="capturePhoto()">Capture Photo</button>
+      </div>
+    </div>
+    <div ng-show="isCaptured">
+      <div class="row text-center">
+        <div class="row text-center">
+          <img ng-attr-id="{{c.data.photoId}}" width="320" height="240" ng-src="{{photoData}}" />
+        </div><div class="row text-center">
+        <button class="btn btn-warn m-t" ng-click="retakePhoto()">Retake Photo</button>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" ng-attr-id="{{c.data.imageId}}" value="{{photoData}}" />
+  </div>

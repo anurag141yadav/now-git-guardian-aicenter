@@ -1,0 +1,16 @@
+import { Record } from '@servicenow/sdk/core'
+
+Record({
+    $id: Now.ID['020e38e0562dda10088fc90cdd36ba00'],
+    table: 'sys_ux_page_property',
+    data: {
+        description: 'Ribbon Config ID',
+        name: 'ribbonConfigId',
+        page: '020e38e0f42dda10aed05e6f8f796710',
+        sys_domain: 'global',
+        sys_domain_path: 'global',
+        type: 'string',
+        unique_name: 'x_aleen_snguardian.020e38e0f42dda10aed05e6f8f796710.root.ribbonConfigId',
+        value: '060ef4e0162dda10e477bdcad2b450ff',
+    },
+})

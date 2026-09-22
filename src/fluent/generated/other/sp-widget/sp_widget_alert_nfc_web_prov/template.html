@@ -1,0 +1,89 @@
+<meta name="format-detection" content="email=no" />
+<meta name="chrome" content="nointentdetection"/>
+<div class="container" >
+    <!-- Profile Section -->
+    <div class="profile-container">
+      <div class="profile-div">
+        <img src="/sys_attachment.do?sys_id={{c.data.image}}" alt="Profile Image" class="profile-img">
+      </div>
+      
+      <div class="profile-info">
+        <div>
+          <h2>{{c.data.userName}}</h2>
+          <p class="email">{{c.data.email}}</p>
+          <span class="status">{{c.data.status}}</span>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Badges Section -->
+    <div class="badge-container">
+    <div class="badges-header">
+      <h3>My Badges</h3>
+      <p>View and manage badges</p>
+    </div>
+
+    <!-- Uncomment to show when no badges are found -->
+    
+    <div class="badge-card-container" ng-if="data.count==0">
+      <div class="badge-card-empty">
+        <h3>No Badges found</h3>
+      </div>
+    </div>
+   
+
+    <!-- Uncomment for dynamic badge display -->
+    
+    <div class="badge-card-container" ng-if="data.count!=0">
+      <div class="badge-card" ng-repeat="badge in data.badges">
+        <div class="badge-header">
+            <img src="/sys_attachment.do?sys_id={{data.image}}" alt="Profile Image">
+          <h3>{{c.data.userName}}</h3>
+        </div>
+
+        <p class="badge-id">Badge ID <strong>{{badge.sourceId}}</strong></p>
+        <div class="validity-container">
+          <p><span>Valid From</span> <span>{{badge.validFromDate}}</span></p>
+          <p><span>Valid To</span> <span>{{badge.validToDate}}</span></p>
+        </div>
+			
+        <div class="mobile-credential-active" ng-if="!badge.showImage && badge.intStatus==0">Active</div>
+        <div class="mobile-credential-inactive" ng-if="!badge.showImage && badge.intStatus==9">Inactive</div>
+        <button class="wallet-button" ng-if="badge.showImage && c.isMobile && c.isAndroid" ng-click="c.addToWallet(badge)">
+          <img src="x_aleen_snguardian.add_to_gw.svg" />
+        </button>
+        <button class="wallet-button" ng-if="badge.showImage && c.isMobile && c.isIOS" ng-click="c.addToWallet(badge)">
+           <img src="x_aleen_snguardian.add_to_apple_wallet.svg"/>
+        </button>
+      </div>
+    </div>
+   
+
+    <!-- Uncomment for static badge display (example data)
+    
+    <div class="badge-card-container">
+      <div class="badge-card">
+        <div class="badge-header">
+          <img src="/sys_attachment.do?sys_id={{data.image}}" alt="Profile Image">
+          <h3>dummy.test</h3>
+        </div>
+
+        <p class="badge-id">Badge ID <strong>12345</strong></p>
+
+        <div class="validity-container">
+          <p><span>Valid From</span> <span>12:12:12</span></p>
+          <p><span>Valid To</span> <span>14:14:14</span></p>
+        </div>
+
+        <div class="mobile-credential-active">Active</div>
+
+       <button class="wallet-button" ng-if="badge.mobileCredentialId==null && c.data.isMobile && c.data.isAndroid" ng-click="c.addToWallet(badge)">
+          <img src="x_aleen_snguardian.add_to_gw.svg" />
+        </button>
+         <button class="wallet-button" ng-if="badge.mobileCredentialId==null && c.data.isMobile && c.data.isIOS" ng-click="c.addToWallet(badge)">
+          <img src="x_aleen_snguardian.add_to_apple_wallet.svg" />
+        </button>
+      </div>
+    </div> -->
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+    <body>
+      <div class="qr-code-generator">
+      <h3>QR Code Generator</h3>
+      <div>
+        <label for="qr-input">Enter Data for QR Code:</label>
+        <input type="text" id="qr-input" ng-model="c.qrData" placeholder="Enter text or URL" />
+      </div>
+      <div>
+        <button ng-click="c.generateQRCode()" class="btn btn-primary">Generate QR Code</button>
+      </div>
+      <canvas id="qr-canvas" ng-show="c.showQR"></canvas>
+      <div ng-if="c.errorMessage" class="alert alert-danger">
+        {{c.errorMessage}}
+      </div>
+    </div>
+    </body>
+</html>
+

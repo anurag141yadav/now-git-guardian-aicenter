@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d7aa776b1b5cca106962fe60cd4bcb37" label="System Function Type" max_length="40" name="x_aleen_snguardian_system_function_type" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="100" name="code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+    </element>
+</database>

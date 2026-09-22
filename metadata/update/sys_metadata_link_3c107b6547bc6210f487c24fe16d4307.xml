@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7604876d47f86210f487c24fe16d4358</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_badge_template">
+    <x_aleen_snguardian_badge_template action="INSERT_OR_UPDATE">
+        <back>&lt;svg width="350" height="500" xmlns="http://www.w3.org/2000/svg"&gt;&#13;
+  &lt;!-- Badge Base --&gt;&#13;
+  &lt;rect x="25" y="25" width="280" height="400" rx="15" fill="#B0C4DE" stroke="#333" stroke-width="2"/&gt;&#13;
+ &#13;
+  &lt;!-- Contact Details --&gt;&#13;
+  &lt;text x="165" y="170" font-family="Arial" font-size="16" fill="#333" text-anchor="middle" font-weight="bold"&gt;Contact Info:&lt;/text&gt;&#13;
+  &lt;text x="165" y="200" font-family="Arial" font-size="14" fill="#333" text-anchor="middle"&gt;${visitor.email}&lt;/text&gt;&#13;
+  &lt;text x="165" y="240" font-family="Arial" font-size="14" fill="#333" text-anchor="middle"&gt;${visitor.phone}&lt;/text&gt;&#13;
+&#13;
+ &#13;
+  &lt;!-- Decorative Line --&gt;&#13;
+  &lt;rect x="90" y="340" width="150" height="2" fill="#333" opacity="0.5"/&gt;&#13;
+ &#13;
+  &lt;!-- Footer Note --&gt;&#13;
+  &lt;text x="165" y="380" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-style="italic"&gt;&#13;
+    Please keep this badge visible at all times.&#13;
+  &lt;/text&gt;&#13;
+&lt;/svg&gt;</back>
+        <front>&lt;svg width="350" height="500" xmlns="http://www.w3.org/2000/svg"&gt;&#13;
+  &lt;!-- Badge Base  --&gt;&#13;
+  &lt;rect x="25" y="25" width="280" height="400" rx="15" fill="#B0C4DE" stroke="#333" stroke-width="2"/&gt;&#13;
+  &#13;
+  &lt;!-- Logo Area with More Space --&gt;&#13;
+&lt;circle cx="170" cy="110" r="50" fill="#fff"/&gt;&#13;
+&#13;
+&lt;!-- Visitor Photo (Centered within the Circle) --&gt;&#13;
+&#13;
+&lt;image x="120" y="60" width="100" height="100" href="/sys_attachment.do?sys_id=${visitor.photo}" clip-path="url(#circleMask)" preserveAspectRatio="xMidYMid slice"/&gt;&#13;
+&#13;
+&lt;!-- Clip Path to Ensure Image Stays Circular --&gt;&#13;
+&lt;defs&gt;&#13;
+  &lt;clipPath id="circleMask"&gt;&#13;
+    &lt;circle cx="170" cy="110" r="50"/&gt;&#13;
+  &lt;/clipPath&gt;&#13;
+&lt;/defs&gt;&#13;
+&#13;
+  &lt;!-- Name &amp; Details (Centered Text) --&gt;&#13;
+ &lt;text x="150" y="190" font-family="Arial" font-size="16" fill="#333" text-anchor="middle" font-weight="bold"&gt;${visitor.first_name}&lt;/text&gt; &#13;
+  &lt;text x="190" y="190" font-family="Arial" font-size="16" fill="#333" text-anchor="middle" font-weight="bold"&gt;${visitor.last_name}&lt;/text&gt;&#13;
+  &lt;text x="170" y="270" font-family="Arial" font-size="18" fill="#333" text-anchor="middle"&gt;${visitor.company}&lt;/text&gt;&#13;
+   &lt;text x="170" y="310" font-family="Arial" font-size="16" fill="#333" text-anchor="middle"&gt;${purpose}&lt;/text&gt;&#13;
+&#13;
+  &lt;!-- Decorative Line --&gt;&#13;
+  &lt;rect x="100" y="340" width="150" height="2" fill="#333" opacity="0.5"/&gt;&#13;
+&lt;/svg&gt;</front>
+        <is_deleted>false</is_deleted>
+        <name>Visitor</name>
+        <number>BADGETEMPLATE101</number>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-09 09:48:29</sys_created_on>
+        <sys_id>7604876d47f86210f487c24fe16d4358</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-06 04:27:26</sys_updated_on>
+        <type>Visitor</type>
+    </x_aleen_snguardian_badge_template>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2025-04-09 12:56:53</sys_created_on>
+        <sys_id>3c107b6547bc6210f487c24fe16d4307</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Visitor</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_3c107b6547bc6210f487c24fe16d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-06 04:27:37</sys_updated_on>
+        <tablename>x_aleen_snguardian_badge_template</tablename>
+    </sys_metadata_link>
+</record_update>

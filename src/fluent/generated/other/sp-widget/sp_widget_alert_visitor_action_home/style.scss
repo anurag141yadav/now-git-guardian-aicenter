@@ -1,0 +1,150 @@
+.visit-widget {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  justify-content: center;
+}
+
+h2 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.search-section {
+  margin-bottom: 20px;
+  min-width:500px;
+}
+
+.search-section label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds spacing between input and button */
+}
+
+.input-group input {
+  flex-grow: 1; /* Input takes up remaining space */
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-group .btn {
+  flex-shrink: 0; /* Button maintains its size */
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.input-group .btn:hover {
+  background-color: #0056b3;
+}
+
+.results-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.results-section .message {
+  font-size: 16px;
+  color: #34495e;
+}
+
+.visits-list {
+  margin-top: 20px;
+}
+
+.visits-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.visits-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.visits-list .btn {
+  margin-top: 10px;
+}
+
+.no-visit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.no-visit .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.no-visit .btn:hover {
+  background-color: #e0a800;
+}
+
+
+.qr-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.qr-instructions {
+  flex: 1;
+  text-align: center;
+}
+
+.qr-instructions img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.qr-scanner {
+  flex: 1;
+  text-align: center;
+}
+
+#qr-reader {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.btn-warning {
+  color: #fcfdff !important;
+  background-color: #0c3d83 !important;
+  border-color: #0c3d83 !important;
+}
+.visit-card{
+  display:flex;
+  justify-content: space-between
+}

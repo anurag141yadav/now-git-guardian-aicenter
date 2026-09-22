@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c2fe80da1bc60a106962fe60cd4bcbc4" label="Prerequisite" max_length="40" name="x_aleen_snguardian_assertion" type="collection">
+        <element label="Description" max_length="200" name="description" type="string"/>
+        <element label="Identifier" max_length="80" name="identifier" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element choice="3" default="TRAINING" label="Type" max_length="32" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Training" value="TRAINING"/>
+                <element inactive_on_update="false" label="Certification" value="CERTIFICATION"/>
+                <element inactive_on_update="false" label="Background Check" value="BACKGROUND"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Code" max_length="80" name="code" type="string"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
+        <element label="Is Realtime Validation Required" max_length="40" name="is_realtime_validation_required" type="boolean"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+        <index name="index2">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a7f2c301478bb610f487c24fe16d435c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_messages">
+    <x_aleen_snguardian_messages action="INSERT_OR_UPDATE">
+        <code>BADGE_DEACTIVATION_IGNORED_ALREADY_INACT</code>
+        <description/>
+        <is_deleted>false</is_deleted>
+        <message>Original status in PACS  ${asset.system.code} : Badge  ${asset.number} Serial ${asset.serial} already Inactive.&#13;
+Guardian's decision: Ignored Deactivation.&#13;
+Justification: Badge ${asset.number} is already in Inactive state in system ${asset.system.code}.</message>
+        <number>MESBUN0001005</number>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2026-02-12 12:55:21</sys_created_on>
+        <sys_id>a7f2c301478bb610f487c24fe16d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anurag.yadav</sys_updated_by>
+        <sys_updated_on>2026-02-12 12:55:21</sys_updated_on>
+        <system/>
+    </x_aleen_snguardian_messages>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-14 06:36:42</sys_created_on>
+        <sys_id>5c8f7f6147473a1051a3e84d416d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MESBUN0001005</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_5c8f7f6147473a1051a3e84d416d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-14 06:36:42</sys_updated_on>
+        <tablename>x_aleen_snguardian_messages</tablename>
+    </sys_metadata_link>
+</record_update>

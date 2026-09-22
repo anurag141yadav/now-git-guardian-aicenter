@@ -1,0 +1,349 @@
+<div ng-if="c.data.type =='emergencyForAll'">
+  <div class="emergency-widget">
+    <h2>Emergency Initiation in Lobby</h2>
+    <p>You are about to initiate company's emergency response for the lobby. This action will notify all checked-in individuals, activate alarms, and unlock exit doors. Please review the steps and confirm.</p>
+    <h3>Emergency Actions:</h3>
+    <ol>
+      <li><strong>Immediate Alerts:</strong> An email and SMS notification will be sent to all registered visitors and employees in the lobby area.</li>
+      <li><strong>Safety Officer Notification:</strong> The assigned safety officer(s) will be alerted to oversee the evacuation.</li>
+      <li><strong>Alarm Trigger:</strong> Fire alarm systems will be activated to provide immediate evacuation alerts throughout the lobby.</li>
+      <li><strong>Automated Door Control:</strong> All exit gates in the lobby area will be unlocked to allow unrestricted egress.</li>
+      <!-- <li><strong>Status Update:</strong> All visitors and employees' status in the system will change to "Emergency Exit" for tracking.</li> -->
+      <li><strong>Incident Logging:</strong> Emergency initiation details will be recorded in the system for audit and post-incident analysis.</li>
+    </ol>
+    <p>Ensure you have reviewed the emergency protocols. Once confirmed, these actions cannot be reversed.</p>
+    <button class="btn btn-primary" ng-click="confirmEmergency()">Confirm Emergency</button>
+  </div>
+</div>
+<div ng-if="c.data.type =='emergencyForOne'">
+  <div class="emergency-initiation-widget">
+    <h2>Confirm Emergency Initiation for Visitor</h2>
+    <div class="context-message">
+      This emergency initiation will automatically perform the following actions:
+      <ul>
+        <li>Update the visitor's status to <strong>Emergency Exit</strong>.</li>
+        <li>Unlock exit doors for a quick and safe departure.</li>
+        <li>Send an email to the visitor with a floor plan and exit instructions.</li>
+        <li>If selected, notify the host by including them in the communication.</li>
+      </ul>
+      Please confirm to proceed.
+    </div>
+    <div class="cc-toggle">
+      <input ng-model="host_cc" type="checkbox" id="host-cc" name="host-cc">
+      <label for="host-cc">Include Host in Communication</label>
+    </div>
+    <div class="button-group">
+      <button class="confirm-btn" ng-click="initiateEmergency()">Confirm and Initiate</button>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='email'">
+  <div class="email-confirmation-widget">
+    <h2>Email Confirmation</h2>
+    <p class="message">
+      You are about to send an email to <strong>{{c.data.visitorName}}</strong> to confirm their visit details. The email will include information on the scheduled visit, location, and any specific instructions. Please review the options below before proceeding.
+    </p>
+    <p class="message">
+      <strong>Note:</strong> The selected email template will determine the layout and content of the email sent to the visitor. You can select a different template if needed, and choose to include the visitor's host in the CC line of the email.
+    </p>
+    <label for="template-selection">Select Email Template:</label>
+    <select ng-model="c.email_template" id="template-selection" class="dropdown">
+      <option value="" disabled selected>None</option> <!-- Default option -->
+      <option ng-repeat="template in templates" value="{{template.id}}">
+        {{template.name}}
+      </option>
+    </select>
+    <div class="cc-toggle">
+      <input ng-model="host_cc" type="checkbox" id="host-cc" name="host-cc">
+      <label for="host-cc">Include Host in CC</label>
+    </div>
+    <div class="button-group">
+      <button class="send-btn" ng-click="confirmSendEmail()">Send Email</button>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='instant'">
+  <div class="compose-email-widget">
+    <h2>Compose Email</h2>
+    <label for="additional-id">Additional ID (Optional):</label>
+    <input ng-model="additional_id" type="text" id="additional-id" placeholder="Enter ID (e.g., Visitor ID)" class="input-field">
+    <label for="email-subject">Email Subject:</label>
+    <input ng-model="email_subject" type="text" id="email-subject" class="input-field" placeholder="Enter email subject">
+    <label for="email-message">Message:</label>
+    <textarea ng-model="email_message" id="email-message" rows="5" class="input-field" placeholder="Compose your message here..."></textarea>
+    <div class="cc-toggle">
+      <input  type="checkbox" id="host-cc" name="host-cc" ng-model="host_cc">
+      <label for="host-cc">Include Host in CC</label>
+    </div>
+    <div class="button-group">
+      <button class="send-btn" ng-click="sendComposedEmail()">Send Email</button>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='forceExit'">
+  <div class="emergency-widget">
+    <h2>Individual Force Exit Initiation</h2>
+    <p>This action will initiate the force exit process for an individual visitor. Please review the following actions carefully before confirming, as this process cannot be reversed.</p>
+    <h3>Force Exit Actions:</h3>
+    <ol>
+      <li><strong>Immediate Notification to Host:</strong> An email will be sent to the host notifying them of the visitor's force exit.</li>
+      <li><strong>Visitor Status Update:</strong> The visitor's status will be updated to "Checkout" in the system for tracking purposes.</li>
+      <li><strong>Exit Door Control:</strong> Exit doors in the visitor's area will be unlocked to facilitate safe egress.</li>
+      <li><strong>Send Location Details:</strong> The visitor will receive an email with the floor plan and nearest exit route.</li>
+      <li><strong>Incident Record:</strong> A log of this force exit initiation will be recorded for compliance and review.</li>
+    </ol>
+    <div class="cc-toggle">
+      <input type="checkbox" id="host-cc" ng-model="host_cc">
+      <label for="host-cc">Include Host in CC</label>
+    </div>
+    <div class="watchlist-toggle">
+      <input type="checkbox" id="add-watchlist" ng-model="addToWatchList">
+      <label for="add-watchlist">Add Visitor to Watch List</label>
+    </div>
+    <p>Ensure you have reviewed the individual force exit protocol. Once confirmed, these actions cannot be reversed.</p>
+    <button class="btn btn-primary" ng-click="confirmIndividualEmergency()">Confirm Force Exit</button>
+    <div ng-if="c.statusMessage">
+      <p class="alert alert-info">{{c.statusMessage}}</p>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='checkoutbyLobbyAdmin'">
+  <div ng-if="c.show_action_content == 'YES'">
+    <div class="checkout-confirmation-widget">
+      <p class="message">
+        You are about to confirm the checkout for <strong>{{c.data.visitorName}}</strong>. Please ensure that all items (badges, materials, etc.) are collected from the visitor before completing the process.
+      </p>
+      <p class="message" ng-if="c.data.visitDetails['is_recurring'] == '1'">
+        <strong>Note: This is a recurring meeting with end date as {{c.data.visitDetails['recurring_end_date']}}.</strong>
+      </p>
+      <p class="message">
+        <strong>Note:</strong> If this is the final checkout, you can mark it as such. Additionally, you have the option to notify the security officer to collect / update any assets from the visitor.
+      </p>
+      <label>Checkout Type:</label>
+      <div class="radio-group">
+        <label>
+          <input type="radio" ng-model="c.checkout_type" value="intermediate" />
+          Intermediate
+        </label>
+        <label>
+          <input type="radio" ng-model="c.checkout_type" value="final" />
+          Final
+        </label>
+      </div>
+      <div class="cc-toggle">
+        <input type="checkbox" id="host-cc" ng-model="host_cc">
+        <label for="host-cc">Include Host in CC</label>
+      </div>
+      <div class="cc-toggle">
+        <input ng-model="asset_collected_by_lobbyadmin" type="checkbox" id="asset_collected_by_lobbyadmin" name="asset_collected_by_lobbyadmin">
+        <label for="asset_collected_by_lobbyadmin">Collected Visitor's Assets</label>
+      </div>
+      <div class="asset-details" ng-show="asset_collected_by_lobbyadmin">
+        <label for="asset-notes">Asset Collection Notes (Optional):</label>
+        <textarea ng-model="asset_notes" id="asset-notes" class="textarea" placeholder="Enter details about the assets (e.g., badge, laptop)..."></textarea>
+      </div>
+      <div class="button-group">
+        <button class="confirm-btn" ng-click="confirmCheckout()">Confirm Checkout</button>
+      </div>
+    </div>
+  </div>
+  <div ng-if="c.show_action_result == 'YES'">
+    <div class="checkout-success-container text-center">
+      <div class="success-icon">
+        <i class="fa fa-check-circle" style="font-size: 5em;"></i>
+      </div>
+      <h2 class="mt-3" ng-bind="c.message_data"></h2>
+      <p ng-bind="c.sub_message_data"></p>
+      <button class="btn btn-primary mt-3" ng-click="redirectToHome()">Go to Homepage</button>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='checkoutbyHost'">
+  <div ng-if="c.show_action_content == 'YES'">
+    <div class="checkout-confirmation-widget">
+      <p class="message">
+        You are about to confirm the checkout for <strong>{{c.data.visitorName}}</strong>. Please select the appropriate options for this checkout process. Ensure all details are accurate before proceeding.
+      </p>
+      <p class="message" ng-if="c.data.visitDetails['is_recurring'] == '1'">
+        <strong>Note: This is a recurring meeting with end date as {{c.data.visitDetails['recurring_end_date']}}.</strong>
+      </p>
+      <p class="message">
+        <strong>Note:</strong> If this is the final checkout, you can mark it as such. Additionally, you have the option to notify the security officer to collect / update any assets from the visitor.
+      </p>
+      <label>Checkout Type:</label>
+      <div class="radio-group">
+        <label>
+          <input type="radio" ng-model="c.checkout_type" value="intermediate" />
+          Intermediate
+        </label>
+        <label>
+          <input type="radio" ng-model="c.checkout_type" value="final" />
+          Final
+        </label>
+      </div>
+      <div class="cc-toggle">
+        <input ng-model="cc_security" type="checkbox" id="cc_security" name="cc_security">
+        <label for="host-cc">Include Security admin in Communication</label>
+      </div>
+      <div class="cc-toggle">
+        <input ng-model="asset_collected_by_host" type="checkbox" id="asset_collected_by_host" name="asset_collected_by_host">
+        <label for="asset_collected_by_host">Collected Visitor's Assets</label>
+      </div>
+      <div class="asset-details" ng-show="asset_collected_by_host">
+        <label for="asset-notes">Asset Collection Notes (Optional):</label>
+        <textarea ng-model="asset_notes" id="asset-notes" class="textarea" placeholder="Enter details about the assets (e.g., badge, laptop)..."></textarea>
+      </div>
+      <div class="button-group">
+        <button class="confirm-btn" ng-click="confirmCheckoutByHost()">Confirm Checkout</button>
+      </div>
+    </div>
+  </div>
+  <div ng-if="c.show_action_result == 'YES'">
+    <div class="checkout-success-container text-center">
+      <div class="success-icon">
+        <i class="fa fa-check-circle" style="font-size: 5em;"></i>
+      </div>
+      <h2 class="mt-3" ng-bind="c.message_data"></h2>
+      <p ng-bind="c.sub_message_data"></p>
+      <button class="btn btn-primary mt-3" ng-click="redirectToHome()">Go to Homepage</button>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='checkoutbyKiosk'">
+  <div ng-if="c.show_action_content == 'YES'">
+    <div class="checkout-confirmation-widget">
+      <p class="message">
+        You are about to confirm your checkout. Please select the appropriate option for this checkout process and ensure all items are handed over as required.
+      </p>
+      <p class="message">
+        <strong>Note:</strong> Security officers will automatically be included in this communication. If there are any items (e.g., badges, materials) that need to be handed over, please provide details below.
+      </p>
+      <p class="message" ng-if="c.data.visitDetails['is_recurring'] == '1'">
+        <strong>Note: This is a recurring meeting with end date as {{c.data.visitDetails['recurring_end_date']}}.</strong>
+      </p>
+      <p class="message">
+        <strong>Note:</strong> If this is the final checkout, you can mark it as such.
+      </p>
+      <label>Checkout Type:</label>
+      <div class="radio-group">
+        <label>
+          <input type="radio" ng-model="c.checkout_type" value="intermediate" />
+          Intermediate
+        </label>
+        <label>
+          <input type="radio" ng-model="c.checkout_type" value="final" />
+          Final
+        </label>
+      </div>
+      <div class="cc-toggle">
+        <input type="checkbox" id="asset_handover" ng-model="asset_handover">
+        <label for="asset_handover">I confirm that all assets have been handed over</label>
+      </div>
+      <div>
+        <label for="handover-notes" ng-show="asset_handover">Items to Hand Over (Badges, Materials, etc.):</label>
+        <textarea ng-model="handover_notes" id="handover-notes" class="textarea" placeholder="Enter details about the items to be handed over..."></textarea>
+      </div>
+      <div class="cc-toggle">
+        <input type="checkbox" id="host-cc" ng-model="host_cc">
+        <label for="host-cc">Include Host in CC</label>
+      </div>
+      <div class="button-group">
+        <button class="confirm-btn" ng-click="confirmCheckout()">Confirm Checkout</button>
+      </div>
+    </div>
+  </div>
+  <div ng-if="c.show_action_result == 'YES'">
+    <div class="checkout-success-container text-center">
+      <div class="success-icon">
+        <i class="fa fa-check-circle" style="font-size: 5em;"></i>
+      </div>
+      <h2 class="mt-3" ng-bind="c.message_data"></h2>
+      <p ng-bind="c.sub_message_data"></p>
+      <button class="btn btn-primary mt-3" ng-click="redirectToHome()">Go to Homepage</button>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='quickcheckinbyLobbyAdmin'">
+  <div class="visitor-checkin-widget">
+    <!-- Pre-Check-in Section -->
+    <div ng-if="c.show_action_content== 'YES'" class="pre-checkin text-center">
+      <div class="info-icon">
+        <i class="fa fa-info-circle text-info" style="font-size: 4rem;"></i>
+      </div>
+      <h2>Confirm Visitor Check-in</h2>
+      <p>Are you sure you want to check in the visitor?</p>
+      <div class="notify-host-option mt-3">
+        <h3>Notify the Host</h3>
+        <p>Would you like to notify the host about the visitor's arrival?</p>
+        <div class="form-check form-switch text-center">
+          <div>
+            <input type="checkbox" id="host-cc" ng-model="host_cc">
+            <label for="host-cc">Yes, notify the host</label>
+          </div>
+        </div>
+      </div>
+      <div class="confirmation-buttons mt-4">
+        <button class="btn btn-success mr-2" ng-click="confirmCheckin()">Yes, Check-in</button>
+      </div>
+    </div>
+    <div ng-if="c.show_action_result == 'YES'" class="post-success text-center">
+      <div class="success-icon">
+        <i class="fa fa-check-circle text-success" style="font-size: 4rem;"></i>
+      </div>
+      <h2>Check-in Successful!</h2>
+      <p>The visitor has been successfully checked in.</p>
+      <!-- Notify Host Confirmation -->
+      <div ng-if="host_cc" class="notify-success">
+        <p>The host has been notified about the visitor's arrival.</p>
+      </div>
+      <div ng-if="!host_cc" class="notify-skip">
+        <p>You chose not to notify the host. The check-in process is complete.</p>
+      </div>
+      <div class="cta-buttons mt-4">
+        <button class="btn btn-primary mr-2" ng-click="redirectToHome()">Back to Home</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div ng-if="c.data.type =='quickcheckinbyKiosk'">
+  <div class="visitor-checkin-widget">
+    <!-- Pre-Check-in Section -->
+    <div ng-if="c.show_action_content== 'YES'" class="pre-checkin text-center">
+      <div class="info-icon">
+        <i class="fa fa-info-circle text-info" style="font-size: 4rem;"></i>
+      </div>
+      <h2>Confirm Your Check-in</h2>
+      <p>Are you sure you want to check in?</p>
+      <div class="notify-host-option mt-3">
+        <h3>Notify the Host</h3>
+        <p>Would you like to notify the host about your arrival?</p>
+        <div class="form-check form-switch text-center">
+          <div>
+            <input type="checkbox" id="host-cc" ng-model="host_cc">
+            <label for="host-cc">Yes, notify the host</label>
+          </div>
+        </div>
+      </div>
+      <div class="confirmation-buttons mt-4">
+        <button class="btn btn-success mr-2" ng-click="confirmCheckin()">Yes, Check-in</button>
+      </div>
+    </div>
+    <div ng-if="c.show_action_result == 'YES'" class="post-success text-center">
+      <div class="success-icon">
+        <i class="fa fa-check-circle text-success" style="font-size: 4rem;"></i>
+      </div>
+      <h2>Check-in Successful!</h2>
+      <p>You have been successfully checked in.</p>
+      <!-- Notify Host Confirmation -->
+      <div ng-if="host_cc" class="notify-success">
+        <p>The host has been notified about your arrival.</p>
+      </div>
+      <div ng-if="!host_cc" class="notify-skip">
+        <p>You chose not to notify the host. The check-in process is complete.</p>
+      </div>
+      <div class="cta-buttons mt-4">
+        <button class="btn btn-primary mr-2" ng-click="redirectToHome()">Back to Home</button>
+      </div>
+    </div>
+  </div>
+</div>

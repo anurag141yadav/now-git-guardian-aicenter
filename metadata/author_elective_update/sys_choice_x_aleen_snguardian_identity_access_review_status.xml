@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="review_status" table="x_aleen_snguardian_identity_access" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>review_status</element>
+            <name>x_aleen_snguardian_identity_access</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 10:37:15</sys_created_on>
+            <sys_id>434f60f93b22431065adbfcc73e45a26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>review_status</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_identity_access_review_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 10:37:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

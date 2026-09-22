@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="datatype" table="x_aleen_snguardian_system_field_mapping" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>datatype</element>
+            <name>x_aleen_snguardian_system_field_mapping</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 06:36:35</sys_created_on>
+            <sys_id>170d24753bae031065adbfcc73e45af2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>datatype</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_system_field_mapping_datatype</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 06:36:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>datatype</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Boolean</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_field_mapping</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 06:36:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87f73a91477b3210f487c24fe16d438f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 06:39:27</sys_updated_on>
+            <value>Boolean</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>datatype</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Integer</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_field_mapping</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 06:37:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ff73a91477b3210f487c24fe16d4390</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 06:39:27</sys_updated_on>
+            <value>Integer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>datatype</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>String</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_field_mapping</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 06:36:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07f73a91477b3210f487c24fe16d4392</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 06:39:27</sys_updated_on>
+            <value>String</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

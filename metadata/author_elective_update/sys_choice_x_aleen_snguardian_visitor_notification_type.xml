@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_aleen_snguardian_visitor_notification" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 07:31:00</sys_created_on>
+            <sys_id>f0fca8f13bae031065adbfcc73e45a52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_visitor_notification_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-13 07:31:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Host</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 08:44:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3f7ba91477b3210f487c24fe16d4380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-12 08:44:18</sys_updated_on>
+            <value>approvalHost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Security Admin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 08:44:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eff7ba91477b3210f487c24fe16d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-12 08:44:44</sys_updated_on>
+            <value>approvalSecurity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quick Checkin By Kiosk</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-12-02 10:33:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ff7ba91477b3210f487c24fe16d4383</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-12-02 10:33:47</sys_updated_on>
+            <value>quickcheckinbyKiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quick Checkin by Lobby Admin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-12-02 10:31:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bf7ba91477b3210f487c24fe16d4385</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-12-02 10:33:17</sys_updated_on>
+            <value>quickcheckinbyLobbyAdmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visitor Checked In</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-12-12 06:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7f7ba91477b3210f487c24fe16d4387</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-12-12 06:23:19</sys_updated_on>
+            <value>visitorCheckedIn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visit Request Rejected</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 09:29:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3f7ba91477b3210f487c24fe16d4389</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-12 09:30:27</sys_updated_on>
+            <value>visReqRejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regular Email</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 07:31:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23f7ba91477b3210f487c24fe16d438b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-18 05:36:09</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTP</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-18 05:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ff7ba91477b3210f487c24fe16d438c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-18 05:36:15</sys_updated_on>
+            <value>otp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instant Mail</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 07:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abf7ba91477b3210f487c24fe16d438e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-18 05:36:21</sys_updated_on>
+            <value>instant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Force Exit Email</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 07:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7f7ba91477b3210f487c24fe16d4390</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-18 05:36:25</sys_updated_on>
+            <value>forceExit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency For One</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 07:31:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27f7ba91477b3210f487c24fe16d4392</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-18 05:36:30</sys_updated_on>
+            <value>emergencyForOne</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency For All</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-13 07:31:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63f7ba91477b3210f487c24fe16d4394</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-18 05:36:34</sys_updated_on>
+            <value>emergencyForAll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Out by Lobby Admin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-11-25 08:52:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aff7ba91477b3210f487c24fe16d4395</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-11-25 08:53:19</sys_updated_on>
+            <value>checkoutbyLobbyAdmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Out by Host</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-11-25 08:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebf7ba91477b3210f487c24fe16d4397</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-11-25 08:53:22</sys_updated_on>
+            <value>checkoutbyHost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Out by Kiosk</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>900</sequence>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-11-25 08:53:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bf7ba91477b3210f487c24fe16d4399</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-11-25 08:53:25</sys_updated_on>
+            <value>checkoutbyKiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visit Scheduled</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-11-26 06:28:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67f7ba91477b3210f487c24fe16d439b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-11-26 06:28:20</sys_updated_on>
+            <value>visitScheduled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Forget a Visitor</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor_notification</name>
+            <sequence>1100</sequence>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2024-11-27 12:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3f7ba91477b3210f487c24fe16d439d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2024-11-27 12:54:15</sys_updated_on>
+            <value>forgetVisitor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

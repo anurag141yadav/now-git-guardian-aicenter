@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="identity_validation_type" table="x_aleen_snguardian_visitor" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>identity_validation_type</element>
+            <name>x_aleen_snguardian_visitor</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:29:32</sys_created_on>
+            <sys_id>61fcacf13bae031065adbfcc73e45abb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>identity_validation_type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_visitor_identity_validation_type</sys_update_name>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:29:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Driving Licence</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:30:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dff77a91477b3210f487c24fe16d43e6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:30:25</sys_updated_on>
+            <value>DL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee ID</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:29:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ff77a91477b3210f487c24fe16d43e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:29:36</sys_updated_on>
+            <value>EMPLOYEE-ID</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Military Card</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbf77a91477b3210f487c24fe16d43ec</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:30:05</sys_updated_on>
+            <value>MILITARY-CARD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>National ID</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:30:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13f77a91477b3210f487c24fe16d43fc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:31:04</sys_updated_on>
+            <value>NATIONAL-ID-CARD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:30:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ff77a91477b3210f487c24fe16d43fe</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:30:50</sys_updated_on>
+            <value>OTHERS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Passport</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:29:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ff7ba91477b3210f487c24fe16d4301</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:29:50</sys_updated_on>
+            <value>PASSPORT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student ID</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bf7ba91477b3210f487c24fe16d4304</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:30:18</sys_updated_on>
+            <value>STUDENT-ID</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identity_validation_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voter ID</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:30:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dff7ba91477b3210f487c24fe16d4313</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:30:37</sys_updated_on>
+            <value>VOTER-ID</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

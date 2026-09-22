@@ -1,0 +1,20 @@
+(function execute(inputs, outputs) {
+    var importSetUtil = new UserImportUtil();
+    var importSetGr = importSetUtil.createImportSet();
+    var grImportSetRow = new GlideRecordSecure(importSetGr.table_name);
+        grImportSetRow.setValue('sys_import_set', importSetGr.getUniqueValue());
+        grImportSetRow.setValue('u_first_name', inputs.record.variables.first_name);
+        grImportSetRow.setValue('u_last_name', inputs.record.variables.last_name);
+       // grImportSetRow.setValue('u_email', inputs.record.variables.worker_details.worker_email);
+        grImportSetRow.setValue('u_phone', inputs.record.variables.phone);
+        grImportSetRow.setValue('u_type', inputs.record.variables.type);
+        grImportSetRow.setValue('u_user_name', inputs.record.request_for.user_name);
+        //grImportSetRow.setValue('u_user_name', inputs.record.opened_by.user_name);
+        grImportSetRow.setValue('u_status', '1');
+        grImportSetRow.setValue('u_datasource_table', inputs.DocumentTableName);
+        grImportSetRow.setValue('u_datasource', inputs.DocumentID);
+        grImportSetRow.setValue('u_work_notes', " User information is updated based on Request [" + inputs.DcoumentNumber +"]  "+" and Import set Number  is ["+importSetGr.number+"]  ");
+	    grImportSetRow.setValue('u_photo', inputs.record.variables.photo);
+    grImportSetRow.insert();
+    importSetUtil.transformImportSet(importSetGr);
+})(inputs, outputs);

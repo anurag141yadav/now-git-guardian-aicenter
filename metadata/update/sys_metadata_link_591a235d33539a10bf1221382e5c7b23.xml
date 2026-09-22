@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>069fd6d12bd91a10d4dffd74ce91bfe0</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;EMERGENCYEXIT&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Emergency Exit Notification&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;VISITOR,HOST,ADMIN&lt;/scope&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-10-16 12:47:24&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;069fd6d12bd91a10d4dffd74ce91bfe0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-12-16 06:58:50&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffeded;
+            margin: 20px;
+        }
+        h2 {
+            color: #d9534f;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .details {
+            background-color: #fff3f3;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #d9534f;
+        }
+        .important {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    &lt;/style&gt;
+&lt;h2&gt;Emergency Exit Alert&lt;/h2&gt;
+&lt;p class="important"&gt;Attention: This is an urgent notification regarding an emergency situation. Please follow the instructions below to ensure your safety.&lt;/p&gt;
+&lt;div class="details"&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; ${location.name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Emergency Type:&lt;/strong&gt; Evacuation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exit Routes:&lt;/strong&gt; Please use the nearest emergency exits marked on the building map. Follow the emergency lights and exit signs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assembly Point:&lt;/strong&gt; Proceed to the designated assembly point at Assembly Point Location.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;For your safety, please do not use elevators during the evacuation. Use the stairways and keep calm as you make your way to the nearest exit.&lt;/p&gt;
+&lt;p&gt;If you encounter any obstacles or need assistance, please contact our emergency response team&lt;/p&gt;
+&lt;p class="important"&gt;Your safety is our top priority. Please evacuate immediately and wait at the assembly point for further instructions from emergency personnel.&lt;/p&gt;
+&lt;div class="footer"&gt;
+&lt;p&gt;This is an automated message. Please do not reply directly to this email.&lt;/p&gt;
+&lt;p&gt;Thank you for your cooperation.&lt;/p&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-01-24 04:18:01</sys_created_on>
+        <sys_id>591a235d33539a10bf1221382e5c7b23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_591a235d33539a10bf1221382e5c7b23</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2025-01-24 04:18:01</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_tem</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,338 @@
+.emergency-widget {
+  background-color: #fdf2f2;
+  border: 1px solid #c30000;
+  padding: 20px;
+  border-radius: 8px;
+  color: #323232;
+}
+.emergency-widget h2 {
+  color: #c30000;
+  font-weight: bold;
+}
+.emergency-widget h3 {
+  color: #a30000;
+}
+.emergency-widget ol {
+  margin-top: 10px;
+  color: #333;
+}
+.emergency-widget li {
+  margin: 8px 0;
+  line-height: 1.4em;
+}
+.btn-primary {
+  background-color: #0072c6;
+  border-color: #0072c6;
+  color: white;
+  font-weight: bold;
+}
+
+//Personal EMAIL
+.email-confirmation-widget {
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+.message {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.dropdown {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.cc-toggle {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+.cc-toggle label {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.send-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 45%;
+}
+
+.send-btn:hover {
+  background-color: #0056b3;
+}
+// compose
+.compose-email-widget {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+//emergency for One
+.emergency-initiation-widget {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  margin-top: 0;
+  color: #d9534f;
+}
+.context-message {
+  font-size: 14px;
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #555;
+}
+.context-message ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: disc;
+}
+
+
+//Force Exit
+.emergency-widget {
+  padding: 20px;
+  background-color: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-left: 4px solid #d9534f;
+}
+
+.emergency-widget h2 {
+  color: #d9534f;
+}
+
+.emergency-widget ol {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.emergency-widget li {
+  margin-bottom: 10px;
+}
+
+.emergency-widget p {
+  color: #333;
+  font-size: 14px;
+}
+
+.cc-toggle, .watchlist-toggle {
+  margin-top: 15px;
+}
+
+.cc-toggle label, .watchlist-toggle label {
+  margin-left: 8px;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.alert-info {
+  margin-top: 15px;
+}
+
+//checkout
+
+/* General Styling */
+.checkout-confirmation-widget {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-confirmation-widget h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.checkout-confirmation-widget .message {
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.checkout-confirmation-widget .dropdown,
+.checkout-confirmation-widget .textarea {
+  width: 100%;
+  padding: 10px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.checkout-confirmation-widget .textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Checkbox and Labels */
+.checkout-confirmation-widget .notify-security {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkout-confirmation-widget .notify-security input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.checkout-confirmation-widget label {
+   color: #333;
+  font-size:14px;
+}
+
+/* Button Group */
+.checkout-confirmation-widget .button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-confirmation-widget .button-group button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Confirm Button */
+.checkout-confirmation-widget .confirm-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.checkout-confirmation-widget .confirm-btn:hover {
+  background-color: #45a049;
+}
+
+/* Cancel Button */
+.checkout-confirmation-widget .cancel-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.checkout-confirmation-widget .cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .checkout-confirmation-widget {
+    padding: 15px;
+  }
+
+  .checkout-confirmation-widget h2 {
+    font-size: 1.5rem;
+  }
+
+  .checkout-confirmation-widget .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .checkout-confirmation-widget .button-group button {
+    width: 100%;
+  }
+}
+
+.checkout-success-container {
+  padding: 20px;
+ // background-color: #f9f9f9;
+ // border-radius: 8px;
+  //box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ // max-width: 500px;
+  margin: 30px auto;
+}
+
+.success-icon {
+  color: #28a745; /* Success green color */
+} 
+.visitor-checkin-widget {
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-icon, .success-icon {
+  color: #007bff; /* Info blue */
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.notify-host-option {
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.form-check-label {
+  color: #333;
+}
+
+.confirmation-buttons .btn, 
+.cta-buttons .btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+}

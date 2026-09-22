@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2b7f8ed51bbc8210759455342a4bcb29</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_request_entity_action">
+    <x_aleen_snguardian_request_entity_action action="INSERT_OR_UPDATE">
+        <applicable_to>Asset</applicable_to>
+        <code>DEACTIVATE</code>
+        <is_deleted>false</is_deleted>
+        <name>To be Deactivated</name>
+        <number>REQENTACT48</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 18:54:06</sys_created_on>
+        <sys_id>2b7f8ed51bbc8210759455342a4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 18:54:06</sys_updated_on>
+    </x_aleen_snguardian_request_entity_action>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 12:22:13</sys_created_on>
+        <sys_id>f02f26e11bd18a106962fe60cd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To be Deactivated</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_f02f26e11bd18a106962fe60cd4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 12:22:13</sys_updated_on>
+        <tablename>x_aleen_snguardian_request_entity_action</tablename>
+    </sys_metadata_link>
+</record_update>

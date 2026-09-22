@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="enforcement_type" table="x_aleen_snguardian_access_requisite" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>enforcement_type</element>
+            <name>x_aleen_snguardian_access_requisite</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-10 18:01:38</sys_created_on>
+            <sys_id>264facb93b22431065adbfcc73e45aad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>enforcement_type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_access_requisite_enforcement_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-10 18:01:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforcement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preventive</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_access_requisite</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-10 18:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0df77e51477b3210f487c24fe16d4367</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-10 18:02:11</sys_updated_on>
+            <value>PROACTIVE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enforcement_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reactive</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_access_requisite</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-10 18:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1f77e51477b3210f487c24fe16d4369</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-10 18:02:16</sys_updated_on>
+            <value>REACTIVE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

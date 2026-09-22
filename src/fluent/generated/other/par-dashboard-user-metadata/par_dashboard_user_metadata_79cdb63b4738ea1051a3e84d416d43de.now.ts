@@ -1,0 +1,32 @@
+import { Record } from '@servicenow/sdk/core'
+
+Record({
+    $id: Now.ID['79cdb63b4738ea1051a3e84d416d43de'],
+    table: 'par_dashboard_user_metadata',
+    data: {
+        created_by_user: 'bcbe4a2147f0621051a3e84d416d43ec',
+        created_on: '2025-04-16 09:03:26',
+        dashboard: 'bdcdb63b4738ea1051a3e84d416d43d7',
+        enable_data_cache: 'false',
+        include_custom_insights: 'true',
+        include_key_contributors: 'true',
+        include_kpi_signals: 'true',
+        include_predictive_target: 'true',
+        include_predictive_thresholds: 'true',
+        include_process_mining: 'true',
+        include_severity: 'true',
+        include_target: 'true',
+        include_thresholds: 'true',
+        include_trends: 'true',
+        include_widget_notification: 'false',
+        last_updated_on: '2025-04-16 09:03:26',
+        refresh_information: 'false',
+        schedule_repetition: 'false',
+        show_ai_summary: 'false',
+        show_insights_panel: 'true',
+        sys_domain: 'global',
+        sys_domain_path: '/',
+        updated_by_user: 'bcbe4a2147f0621051a3e84d416d43ec',
+        use_custom_tab_colors: 'false',
+    },
+})

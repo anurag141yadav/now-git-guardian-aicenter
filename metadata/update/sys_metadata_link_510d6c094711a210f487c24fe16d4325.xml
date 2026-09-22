@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>023298ea47c1e65051a3e84d416d43b4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_risk">
+    <x_aleen_snguardian_risk action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <code>PS-RSK-02</code>
+        <description>There is no Master Identity reference for the cardholder</description>
+        <entity>Identity</entity>
+        <name>Cardholder Parent ID missing</name>
+        <number>RISK0001009</number>
+        <resolution>Automatic</resolution>
+        <risk_rule display_value="Cardholder Parent ID missing Rule">6a119c6a47c1e65051a3e84d416d43ef</risk_rule>
+        <severity>High</severity>
+        <sla>1970-01-02 00:00:00</sla>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-24 09:37:11</sys_created_on>
+        <sys_id>023298ea47c1e65051a3e84d416d43b4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:07:08</sys_updated_on>
+        <type display_value="Compliance Risk">6fdd846647c1e65051a3e84d416d4348</type>
+    </x_aleen_snguardian_risk>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-05-02 05:59:05</sys_created_on>
+        <sys_id>510d6c094711a210f487c24fe16d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cardholder Parent ID missing</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_510d6c094711a210f487c24fe16d4325</sys_update_name>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:59:05</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk</tablename>
+    </sys_metadata_link>
+</record_update>

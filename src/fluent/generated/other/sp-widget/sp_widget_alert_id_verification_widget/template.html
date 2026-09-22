@@ -1,0 +1,47 @@
+<div ng-if="!c.data.notRequired" class="document-verification-widget">
+  <h2 class="fade-in">{{c.data.title}}</h2>
+  <div class="verification-widget slide-in">
+    <p class="instruction-text">{{c.data.subtitle}}</p>
+    <div class="camera-container-horizontal">
+      <div class="camera-instance pulse" ng-repeat="cameraWidget in c.data.cameraWidgets" ng-click="c.setWidgetId(cameraWidget.text)">
+        <sp-widget widget="cameraWidget.widget" class="camera-widget animate-camera"></sp-widget>
+        <p class="capture-title">{{cameraWidget.text}}</p>
+      </div>
+    </div>
+    <p class="note-text">Follow the prompts for each capture and ensure all details are clear.</p>
+  </div>
+  <div>
+    <div>
+      <div class="message mt-3 success" ng-if="c.isError==0">
+        {{c.message}}
+      </div>
+      <div class="message mt-3 error" ng-if="c.isError==1">
+        {{c.message}}
+      </div>
+      <div style="margin-top:20px;">
+        <!-- <button class="btn btn-primary mt-3 submit-button" ng-click="c.validateIDData()" ng-disabled="c.isLoading">
+          <span ng-show="!c.isLoading">Submit for Verification</span>
+          <span  class="loading-spinner-overlay">
+        		<span ng-show="c.isLoading" class="loading-spinner"></span>
+    			</span> 
+				</button> -->
+        
+        <button class="btn mt-3 submit-button"
+          ng-class="{'btn-primary': !c.isLoading && !c.success, 'btn-secondary': c.success}" 
+          ng-click="c.validateIDData()" 
+          ng-disabled="c.isLoading || c.success">
+          <span ng-show="!c.isLoading">Submit for Verification</span>
+          <span class="loading-spinner-overlay" ng-show="c.isLoading">
+            <span class="loading-spinner"></span>
+          </span> 
+      	</button>
+      
+      </div>
+    </div>
+    <div class="cc-toggle"  ng-if="c.data.isLobbyAdmin && !c.success">
+      <input ng-model="c.id_verifed_by_lobby_admin" type="checkbox" id="id_verifed_by_lobby_admin" name="id_verifed_by_lobby_admin" ng-click="c.setVisitorVerification()">
+      <label for="id_verifed_by_lobby_admin">ID Verified Manually</label>
+    </div>
+  </div>
+</div>
+

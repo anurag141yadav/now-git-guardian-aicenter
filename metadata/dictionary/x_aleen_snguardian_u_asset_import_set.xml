@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="900ef06b1b60c650759455342a4bcb2f" extends="sys_import_set_row" label="U Asset Import Set" max_length="40" name="x_aleen_snguardian_u_asset_import_set" type="collection">
+        <element label="Sub System" max_length="40" name="u_sub_system" type="string"/>
+        <element label="Type" max_length="40" name="u_type" type="string"/>
+        <element label="Code" max_length="80" name="u_code" type="string"/>
+        <element label="Serial" max_length="80" name="u_serial" type="string"/>
+        <element label="Subtype" max_length="60" name="u_subtype" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="System" max_length="40" name="u_system" type="string"/>
+        <element label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element label="Name" max_length="100" name="u_name" type="string"/>
+    </element>
+</database>

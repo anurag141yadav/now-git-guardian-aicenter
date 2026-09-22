@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="1e7d58d72bb85210d4dffd74ce91bfa2" label="Visit" max_length="40" name="x_aleen_snguardian_visitor_visit" type="collection">
+        <element label="Comments" max_length="255" name="comments" type="string_full_utf8"/>
+        <element label="Status" max_length="32" name="status" reference="x_aleen_snguardian_visitor_mt_visit_status" type="reference"/>
+        <element choice="1" label="Recurring Type" max_length="40" name="recurring_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Weekly" value="WEEKLY"/>
+                <element inactive_on_update="false" label="Custom" value="CUSTOM"/>
+                <element inactive_on_update="false" label="Daily" value="DAILY"/>
+            </choice>
+        </element>
+        <element label="Start Date" max_length="40" name="recurring_start_date" type="glide_date"/>
+        <element label="Start Time" max_length="40" name="recurring_start_time" type="glide_time"/>
+        <element label="Is Recurring" max_length="40" name="is_recurring" type="boolean"/>
+        <element label="Host(s)" max_length="4000" name="host" reference="sys_user" type="glide_list"/>
+        <element label="End Time" max_length="40" name="recurring_end_time" type="glide_time"/>
+        <element label="NDA Exipry Date&amp;Time" max_length="40" name="nda_sign_expiry_date_time" type="glide_date_time"/>
+        <element label="Is NDA Signed" max_length="40" name="is_nda_signed" type="boolean"/>
+        <element choice="1" label="Visit Purpose" mandatory="true" max_length="32" name="purpose" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Others" value="OTHERS"/>
+                <element inactive_on_update="false" label="Business Meeting" value="BUSINESS-MEETING"/>
+                <element inactive_on_update="false" label="Event" value="EVENT"/>
+                <element inactive_on_update="false" label="Personal" value="PERSONAL"/>
+                <element inactive_on_update="false" label="Interview" value="INTERVIEW"/>
+                <element inactive_on_update="false" label="Training" value="TRAINING"/>
+                <element inactive_on_update="false" label="Legal" value="LEGAL"/>
+            </choice>
+        </element>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element label="Request" max_length="32" name="request" reference="x_aleen_snguardian_visitor_request" type="reference"/>
+        <element label="Visitor" max_length="32" name="visitor" reference="x_aleen_snguardian_visitor" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_aleen_snguardian_visitor_visit" type="reference"/>
+        <element label="Recurring  Value" max_length="255" name="recurring_value" type="string_full_utf8"/>
+        <element label="End Date" max_length="40" name="recurring_end_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element default="true" label="Check-in/Check-out  as a Group" max_length="40" name="check_in_check_out_as_a_group" type="boolean"/>
+        <element label="Location" mandatory="true" max_length="32" name="location" reference="x_aleen_snguardian_location" type="reference"/>
+        <element label="Is All Day Event" max_length="40" name="is_all_day_event" type="boolean"/>
+        <element label="Visit Type" mandatory="true" max_length="32" name="type" reference="x_aleen_snguardian_visitor_visit_type" type="reference"/>
+        <element label="Escort(s)" max_length="4000" name="escrort" reference="sys_user" type="glide_list"/>
+        <element label="Group" max_length="40" name="group" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="NDA Signed Date&amp;Time" max_length="40" name="nda_signed_date_time" type="glide_date_time"/>
+        <element label="NDA" max_length="32" name="nda" reference="x_aleen_snguardian_visitor_nda_email_templates" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Visitors" max_length="4000" name="visitors" reference="x_aleen_snguardian_visitor" type="glide_list"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="nda"/>
+        </index>
+        <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
+            <element name="purpose"/>
+        </index>
+        <index name="index5">
+            <element name="request"/>
+        </index>
+        <index name="index6">
+            <element name="status"/>
+        </index>
+        <index name="index7">
+            <element name="type"/>
+        </index>
+        <index name="index8">
+            <element name="visitor"/>
+        </index>
+    </element>
+</database>

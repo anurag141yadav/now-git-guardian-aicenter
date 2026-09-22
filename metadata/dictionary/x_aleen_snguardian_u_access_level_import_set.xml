@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="48bd7c2b1b60c650759455342a4bcb84" extends="sys_import_set_row" label="U Access Level Import Set" max_length="40" name="x_aleen_snguardian_u_access_level_import_set" type="collection">
+        <element label="System" max_length="40" name="u_system" type="string"/>
+        <element label="Criticality" max_length="40" name="u_criticality" type="string"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="TargetSysId" max_length="40" name="targetsysid" type="string"/>
+        <element label="Code" max_length="40" name="u_code" type="string"/>
+        <element label="Location" max_length="40" name="u_location" type="string"/>
+        <element label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+    </element>
+</database>

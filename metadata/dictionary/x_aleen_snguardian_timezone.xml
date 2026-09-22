@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="231fe4f12b92de50d4dffd74ce91bfa8" label="TimeZone" max_length="40" name="x_aleen_snguardian_timezone" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Abbreviation" max_length="40" name="abbreviation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offset" max_length="40" name="offset" type="string"/>
+    </element>
+</database>

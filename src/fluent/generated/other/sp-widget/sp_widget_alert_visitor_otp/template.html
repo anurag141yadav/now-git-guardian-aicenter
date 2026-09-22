@@ -1,0 +1,28 @@
+<div class="otp-widget">
+  <h2 class="text-center">Login with OTP</h2>
+
+  <div ng-if="c.step === 'email'" class="otp-step">
+    <p>Enter your email to request an OTP:</p>
+    <input type="text" id="email" class="form-control" ng-model="c.email" placeholder="Enter your Email" />
+    <button class="btn btn-primary mt-3" ng-click="c.requestOTP()" > Request OTP </button>
+  </div>
+  <div ng-if="c.step === 'otp'" class="otp-step">
+    <p>Enter the OTP sent to {{c.maskedEmail}} :</p>
+    <input type="password" id="otp" class="form-control" ng-model="c.otp" placeholder="Enter your OTP" />
+    <button class="btn btn-primary btn-block" ng-click="c.verifyOTP()">Submit OTP</button>
+    <p class="m-t" style="font-size: small;" ng-if="c.resendDisabled">
+      You can resend the OTP in {{c.timer}} seconds.
+    </p>
+    <button class="btn btn-secondary m-t" ng-click="c.resendOtp()" ng-disabled="c.resendDisabled">Resend OTP</button>
+  </div>
+  <div class="message mt-3" ng-class="{'error': c.isError, 'success': !c.isError}" ng-if="c.message">
+    {{c.message}}
+  </div>
+
+</div>
+
+
+
+
+
+

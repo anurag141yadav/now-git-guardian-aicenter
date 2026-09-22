@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6326326733529610bf1221382e5c7bcd</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;APPROVALHOST&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Visit Awaiting Host Approval Notification&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;VISITOR,HOST&lt;/scope&gt;
+        &lt;sys_created_by&gt;harmandeep.kaur&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-12-12 07:19:15&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6326326733529610bf1221382e5c7bcd&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2026-02-10 05:52:03&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;style&gt;body {
+  font-family:Arial,sans-serif;
+  line-height:1.6;
+  color:#333;
+  margin:20px;
+}
+
+h2 { color:#0056b3; }
+
+p { margin:10px 0; }
+
+.details {
+  background-color:#f4f4f4;
+  padding:10px;
+  border-radius:5px;
+}
+&lt;/style&gt;
+&lt;h2&gt;Visit Request Awaiting Approval&lt;/h2&gt;
+&lt;p&gt;Dear ${visitor.full_name},&lt;/p&gt;
+&lt;p&gt;Your visit request has been successfully created and is currently awaiting approval from your host. Below are the details of your visit request:&lt;/p&gt;
+&lt;div class="details"&gt;
+&lt;p&gt;&lt;strong&gt;Visit:&lt;/strong&gt; ${number}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; ${start_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; ${start_time}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; ${location.name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; ${host.information}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Purpose of Visit:&lt;/strong&gt; ${purpose}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Company: &lt;/strong&gt;${visitor.company}&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Once your host approves the request, you will receive a confirmation email with further details. Please ensure your contact details are up to date for seamless communication.&lt;/p&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-02-13 07:39:24</sys_created_on>
+        <sys_id>42f7937b1ba31610b8bea979b04bcb58</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Visit Awaiting Host Approval Notification</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_42f7937b1ba31610b8bea979b04bcb58</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-02-10 05:54:39</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_templates</tablename>
+    </sys_metadata_link>
+</record_update>

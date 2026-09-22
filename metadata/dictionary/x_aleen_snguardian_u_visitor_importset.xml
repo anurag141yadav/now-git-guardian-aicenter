@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f10818261b331250b8bea979b04bcb0c" extends="sys_import_set_row" label="U Visitor Importset" max_length="40" name="x_aleen_snguardian_u_visitor_importset" type="collection">
+        <element label="Identity Validation Type" max_length="32" name="u_identity_validation_type" type="string"/>
+        <element label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element label="Document Number" max_length="255" name="u_document_number" type="password2"/>
+        <element label="Visitor" max_length="32" name="u_visitor" reference="x_aleen_snguardian_visitor" type="reference"/>
+        <element label="Source System Code" max_length="40" name="u_source_system_code" type="string"/>
+        <element label="Photo" max_length="10000" name="u_photo" type="string"/>
+        <index name="index">
+            <element name="u_identity_validation_type"/>
+        </index>
+        <index name="index2">
+            <element name="u_visitor"/>
+        </index>
+    </element>
+</database>

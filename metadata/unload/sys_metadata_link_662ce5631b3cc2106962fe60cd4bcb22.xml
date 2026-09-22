@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>037f4ed51bbc8210759455342a4bcb46</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_field_mapping_type">
+    <x_aleen_snguardian_field_mapping_type action="INSERT_OR_UPDATE">
+        <category>PROVISION</category>
+        <code>USER-RECON</code>
+        <description>User Recon</description>
+        <is_deleted>false</is_deleted>
+        <name>User Recon</name>
+        <number>FIELDMAPTYPE102</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 18:54:04</sys_created_on>
+        <sys_id>037f4ed51bbc8210759455342a4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 18:54:04</sys_updated_on>
+    </x_aleen_snguardian_field_mapping_type>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-13 16:06:05</sys_created_on>
+        <sys_id>662ce5631b3cc2106962fe60cd4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Recon</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_662ce5631b3cc2106962fe60cd4bcb22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-13 16:06:05</sys_updated_on>
+        <tablename>x_aleen_snguardian_field_mapping_type</tablename>
+    </sys_metadata_link>
+</record_update>

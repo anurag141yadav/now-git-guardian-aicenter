@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="eval_strategy" table="x_aleen_snguardian_policy_enforcement" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>eval_strategy</element>
+            <name>x_aleen_snguardian_policy_enforcement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-04-17 07:17:50</sys_created_on>
+            <sys_id>03ec64f13bae031065adbfcc73e45a7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>eval_strategy</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_policy_enforcement_eval_strategy</sys_update_name>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:17:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>eval_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrective</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_policy_enforcement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-04-17 07:19:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaf77691477b3210f487c24fe16d43f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:19:22</sys_updated_on>
+            <value>CORRECTIVE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>eval_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mitigative</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_policy_enforcement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-04-17 07:17:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62f77691477b3210f487c24fe16d43fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:17:50</sys_updated_on>
+            <value>MITIGATIVE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>eval_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preventive</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_policy_enforcement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-04-17 07:19:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2af77691477b3210f487c24fe16d43fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-04-17 07:19:40</sys_updated_on>
+            <value>PREVENTIVE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

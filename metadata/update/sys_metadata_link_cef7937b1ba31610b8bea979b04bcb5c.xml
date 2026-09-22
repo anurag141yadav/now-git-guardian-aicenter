@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>811d4c6a2b4ede10d4dffd74ce91bf09</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;SCHEDULEDVISIT&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Scheduled Visit Notifcation to visitor&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;VISITOR,HOST,ADMIN&lt;/scope&gt;
+        &lt;sys_created_by&gt;harmandeep.kaur&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-11-26 06:12:59&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;811d4c6a2b4ede10d4dffd74ce91bf09&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2026-02-10 05:52:27&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;div class="email-container"&gt;
+&lt;div class="email-header"&gt;
+&lt;h2&gt;Scheduled Visit Confirmation&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="email-body"&gt;
+&lt;p&gt;Dear &lt;strong&gt;${visitor.full_name}&lt;/strong&gt;,&lt;/p&gt;
+&lt;p&gt;We are pleased to confirm your visit . Below are the details of your scheduled visit:&lt;/p&gt;
+&lt;div class="details"&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; ${start_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; ${start_time}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; ${location.name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; ${host.information}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Purpose of Visit:&lt;/strong&gt; ${purpose}&lt;/p&gt;
+&lt;p&gt;${visitor.company}&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Additional Instructions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Please bring a valid government-issued ID for verification.&lt;/li&gt;&lt;li&gt;Check-in at the &lt;strong&gt;Reception/Front Desk&lt;/strong&gt; upon arrival.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;We look forward to your visit and thank you for your cooperation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;body {
+  font-family:Arial,sans-serif;
+  line-height:1.6;
+  color:#333333;
+  margin:0;
+  padding:0;
+  background-color:#f4f4f9;
+}
+
+.email-container {
+  max-width:600px;
+  margin:20px auto;
+  background:#ffffff;
+  padding:20px;
+  border:1px solid #dddddd;
+  border-radius:5px;
+}
+
+.email-header {
+  text-align:center;
+  padding:10px 0;
+  background-color:#0073e6;
+  color:#ffffff;
+  border-radius:5px 5px 0 0;
+}
+
+.email-header h2 {
+  margin:0;
+  font-size:24px;
+}
+
+.email-body { padding:20px; }
+
+.email-body p { margin:10px 0; }
+
+.details {
+  margin:20px 0;
+  padding:10px;
+  background-color:#f9f9f9;
+  border-left:4px solid #0073e6;
+}
+
+.details p {
+  margin:5px 0;
+  font-weight:bold;
+}
+&lt;/style&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-02-13 07:39:24</sys_created_on>
+        <sys_id>cef7937b1ba31610b8bea979b04bcb5c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Scheduled Visit Notifcation to visitor</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_cef7937b1ba31610b8bea979b04bcb5c</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-02-10 05:54:39</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_templates</tablename>
+    </sys_metadata_link>
+</record_update>

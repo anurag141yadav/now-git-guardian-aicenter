@@ -1,0 +1,16 @@
+<div class="qr-code-scanner">
+  <div  class="status-info" ng-if="c.statusMessage && c.statusMessage != '' ">
+    {{c.statusMessage}}
+  </div>
+  <div ng-if="c.timeoutMessage" class="alert alert-warning">
+    {{c.timeoutMessage}}
+  </div>
+  <div>
+    <button ng-click="c.startScan()" ng-show="!c.isScanning" class="btn btn-primary">Start Scan</button>
+    <button ng-click="c.stopScan()" ng-show="c.isScanning" class="btn btn-danger">Stop Scan</button>
+  </div>
+  <div class="qr-scanner-container text-center">
+     <div id="qr-scanner-container" style="border-radius: 8px;" ng-hide="!c.isScanning"></div>
+  </div>
+ 
+</div>

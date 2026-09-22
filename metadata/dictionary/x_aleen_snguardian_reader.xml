@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4d47c6deeb4382500326f284dad0cd68" label="Reader" max_length="40" name="x_aleen_snguardian_reader" type="collection">
+        <element label="Code" max_length="80" name="code" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="x_aleen_snguardian_location" type="reference"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element default="javascript:new MetadataGlideRecordHelper().getRecordSysIdByCode(&quot;x_aleen_snguardian_asset_type&quot;,&quot;READER&quot;);" label="Type" max_length="32" name="type" reference="x_aleen_snguardian_asset_type" type="reference"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="system"/>
+        </index>
+        <index name="index3">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

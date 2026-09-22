@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c23298ea47c1e65051a3e84d416d43c8</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_risk">
+    <x_aleen_snguardian_risk action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <code>PS-RSK-35</code>
+        <description>The person is lying at the floor</description>
+        <entity>Location</entity>
+        <name>Person Down</name>
+        <number>RISK0001031</number>
+        <resolution>Automatic</resolution>
+        <risk_rule display_value="Person Down Rule">6611dc6a47c1e65051a3e84d416d4306</risk_rule>
+        <severity>Critical</severity>
+        <sla>1970-01-02 00:00:00</sla>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-24 09:37:11</sys_created_on>
+        <sys_id>c23298ea47c1e65051a3e84d416d43c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:07:09</sys_updated_on>
+        <type display_value="Security Risk">01ddc46647c1e65051a3e84d416d43c0</type>
+    </x_aleen_snguardian_risk>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-05-02 05:59:08</sys_created_on>
+        <sys_id>8a0dac094711a210f487c24fe16d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Person Down</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_8a0dac094711a210f487c24fe16d43f4</sys_update_name>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:59:08</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk</tablename>
+    </sys_metadata_link>
+</record_update>

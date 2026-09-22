@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>545a214047ce621051a3e84d416d43ba</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>794fad8447ce621051a3e84d416d438b</answer>
+        <condition table="var__m_sys_decision_input_7c998544470e621051a3e84d416d434f">u_identity_type.code=TEMPWORKER^u_location.name=Global^EQ<item endquery="false" field="u_identity_type.code" goto="false" newquery="false" operator="=" or="false" value="TEMPWORKER"/>
+            <item endquery="false" field="u_location.name" goto="false" newquery="false" operator="=" or="false" value="Global"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Rehire Identity">7c998544470e621051a3e84d416d434f</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_7c998544470e621051a3e84d416d434f</input_table>
+        <label>Duplicate of Rehire Identity _100</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 14:40:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>545a214047ce621051a3e84d416d43ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Duplicate of Rehire Identity _100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Guardian" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_decision_question_545a214047ce621051a3e84d416d43ba</sys_update_name>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-06-06 08:45:42</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 14:40:04</sys_created_on>
+        <sys_id>dc5a214047ce621051a3e84d416d43bb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Duplicate of Rehire Identity _100</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_dc5a214047ce621051a3e84d416d43bb</sys_update_name>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-06-06 08:45:46</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

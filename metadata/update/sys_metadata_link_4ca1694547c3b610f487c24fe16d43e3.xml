@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ae9374e247cda250f487c24fe16d43cd</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_risk_compliance">
+    <x_aleen_snguardian_risk_compliance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Global regulatory framework for banking and financial stability.</description>
+        <evaluation_frequency/>
+        <evaluation_mode>Manual</evaluation_mode>
+        <last_evaluated/>
+        <name>Basel III</name>
+        <number>COM043</number>
+        <policies>91255426474da250f487c24fe16d435c,cd255426474da250f487c24fe16d434a</policies>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-24 12:03:02</sys_created_on>
+        <sys_id>ae9374e247cda250f487c24fe16d43cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:01:17</sys_updated_on>
+    </x_aleen_snguardian_risk_compliance>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2026-02-12 05:49:57</sys_created_on>
+        <sys_id>4ca1694547c3b610f487c24fe16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Basel III</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_4ca1694547c3b610f487c24fe16d43e3</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-02-12 05:49:57</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk_compliance</tablename>
+    </sys_metadata_link>
+</record_update>

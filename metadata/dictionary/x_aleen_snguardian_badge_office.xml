@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="021aa1741b684e10759455342a4bcb30" label="Location Administration" max_length="40" name="x_aleen_snguardian_badge_office" type="collection">
+        <element default="1" label="Order" max_length="40" name="order" type="integer"/>
+        <element label="MC NFC System" max_length="32" name="mc_nfc_system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="PAC System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="glide_list"/>
+        <element label="Lobby Admin" max_length="4000" name="lobby_admin" reference="sys_user" type="glide_list"/>
+        <element label="Badging Officer" max_length="4000" name="officers" reference="sys_user" type="glide_list"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element default="False" label="Web Provisioning" max_length="40" name="web_provisioning" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Locations" mandatory="true" max_length="4000" name="locations" reference="x_aleen_snguardian_location" type="glide_list"/>
+        <element label="MC Sub Type" max_length="32" name="mc_sub_type" reference="x_aleen_snguardian_asset_type" type="reference"/>
+        <element choice="3" default="PLASTIC" label="Badge Issue Type" max_length="40" name="badge_issue_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="QR Code" sequence="30" value="QR"/>
+                <element inactive_on_update="false" label="Mobile Credential" sequence="20" value="MC"/>
+                <element inactive_on_update="false" label="Plastic" sequence="10" value="PLASTIC"/>
+                <element inactive_on_update="false" label="Others" sequence="40" value="OTHERS"/>
+            </choice>
+        </element>
+        <element default="False" label="MC Supported" max_length="40" name="mc_supported" type="boolean"/>
+        <element label="Security Admin" max_length="4000" name="security_admin" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="mc_nfc_system"/>
+        </index>
+        <index name="index2">
+            <element name="mc_sub_type"/>
+        </index>
+        <index name="index3">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

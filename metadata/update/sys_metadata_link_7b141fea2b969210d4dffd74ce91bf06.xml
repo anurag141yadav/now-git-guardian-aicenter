@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>eb3e54522b4e9e10d4dffd74ce91bf51</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;FORCEEXIT&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Force Exit to Host&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;HOST,ADMIN&lt;/scope&gt;
+        &lt;sys_created_by&gt;chirag.chanana&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-11-25 12:45:39&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;eb3e54522b4e9e10d4dffd74ce91bf51&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-11-25 12:45:39&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333333;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #FF7043;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #FF7043;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .content .info-box {
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-left: 4px solid #FF7043;
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #f9f9f9;
+            color: #666666;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #FF7043;
+            text-decoration: none;
+        }
+    &lt;/style&gt;
+&lt;div class="email-container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Visitor Force Exit Notification&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;h2&gt;Dear Host,&lt;/h2&gt;
+&lt;p&gt;We would like to inform you that the following visitor associated with your account has exited the premises earlier than expected.&lt;/p&gt;
+&lt;div class="info-box"&gt;
+&lt;p&gt;&lt;strong&gt;Visitor Name:&lt;/strong&gt; ${visitor.full_name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Visit ID:&lt;/strong&gt; ${number}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Check-In Time:&lt;/strong&gt; ${start_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exit Time:&lt;/strong&gt; ${current_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; Force Exit&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;If you need further details or assistance regarding this event, please contact the facility&amp;#39;s visitor management team at your earliest convenience.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="footer"&gt;
+&lt;p&gt;For additional inquiries, please email us at &lt;a href="mailto:support&amp;#64;facility.com" rel="nofollow"&gt;support&amp;#64;facility.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;© 2024 Facility Management Team. All rights reserved.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 06:51:42</sys_created_on>
+        <sys_id>7b141fea2b969210d4dffd74ce91bf06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_7b141fea2b969210d4dffd74ce91bf06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 06:51:42</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_tem</tablename>
+    </sys_metadata_link>
+</record_update>

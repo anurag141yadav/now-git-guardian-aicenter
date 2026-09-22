@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f79050731bdcca106962fe60cd4bcb67" label="System Parameters" max_length="40" name="x_aleen_snguardian_system_parameters" type="collection">
+        <element label="Property Name" max_length="40" name="property_name" type="string"/>
+        <element choice="1" label="Type" mandatory="true" max_length="32" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Query Parameters" value="QUERY"/>
+                <element inactive_on_update="false" label="Connection" value="CONNECTION"/>
+                <element inactive_on_update="false" label="Others" value="OTHERS"/>
+                <element inactive_on_update="false" label="Authentication" value="AUTHENTICATION"/>
+                <element inactive_on_update="false" label="Login Response Headers" value="LOGIN_RES_HEADER"/>
+                <element inactive_on_update="false" label="Response Headers" value="RES_HEADER"/>
+                <element inactive_on_update="false" label="Request Headers" value="REQ_HEADER"/>
+                <element inactive_on_update="false" label="Login Request Headers" value="LOGIN_REQ_HEADER"/>
+            </choice>
+        </element>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Secure Property Value" max_length="1000" name="secure_property_value" type="password2"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Property Value" max_length="500" name="property_value" type="string"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+        <index name="index2">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

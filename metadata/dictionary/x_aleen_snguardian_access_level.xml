@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="25ca57a71bd8ca106962fe60cd4bcb77" label="Access Level" max_length="40" name="x_aleen_snguardian_access_level" type="collection">
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element hint="Unique  Identifier in the Target System" label="Code" max_length="40" name="code" type="string"/>
+        <element choice="3" default="MODERATE" label="Criticality" max_length="40" name="criticality" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="10" value="LOW"/>
+                <element inactive_on_update="false" label="High" sequence="30" value="HIGH"/>
+                <element inactive_on_update="false" label="Moderate" sequence="20" value="MODERATE"/>
+                <element inactive_on_update="false" label="Critical" sequence="40" value="CRITICAL"/>
+            </choice>
+        </element>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index" unique="true">
+            <element name="code"/>
+            <element name="system"/>
+        </index>
+        <index name="index2">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

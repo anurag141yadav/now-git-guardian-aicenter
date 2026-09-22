@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>2a7f0ed51bbc8210759455342a4bcbe9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_status_code">
+    <x_aleen_snguardian_status_code action="INSERT_OR_UPDATE">
+        <applicable_to>User,Asset,Access Level,User Access,User System,USER-ASSET</applicable_to>
+        <code>ACTIVE</code>
+        <is_deleted>false</is_deleted>
+        <name>Active</name>
+        <number>STATUSCODE1042</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 18:54:02</sys_created_on>
+        <sys_id>2a7f0ed51bbc8210759455342a4bcbe9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 04:52:41</sys_updated_on>
+    </x_aleen_snguardian_status_code>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-13 16:04:50</sys_created_on>
+        <sys_id>1cebe9231b3cc2106962fe60cd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_1cebe9231b3cc2106962fe60cd4bcb93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-13 16:04:50</sys_updated_on>
+        <tablename>x_aleen_snguardian_status_code</tablename>
+    </sys_metadata_link>
+</record_update>

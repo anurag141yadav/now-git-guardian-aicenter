@@ -1,0 +1,14 @@
+<div class="signature-container">
+  <!-- Title -->
+  <h3 class="signature-title">Sign Here</h3>
+ <div class="alert alert-danger" ng-if="errorMessage">{{errorMessageText}}</div>
+
+  <!-- Signature Pad -->
+  <canvas id="signature-pad" class="signature-canvas"></canvas>
+
+  <!-- Action Buttons -->
+  <div class="signature-buttons">
+    <button class="btn btn-secondary" ng-disabled ="signaturePad.isEmpty()" ng-click="clearSignature()">Reset Signature</button>
+    <button class="btn btn-primary" ng-class="{'btn-active': isConfirmed}" ng-disabled ="signaturePad.isEmpty() && !isConfirmed" ng-click="saveSignature()">Confirm Signature</button>
+  </div>
+</div>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>55c1d5842b0e1610d4dffd74ce91bff2</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;VISITOR-OTP&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;OTP Email&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;HOST,VISITOR,ADMIN&lt;/scope&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-11-18 16:42:31&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;55c1d5842b0e1610d4dffd74ce91bff2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-04-23 10:10:24&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;div class="email-container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Secure Login OTP&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;p&gt;Dear Visitor,&lt;/p&gt;
+&lt;p&gt;Thank you for connecting with us. To proceed, please use the One-Time Password (OTP) below to log in securely.&lt;/p&gt;
+&lt;div class="ot-code"&gt;${otp}&lt;/div&gt;
+&lt;p class="instructions"&gt;- Enter this OTP on the login page to complete your authentication.&lt;br /&gt;- This OTP is valid for the next 10 minutes and can be used only once.&lt;br /&gt;- If you didn’t request this, please disregard this email.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .ot-code {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .instructions {
+            font-size: 14px;
+            margin: 20px 0;
+            color: #555;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            background: #f9f9f9;
+            padding: 10px;
+        }
+    &lt;/style&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-02-13 07:39:24</sys_created_on>
+        <sys_id>c6f7937b1ba31610b8bea979b04bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OTP Email</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_c6f7937b1ba31610b8bea979b04bcb17</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:32:10</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_templates</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,63 @@
+<div class="popular-topic-panel panel panel-default panel-wrapper b" style="margin-top: 10px !important;" >
+  <div class="popular-topic-heading panel-heading b-b">
+    <h3  ng-if="data.decision_data.role != 'kiosk'"class="panel-title">{{data.options.widget_title}}</h3>
+     <h3  ng-if="data.decision_data.role == 'kiosk'"class="panel-title"><i class="fa fa-map-marker m-r"></i>{{data.decision_data.kioskLocation.name}}</h3>
+  </div>
+  <div class="popular-topic-panel-body">
+    
+     <div ng-if="data.decision_data.logo && data.decision_data.logo !='' " >
+      <div class="container text-center" style="margin-top:30px;">
+       <img src="{{data.decision_data.logo}}"  />
+      </div>
+    </div>
+    
+    
+    <div ng-if="data.decision_data.showWelcomeMessage">
+      <div class="container text-center">
+        <h2 style="font-color: red;color: red;font-size: 36px;margin-top: 1em;margin-bottom: 1em;">{{data.decision_data.welcomeHeader}}</h2>
+        <p style="font-size: 24px;padding: 20px;">{{data.decision_data.welcomeMessage}}</p>
+        <p style="font-size: 18px;">{{data.decision_data.welcomeNote}}</p>
+      </div>
+    </div>
+    <div class="class-row-container" ng-if="data.options.show_locations_widget=='YES'&&data.decision_data.showLocations">
+      <div class="class-row">
+        <div class="class-name">
+          <widget id="alert_visitor_locations" options='{"table_name": data.options.location_table,"query_limit": data.options.location_query_limit}'></widget>
+        </div>
+      </div>
+    </div>
+    <div  class="class-row-container" ng-if="isLoading">
+      <div class="class-row">
+        <div class="class-name">
+          <div class="text-center">
+            <h4 >
+              Loading
+            </h4>
+            <i class="fa fa-spinner fa-spin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popular-topic-empty-state" ng-if="(!data.popularTopics || data.popularTopics.length === 0)">
+      <p class="popular-topic-empty-text">
+        ${You don't have any visitor functions configured in this location to show you.}
+      </p>
+    </div>
+    <div ng-if="!isLoading">
+      <div class="popular-topic-body-container"  ng-if="data.popularTopics && data.popularTopics.length > 0">
+        <div class="card-container" ng-repeat="topic in data.popularTopics">
+          <a class="card {{data.options.theme}}"  ng-href="{{topic.topicUrl}}">
+            <div class="card-icon">
+              <i class="{{topic.icon}}"></i>
+            </div>
+            <div class="card-text">
+              {{topic.topic}}
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div ng-if="data.showWelcomeMessage" style="margin-bottom:5em;"></div>
+  </div>
+</div>

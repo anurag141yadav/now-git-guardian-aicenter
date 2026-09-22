@@ -1,0 +1,133 @@
+.widget-container {
+  position: relative;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+.left-section-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.action-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+
+.content-container {
+  display: flex;
+  flex: 1; 
+  overflow: hidden; 
+  z-index:19 !important;
+}
+
+
+/* Common Stepper Styles */
+.stepper {
+  list-style-type: none;
+  padding: 0;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.step-number {
+  width: 2rem;
+  height: 2rem;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.step-description {
+  font-size: 1.5rem;
+}
+
+.active .step-number {
+  background-color: #28a745;
+}
+.active .step-description {
+  font-weight: bold;
+}
+
+/* Vertical Stepper */
+.vertical-stepper .step {
+  flex-direction: row;
+}
+
+/* Horizontal Stepper */
+.horizontal-stepper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-stepper .step {
+  flex-direction: column;
+  align-items: center;
+}
+
+.horizontal-stepper .step-description {
+  margin-top: 0.5rem;
+}
+
+
+.content {
+  width: 100%; 
+  padding: 10px;
+  overflow-y: auto; 
+  background-color: #ffffff;
+}
+
+.content-item {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Copy From Widget */
+.sc-item-error-messages {
+  max-height: 100%;
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.sc-field-error-label {
+  margin-right: .5em;
+  display: inline-block;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sc-reqd-info-btn {
+  margin-right: .5em;
+  display: inline-block;
+  white-space: normal !important;
+  word-break: break-word !important;
+  background: transparent;
+  color: #3a85e5;
+  border: 1px solid;
+}

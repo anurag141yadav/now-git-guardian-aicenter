@@ -1,0 +1,49 @@
+<div class="tab-container">
+  <!-- Tab Navigation -->
+  <div class="tab-header">
+    <button class="tab-button" ng-class="{active: activeTab === 'feedback'}" ng-click="setActiveTab('feedback')">Feedback / Notes</button>
+    <!-- <button class="tab-button" ng-class="{active: activeTab === 'chat'}" ng-click="setActiveTab('chat')">Chat</button>-->
+  </div>
+
+  <!-- Feedback Tab Content -->
+  <div ng-show="activeTab === 'feedback'" class="tab-content">
+    <label>Feedback Type:</label>
+    <select ng-model="feedbackType" class="input-field">
+      <option value="positive">Positive</option>
+      <option value="neutral">Neutral</option>
+      <option value="negative">Negative</option>
+      <option value="negative">Notes</option>
+    </select>
+    <label>Remarks / Notes:</label>
+    <textarea ng-model="remarks" rows="5" class="input-field" placeholder="Enter your notes or remarks or feedback here..."></textarea>
+    <label>Who can see this feedback / notes ?</label>
+    <div class="visibility-options">
+      <span ng-if="!c.data.isHost"><input type="checkbox" ng-model="visibility.host"> Host</span>
+      <span ng-if="!c.data.isLobbyAdmin"><input type="checkbox" ng-model="visibility.lobbyAdmin"> Lobby Admin</span>
+      <span ng-if="!c.data.isVisitor" ><input type="checkbox"  ng-model="visibility.visitor"> Visitor </span>
+    </div><br>
+    <div class="survey-option" ng-if="!c.data.isVisitor" >
+      <input type="checkbox" ng-model="initiateSurvey"> Initiate Survey for Visitor
+    </div>
+    <button class="submit-btn" ng-click="submitFeedback()">Submit</button>
+  </div>
+
+  <!-- Chat Tab Content -->
+  <div ng-show="activeTab === 'chat'" class="tab-content">
+    <div class="chat-box">
+      <!-- Welcome message -->
+      <div class="chat-message system-message">Welcome to the chat. Please enter your message below.</div>
+      <!-- Chat messages -->
+      <div ng-repeat="msg in chatMessages">
+        <div ng-class="{'sender-message': msg.sender === 'me', 'receiver-message': msg.sender === 'visitor'}">
+          {{ msg.text }}
+        </div>
+      </div>
+    </div>
+    <!-- Chat input and send button -->
+    <div class="chat-button-group">
+      <textarea ng-model="chatInput" rows="1" class="chat-input-field" placeholder="Type your message here..."></textarea>
+      <button class="chat-send-btn" ng-click="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6962f1241b9946106962fe60cd4bcb2d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_status_code">
+    <x_aleen_snguardian_status_code action="INSERT_OR_UPDATE">
+        <applicable_to>REVIEW,REVIEW-TASK</applicable_to>
+        <code>OPEN</code>
+        <is_deleted>false</is_deleted>
+        <name>Open</name>
+        <number>STATUSCODE1003</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 05:23:12</sys_created_on>
+        <sys_id>6962f1241b9946106962fe60cd4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 05:23:12</sys_updated_on>
+    </x_aleen_snguardian_status_code>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 05:26:22</sys_created_on>
+        <sys_id>fb2371641b9946106962fe60cd4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_fb2371641b9946106962fe60cd4bcbce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 05:26:22</sys_updated_on>
+        <tablename>x_aleen_snguardian_status_code</tablename>
+    </sys_metadata_link>
+</record_update>

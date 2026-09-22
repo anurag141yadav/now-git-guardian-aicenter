@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e216d1233b99e10bf1221382e5c7bf0" label="Visitor Notification" max_length="40" name="x_aleen_snguardian_visitor_notification" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Include Host" max_length="40" name="include_host" type="boolean"/>
+        <element label="Body" max_length="4000" name="body" type="string_full_utf8"/>
+        <element label="Include Security" max_length="40" name="include_security" type="boolean"/>
+        <element label="Asset Notes" max_length="255" name="asset_notes" type="string"/>
+        <element label="Subject" max_length="500" name="subject" type="string_full_utf8"/>
+        <element label="Asset Collection" max_length="40" name="asset_collection" type="boolean"/>
+        <element label="Add to Watchlist" max_length="40" name="add_to_watchlist" type="boolean"/>
+        <element label="Location" max_length="32" name="location" reference="x_aleen_snguardian_location" type="reference"/>
+        <element label="Visit" max_length="32" name="visit" reference="x_aleen_snguardian_visitor_visit" type="reference"/>
+        <element default="NEW" label="Status" max_length="40" name="status" type="string"/>
+        <element choice="1" label="Checkout Type" max_length="40" name="checkout_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Intermediate" value="intermediate"/>
+                <element inactive_on_update="false" label="End of the Day" value="endoftheday"/>
+                <element inactive_on_update="false" label="Final" value="final"/>
+            </choice>
+        </element>
+        <element choice="3" default="email" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Regular Email" sequence="100" value="email"/>
+                <element inactive_on_update="false" label="Emergency For One" sequence="500" value="emergencyForOne"/>
+                <element inactive_on_update="false" label="Check Out by Kiosk" sequence="900" value="checkoutbyKiosk"/>
+                <element inactive_on_update="false" label="Quick Checkin By Kiosk" value="quickcheckinbyKiosk"/>
+                <element inactive_on_update="false" label="Emergency For All" sequence="600" value="emergencyForAll"/>
+                <element inactive_on_update="false" label="Visit Scheduled" sequence="1000" value="visitScheduled"/>
+                <element inactive_on_update="false" label="Quick Checkin by Lobby Admin" value="quickcheckinbyLobbyAdmin"/>
+                <element inactive_on_update="false" label="OTP" sequence="200" value="otp"/>
+                <element inactive_on_update="false" label="Approval Host" value="approvalHost"/>
+                <element inactive_on_update="false" label="Forget a Visitor" sequence="1100" value="forgetVisitor"/>
+                <element inactive_on_update="false" label="Visitor Checked In" value="visitorCheckedIn"/>
+                <element inactive_on_update="false" label="Instant Mail" sequence="300" value="instant"/>
+                <element inactive_on_update="false" label="Check Out by Lobby Admin" sequence="700" value="checkoutbyLobbyAdmin"/>
+                <element inactive_on_update="false" label="Visit Request Rejected" value="visReqRejected"/>
+                <element inactive_on_update="false" label="Force Exit Email" sequence="400" value="forceExit"/>
+                <element inactive_on_update="false" label="Check Out by Host" sequence="800" value="checkoutbyHost"/>
+                <element inactive_on_update="false" label="Approval Security Admin" value="approvalSecurity"/>
+            </choice>
+        </element>
+        <element label="To" max_length="500" name="to" type="string"/>
+        <element label="Template" max_length="32" name="template" reference="x_aleen_snguardian_visitor_nda_email_templates" type="reference"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="template"/>
+        </index>
+        <index name="index3">
+            <element name="visit"/>
+        </index>
+    </element>
+</database>

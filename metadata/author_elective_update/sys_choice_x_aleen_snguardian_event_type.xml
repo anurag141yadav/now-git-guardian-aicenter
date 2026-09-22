@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_aleen_snguardian_event" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_aleen_snguardian_event</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:50:36</sys_created_on>
+            <sys_id>eefce0353bae031065adbfcc73e45a40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_event_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:50:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Access Denied</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:50:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edf7fe51477b3210f487c24fe16d4379</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:54:12</sys_updated_on>
+            <value>ACCESS_DENIED</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check-In</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:50:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5f7fe51477b3210f487c24fe16d437b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:53:17</sys_updated_on>
+            <value>CHECKIN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check-Out</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:50:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6df7fe51477b3210f487c24fe16d437c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:53:34</sys_updated_on>
+            <value>CHECKOUT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate Swipe</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:51:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25f7fe51477b3210f487c24fe16d437e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:54:29</sys_updated_on>
+            <value>DUPLICATE_SWIPE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insufficient Permissions</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:53:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9f7fe51477b3210f487c24fe16d437f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:55:48</sys_updated_on>
+            <value>INSUFFICIENT_PERM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invalid Badge</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:50:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1f7fe51477b3210f487c24fe16d4381</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:53:58</sys_updated_on>
+            <value>INVALID_BADGE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out-of-Range Swipe</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:51:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69f7fe51477b3210f487c24fe16d4382</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:55:27</sys_updated_on>
+            <value>OUT_OF_RANGE_SWIPE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reader Malfunction</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:51:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21f7fe51477b3210f487c24fe16d4384</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:54:45</sys_updated_on>
+            <value>READER_MALFUMCTION</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tampered Badge</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-07 05:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5f7fe51477b3210f487c24fe16d4385</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-07 05:55:02</sys_updated_on>
+            <value>TAMPERED_BADGE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DoorOnline</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-02-20 11:44:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adf7fe51477b3210f487c24fe16d4386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-02-20 11:44:10</sys_updated_on>
+            <value>DoorOnline</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OfflineSynchronizationStarted</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-02-20 11:44:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65f7fe51477b3210f487c24fe16d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-02-20 11:44:10</sys_updated_on>
+            <value>OfflineSynchronizationStarted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OfflineSynchronizationSuccess</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-02-20 11:44:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2df7fe51477b3210f487c24fe16d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-02-20 11:44:10</sys_updated_on>
+            <value>OfflineSynchronizationSuccess</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>undefined</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-02-20 11:22:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1f7fe51477b3210f487c24fe16d438b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-02-20 11:22:35</sys_updated_on>
+            <value>undefined</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UnitConnected</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>Harmandeep.Kaur</sys_created_by>
+            <sys_created_on>2025-02-20 11:44:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9f7fe51477b3210f487c24fe16d438c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2025-02-20 11:44:11</sys_updated_on>
+            <value>UnitConnected</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

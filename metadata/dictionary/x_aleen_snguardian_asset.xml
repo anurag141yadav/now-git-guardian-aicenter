@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="9a0bdba71bd8ca106962fe60cd4bcbba" label="Asset" max_length="40" name="x_aleen_snguardian_asset" type="collection">
+        <element label="Facility Code" max_length="100" name="facility_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Serial" max_length="80" name="serial" type="string"/>
+        <element label="Type" max_length="32" name="type" reference="x_aleen_snguardian_asset_type" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Code" max_length="80" name="code" type="string"/>
+        <element label="Sub System" max_length="32" name="sub_system" reference="x_aleen_snguardian_system" type="glide_list"/>
+        <element choice="3" default="javascript: new MetadataGlideRecordHelper().getRecordSysIdByCode(&quot;x_aleen_snguardian_status_code&quot;, &quot;UNASSIGNED&quot;);" label="Status" max_length="40" name="status" reference="x_aleen_snguardian_status_code" reference_qual="applicable_toLIKEASSET^EQ" reference_qual_condition="applicable_toLIKEASSET^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element label="Sub Type" max_length="32" name="sub_type" reference="x_aleen_snguardian_asset_type" type="reference"/>
+        <index name="index" unique="true">
+            <element name="code"/>
+            <element name="serial"/>
+            <element name="system"/>
+        </index>
+        <index name="index2">
+            <element name="status"/>
+        </index>
+        <index name="index3">
+            <element name="sub_system"/>
+        </index>
+        <index name="index4">
+            <element name="sub_type"/>
+        </index>
+        <index name="index5">
+            <element name="system"/>
+        </index>
+        <index name="index6">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

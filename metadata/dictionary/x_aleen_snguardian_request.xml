@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="31f6b9381b14c6106962fe60cd4bcb7e" extends="task" label="Request" max_length="40" name="x_aleen_snguardian_request" type="collection">
+        <element choice="3" default="USER" label="Submitted By" max_length="40" name="submitted_by" type="string">
+            <choice>
+                <element inactive_on_update="false" label="User" sequence="10" value="USER"/>
+                <element inactive_on_update="false" label="Agent" sequence="20" value="AGENT"/>
+            </choice>
+        </element>
+        <element label="Status" max_length="32" name="status" reference="x_aleen_snguardian_request_status" type="reference"/>
+        <element label="Stage" max_length="40" name="stage" type="string"/>
+        <element label="Request Type" max_length="32" name="request_type" reference="sc_cat_item_producer" reference_qual="sys_scope=6026f9b41b14c6106962fe60cd4bcb64^EQ" reference_qual_condition="sys_scope=6026f9b41b14c6106962fe60cd4bcb64^EQ" type="reference"/>
+        <element label="Request For" max_length="32" name="request_for" reference="x_aleen_snguardian_identity" type="reference"/>
+    </element>
+</database>

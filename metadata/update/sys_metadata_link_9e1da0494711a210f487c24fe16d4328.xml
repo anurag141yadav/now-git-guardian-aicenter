@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9064742647cda250f487c24fe16d43c4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_risk_mitigation">
+    <x_aleen_snguardian_risk_mitigation action="INSERT_OR_UPDATE">
+        <condition/>
+        <effectiveness_score>10</effectiveness_score>
+        <mitigation display_value="Escalate to SOC">47bf0ce647c1e65051a3e84d416d438d</mitigation>
+        <mode>MANUAL</mode>
+        <order>1</order>
+        <risk display_value="Visitor checkout is overdue by 2 hours">c63298ea47c1e65051a3e84d416d43cf</risk>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-24 12:06:27</sys_created_on>
+        <sys_id>9064742647cda250f487c24fe16d43c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:11:25</sys_updated_on>
+    </x_aleen_snguardian_risk_mitigation>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-05-02 05:59:26</sys_created_on>
+        <sys_id>9e1da0494711a210f487c24fe16d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2025-04-24 05:06:27</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_9e1da0494711a210f487c24fe16d4328</sys_update_name>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:59:26</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk_mitigation</tablename>
+    </sys_metadata_link>
+</record_update>

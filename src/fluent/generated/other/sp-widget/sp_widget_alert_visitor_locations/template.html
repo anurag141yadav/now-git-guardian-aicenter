@@ -1,0 +1,32 @@
+<div class="form-group" style="position: relative;margin-top: 10px;margin-bottom: 20px;">
+  <label for="search-input" style="color:white;font-size:20px;">Lobby</label>
+  <div class="input-icon-wrapper">
+    <i class="fa fa-map-marker location-icon"></i> 
+     <input type="text" 
+           id="search-input" 
+           class="form-control location-input" 
+           ng-model="c.query" 
+           ng-focus = "c.showDropdownFunction()"
+           ng-blur="c.hideDropdownFunction()"
+           ng-change="c.getAutocompleteResults(c.query, false)" 
+           ng-click="c.getAutocompleteResults(c.query, false); c.showDropdownFunction()"
+           placeholder="Type to search location" 
+           autocomplete="off">
+  </div>
+  <!-- Autocomplete Results -->
+  <ul class="list-group autocomplete-dropdown"   ng-if="c.showDropdown && c.suggestions.length > 0 && !showNotFound && !showNoLoobyFound" ng-mousedown="$event.preventDefault()">
+    <li class="list-group-item"   ng-repeat="item in c.suggestions track by $index" ng-click="c.selectItem(item)">
+      {{ item.name }} 
+    </li>
+  </ul>
+   <ul class="list-group autocomplete-dropdown" ng-if="showNotFound">
+    <li class="list-group-item danger">
+      Location not found. Please try another search.
+    </li>
+  </ul>
+  <ul class="list-group autocomplete-dropdown" ng-if="showNoLoobyFound">
+    <li class="list-group-item danger">
+      No lobby is configured to your account, Please contact Admin.
+    </li>
+  </ul>
+</div>

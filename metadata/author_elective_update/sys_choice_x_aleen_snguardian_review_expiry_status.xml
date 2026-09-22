@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="expiry_status" table="x_aleen_snguardian_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>expiry_status</element>
+            <name>x_aleen_snguardian_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:37:20</sys_created_on>
+            <sys_id>c2fc20353bae031065adbfcc73e45aec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>expiry_status</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_review_expiry_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 12:37:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expiry_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expires in Next 15 Days</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:37:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6f7f691477b3210f487c24fe16d4341</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 12:38:00</sys_updated_on>
+            <value>EXP15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expiry_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expires in Next 30 Days</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:38:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36f7f691477b3210f487c24fe16d4343</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 12:38:19</sys_updated_on>
+            <value>EXP30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expiry_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expires in Next 5 days</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_review</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:37:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72f7f691477b3210f487c24fe16d4345</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 12:37:27</sys_updated_on>
+            <value>EXP5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

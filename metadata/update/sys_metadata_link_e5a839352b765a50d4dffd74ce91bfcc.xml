@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6da839352b765a50d4dffd74ce91bfc9</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>d8b8f1752b765a50d4dffd74ce91bf1b</answer>
+        <condition table="var__m_sys_decision_input_0e64cb052b255e50d4dffd74ce91bfac">u_identity_type.code=TEMPWORKER^u_identity_location.name=Delhi^EQ<item endquery="false" field="u_identity_type.code" goto="false" newquery="false" operator="=" or="false" value="TEMPWORKER"/>
+            <item endquery="false" field="u_identity_location.name" goto="false" newquery="false" operator="=" or="false" value="Delhi"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Onboarding User ">0e64cb052b255e50d4dffd74ce91bfac</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_0e64cb052b255e50d4dffd74ce91bfac</input_table>
+        <label>Onboarding User _100</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2024-12-31 12:48:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6da839352b765a50d4dffd74ce91bfc9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Onboarding User _100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Guardian" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_decision_question_6da839352b765a50d4dffd74ce91bfc9</sys_update_name>
+        <sys_updated_by>ANURAG.YADAV</sys_updated_by>
+        <sys_updated_on>2025-03-19 09:05:51</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2024-12-31 12:48:00</sys_created_on>
+        <sys_id>e5a839352b765a50d4dffd74ce91bfcc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Onboarding User _100</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_e5a839352b765a50d4dffd74ce91bfcc</sys_update_name>
+        <sys_updated_by>ANURAG.YADAV</sys_updated_by>
+        <sys_updated_on>2025-03-19 09:06:36</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

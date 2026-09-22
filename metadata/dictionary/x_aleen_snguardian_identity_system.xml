@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a334f9c01ba44e106962fe60cd4bcb80" label="Identity System" max_length="40" name="x_aleen_snguardian_identity_system" type="collection">
+        <element choice="3" default="PRIMARY" label="Identifier Type" max_length="40" name="identifier_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Primary Key" sequence="10" value="PRIMARY"/>
+                <element inactive_on_update="false" label="Secondary" sequence="20" value="SECONDARY"/>
+            </choice>
+        </element>
+        <element label="Provisioning Status" max_length="32" name="provisioning_status" reference="x_aleen_snguardian_provisioning_status" type="reference"/>
+        <element label="Identifier" max_length="60" name="identifier" type="string"/>
+        <element label="Status" max_length="32" name="status" reference="x_aleen_snguardian_status_code" reference_qual="applicable_toLIKESYSTEM^EQ" reference_qual_condition="applicable_toLIKESYSTEM^EQ" type="reference"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element dependent="datasource_table" dependent_on_field="datasource_table" label="DataSource" max_length="32" name="datasource" type="document_id" use_dependent_field="true"/>
+        <element display="true" label="Identity" max_length="32" name="identity" reference="x_aleen_snguardian_identity" type="reference"/>
+        <element label="Valid To" max_length="40" name="valid_to" type="glide_date_time"/>
+        <element label="Provisioning Message" max_length="300" name="provisioning_message" type="string_full_utf8"/>
+        <element label="Datasource Table" max_length="64" name="datasource_table" type="table_name"/>
+        <element label="Provisioning Action" max_length="32" name="provisioning_action" reference="x_aleen_snguardian_request_entity_action" reference_qual="applicable_toLIKESYSTEM^EQ" reference_qual_condition="applicable_toLIKESYSTEM^EQ" type="reference"/>
+        <element label="valid From" max_length="40" name="valid_from" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <index name="index">
+            <element name="datasource"/>
+        </index>
+        <index name="index2">
+            <element name="datasource_table"/>
+        </index>
+        <index name="index3">
+            <element name="identifier"/>
+        </index>
+        <index name="index4">
+            <element name="identity"/>
+        </index>
+        <index name="index5">
+            <element name="provisioning_action"/>
+        </index>
+        <index name="index6">
+            <element name="provisioning_status"/>
+        </index>
+        <index name="index7">
+            <element name="status"/>
+        </index>
+        <index name="index8">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

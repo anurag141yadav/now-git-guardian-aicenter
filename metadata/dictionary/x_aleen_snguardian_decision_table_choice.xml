@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="be5c9d4c474e621051a3e84d416d433e" label="Decision Table Choice" max_length="40" name="x_aleen_snguardian_decision_table_choice" type="collection">
+        <element choice="1" label="NDA Sign in Lobby" max_length="40" name="nda_sign_in_lobby" type="string">
+            <choice>
+                <element inactive_on_update="false" label="If Expired" value="if_expired"/>
+                <element inactive_on_update="false" label="Mandatory every time" value="mandatory_every_time"/>
+                <element inactive_on_update="false" label="Not Required" value="not_required"/>
+            </choice>
+        </element>
+        <element choice="1" label="ID Scan Type" max_length="40" name="id_scan_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Required" value="not_required"/>
+                <element inactive_on_update="false" label="ID verification" value="id_verification"/>
+                <element inactive_on_update="false" label="ID Live verification" value="id_live_verification"/>
+                <element inactive_on_update="false" label="ID Capture" value="id_capture"/>
+            </choice>
+        </element>
+        <element choice="1" label="Notification Type" max_length="40" name="notification_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Emergency" value="emergencyForOne"/>
+                <element inactive_on_update="false" label="OTP" value="otp"/>
+                <element inactive_on_update="false" label="Instant" value="instant"/>
+                <element inactive_on_update="false" label="Right to be Forgotten" value="forgetVisitor"/>
+                <element inactive_on_update="false" label="Force Exit" value="forceExit"/>
+                <element inactive_on_update="false" label="Email" value="email"/>
+                <element inactive_on_update="false" label="Checkout" value="checkout"/>
+                <element inactive_on_update="false" label="Approval Security" value="approvalSecurity"/>
+                <element inactive_on_update="false" label="Approval Host" value="approvalHost"/>
+                <element inactive_on_update="false" label="Emergency For All" value="emergencyForAll"/>
+                <element inactive_on_update="false" label="Visit Request Rejected" value="visReqRejected"/>
+                <element inactive_on_update="false" label="Visit Scheduled" value="visitScheduled"/>
+                <element inactive_on_update="false" label="Quick Checkin" value="quickcheckin"/>
+                <element inactive_on_update="false" label="Visitor Checked In" value="visitorCheckedIn"/>
+                <element inactive_on_update="false" label="Check In By Lobby Admin" value="quickcheckinbyLobbyAdmin"/>
+                <element inactive_on_update="false" label="Check in By Kiosk" value="quickcheckinbyKiosk"/>
+            </choice>
+        </element>
+        <element choice="1" label="Badge Assign Method" max_length="40" name="badge_assign_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Manual" sequence="20" value="Manual"/>
+                <element inactive_on_update="false" label="Automatic" sequence="10" value="Automatic"/>
+            </choice>
+        </element>
+        <element choice="1" label="Asset Sub Type" max_length="40" name="asset_sub_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Others" sequence="4" value="RANDOM"/>
+                <element inactive_on_update="false" label="Alert" sequence="3" value="ALERT"/>
+                <element inactive_on_update="false" label="WAVELYNX" sequence="2" value="WAVELYNX"/>
+                <element inactive_on_update="false" label="HID" sequence="1" value="HID"/>
+            </choice>
+        </element>
+        <element choice="1" label="Visitor Action" max_length="40" name="visitor_action" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Check-In" sequence="10" value="checkin"/>
+                <element inactive_on_update="false" label="Walk In" sequence="20" value="walkin"/>
+            </choice>
+        </element>
+        <element choice="1" label="Health Questions In Lobby" max_length="40" name="health_questions_in_lobby" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Required" value="not_required"/>
+                <element inactive_on_update="false" label="Mandatory every time" value="mandatory_every_time"/>
+            </choice>
+        </element>
+        <element choice="1" label="ID Scan in Lobby" max_length="40" name="id_scan_in_lobby" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mandatory every time" value="mandatory_every_time"/>
+                <element inactive_on_update="false" label="If visitor status in not verified" value="if_visitor_status_in_not_verified"/>
+            </choice>
+        </element>
+        <element choice="1" label="Photo Capture In Lobby" max_length="40" name="photo_capture_in_lobby" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mandatory every time" value="mandatory_every_time"/>
+                <element inactive_on_update="false" label="Not Required" value="not_required"/>
+            </choice>
+        </element>
+        <element choice="1" label="Visiting Actor" max_length="40" name="visiting_actor" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Lobby Admin" sequence="20" value="lobbyadmin"/>
+                <element inactive_on_update="false" label="Kiosk" sequence="10" value="kiosk"/>
+            </choice>
+        </element>
+    </element>
+</database>

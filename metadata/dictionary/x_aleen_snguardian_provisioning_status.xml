@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8cf24d2b1b50ca106962fe60cd4bcb02" label="Provisioning Status" max_length="40" name="x_aleen_snguardian_provisioning_status" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+    </element>
+</database>

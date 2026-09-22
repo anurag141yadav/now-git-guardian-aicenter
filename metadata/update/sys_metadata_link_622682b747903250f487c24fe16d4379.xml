@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>151602b747903250f487c24fe16d436a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_system_feature">
+    <x_aleen_snguardian_system_feature action="INSERT_OR_UPDATE">
+        <code>IS-SMART-CONNECTOR</code>
+        <description>Is a Smart Connector</description>
+        <is_deleted>false</is_deleted>
+        <name>Is a Smart Connector</name>
+        <number>SYSFEATURE01</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 04:39:52</sys_created_on>
+        <sys_id>151602b747903250f487c24fe16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 04:39:52</sys_updated_on>
+    </x_aleen_snguardian_system_feature>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 04:40:13</sys_created_on>
+        <sys_id>622682b747903250f487c24fe16d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Is a Smart Connector</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_622682b747903250f487c24fe16d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 04:40:13</sys_updated_on>
+        <tablename>x_aleen_snguardian_system_feature</tablename>
+    </sys_metadata_link>
+</record_update>

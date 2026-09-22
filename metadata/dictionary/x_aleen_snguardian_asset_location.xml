@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="38e3b1c01ba44e106962fe60cd4bcb3c" label="Asset Location" max_length="40" name="x_aleen_snguardian_asset_location" type="collection">
+        <element label="Asset" max_length="32" name="asset" reference="x_aleen_snguardian_asset" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="x_aleen_snguardian_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

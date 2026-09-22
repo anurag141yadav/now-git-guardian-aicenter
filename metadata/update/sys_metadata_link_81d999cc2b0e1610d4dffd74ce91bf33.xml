@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cefe56512bd91a10d4dffd74ce91bfed</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;EMAIL001&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;name&gt;Pre-Registration Email&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope/&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-10-16 12:45:01&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;cefe56512bd91a10d4dffd74ce91bfed&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-10-16 12:54:47&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px;
+        }
+        h2 {
+            color: #0056b3;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .details {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    &lt;/style&gt;
+&lt;h2&gt;Your Visit is Pre-Registered!&lt;/h2&gt;
+&lt;p&gt;Dear [Visitor&amp;#39;s Full Name],&lt;/p&gt;
+&lt;p&gt;We are pleased to inform you that your visit to &lt;strong&gt;[Company Name]&lt;/strong&gt; has been successfully pre-registered. Below are the details of your upcoming visit:&lt;/p&gt;
+&lt;div class="details"&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; [Visit Date]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; [Visit Time]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; [Office Address]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; [Host Name]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Purpose of Visit:&lt;/strong&gt; [Visit Purpose]&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;To ensure a smooth check-in process, please remember to bring a valid ID with you. If you need to reschedule or cancel your visit, you can do so using the link provided below:&lt;/p&gt;
+&lt;p&gt;&lt;a href="[Reschedule Link]" rel="nofollow"&gt;Reschedule or Cancel Visit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you have any questions or need assistance, please don&amp;#39;t hesitate to reach out to us at [Contact Email] or [Contact Phone Number].&lt;/p&gt;
+&lt;p&gt;We look forward to your visit!&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;br /&gt;[Company Name] Team&lt;/p&gt;
+&lt;div class="footer"&gt;
+&lt;p&gt;Please note: This email is for your pre-registered visit to [Company Name]. If you did not request this visit or believe this message was sent in error, please contact us immediately.&lt;/p&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 17:16:53</sys_created_on>
+        <sys_id>81d999cc2b0e1610d4dffd74ce91bf33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_81d999cc2b0e1610d4dffd74ce91bf33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 17:16:53</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_tem</tablename>
+    </sys_metadata_link>
+</record_update>

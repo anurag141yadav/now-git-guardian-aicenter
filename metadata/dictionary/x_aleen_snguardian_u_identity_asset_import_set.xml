@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="918add921bad0a50759455342a4bcb26" extends="sys_import_set_row" label="U Identity Asset Import Set" max_length="40" name="x_aleen_snguardian_u_identity_asset_import_set" type="collection">
+        <element label="Asset ID" max_length="40" name="u_asset_id" type="string"/>
+        <element label="Card number" max_length="40" name="u_card_number" type="string"/>
+        <element label="Issue type" max_length="40" name="u_issue_type" type="string"/>
+        <element label="System" max_length="50" name="u_system" type="string"/>
+        <element label="Valid to" max_length="40" name="u_valid_to" type="string"/>
+        <element label="Asset status" max_length="40" name="u_asset_status" type="string"/>
+        <element label="Valid from" max_length="40" name="u_valid_from" type="string"/>
+        <element label="Is deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element label="User ID" max_length="40" name="u_user_id" type="string"/>
+    </element>
+</database>

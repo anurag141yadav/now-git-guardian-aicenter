@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="772c0d5547eeea1051a3e84d416d43fd" label="Integration Monitor" max_length="40" name="x_aleen_snguardian_provisioning_monitor" type="collection">
+        <element choice="1" default="PROVISIONING" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Reconciliation" sequence="20" value="RECON"/>
+                <element inactive_on_update="false" label="Provisioning" sequence="10" value="PROVISIONING"/>
+                <element inactive_on_update="false" label="Others" sequence="40" value="OTHERS"/>
+                <element inactive_on_update="false" label="Data Fetch" sequence="30" value="DATA"/>
+            </choice>
+        </element>
+        <element dependent="datasource_table" dependent_on_field="datasource_table" display="true" label="Datasource" max_length="32" name="datasource" type="document_id" use_dependent_field="true"/>
+        <element label="Identity" max_length="32" name="identity" reference="x_aleen_snguardian_identity" type="reference"/>
+        <element label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string_full_utf8"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Function" max_length="32" name="function" reference="x_aleen_snguardian_system_function" type="reference"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element label="Datasource_Table" max_length="64" name="datasource_table" type="table_name"/>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element choice="3" default="PENDING" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="20" value="IN_PROGRESS"/>
+                <element inactive_on_update="false" label="In Queue" sequence="15" value="IN_QUEUE"/>
+                <element inactive_on_update="false" label="Failed" sequence="40" value="FAILED"/>
+                <element inactive_on_update="false" label="Pending" sequence="10" value="PENDING"/>
+                <element inactive_on_update="false" label="Processed" sequence="30" value="PROCESSED"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="datasource"/>
+        </index>
+        <index name="index2">
+            <element name="datasource_table"/>
+        </index>
+        <index name="index3">
+            <element name="function"/>
+        </index>
+        <index name="index4">
+            <element name="identity"/>
+        </index>
+        <index name="index5">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

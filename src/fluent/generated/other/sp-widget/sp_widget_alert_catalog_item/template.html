@@ -1,0 +1,113 @@
+<div class="row" style="background:white!important">
+   <div class="action-bar col-md-12 m-r-2">
+        <button class="btn btn-secondary" ng-click="backtoHome()">Cancel</button>
+        <button class="btn btn-primary" ng-click="triggerOnSubmit()">Submit</button>
+      </div>
+  <div ng-class="{'col-md-10': data.showSections, 'col-md-12': !data.showSections}">
+    <div class="widget-container">
+     
+      <div class="content-container">
+        <div class="column content">
+          <div class="panel panel-default">
+            <div role="region">
+              <div class="wrapper-md b-b break-word clearfix"  style="padding-top: 20px !important;">
+                <h2 class="h2 m-t-none m-b-sm font-thin item-header"
+                    ng-if="::sc_cat_item.name ">
+                  {{::sc_cat_item.name}}</h2>
+                <div class="sc-cat-item-short-description"
+                     ng-if="::sc_cat_item.short_description">{{::sc_cat_item.short_description}}</div>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div ng-if="sc_cat_item">
+                <div class="row b-b no-margin"
+                     ng-if="sc_cat_item.picture || sc_cat_item.trusted_description"
+                     ng-class="{'wrapper-md': c.options.native_mobile != 'true', 'wrapper-sm': c.options.native_mobile == 'true'}">
+                  <div class="col-sm-4 col-xs-12 no-padder" ng-if="sc_cat_item.picture">
+                    <div class="wrapper-md text-center">
+                      <i class="fa fa-chevron-left pointer"
+                         style="position:absolute; top:50%; left:4%; color:#CECECE"
+                         ng-if="c.options.image_gallery"></i>
+                      <img class="img-responsive catalog-item-image"
+                           alt="{{c.isNative ? sc_cat_item.name : ''}}"
+                           role="{{c.isNative ? 'img' : 'presentation'}}" style="display: inline"
+                           ng-src="{{::sc_cat_item.picture}}?t=medium" />
+                      <i class="fa fa-chevron-right pointer"
+                         style="position:absolute; top:50%; right:4%; color:#CECECE"
+                         ng-if="c.options.image_gallery"></i>
+                      <div class="image-gallery padding-top" ng-if="c.options.image_gallery">
+                        <i class="fa fa-circle active"></i>
+                        <i class="fa fa-circle"></i>
+                        <i class="fa fa-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 break-word"
+                       ng-class="{true: 'col-sm-12 no-padder', false: 'col-sm-8'}[!sc_cat_item.picture]">
+                    <div class="visible-md visible-lg"
+                         ng-class="{false : 'visible-xs visible-sm', true : 'hidden-xs hidden-sm'}[c.options.show_less_description === 'true']"
+                         style="overflow : auto">
+                      <div ng-bind-html="::sc_cat_item.trusted_description" class="sc-item-description">
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 visible-xs visible-sm"
+                         ng-if="c.options.show_less_description === 'true'">
+                      <sc-toggle-data sn-data="::sc_cat_item.trusted_description"></sc-toggle-data>
+                    </div>
+                  </div>
+                </div>
+                <sp-cat-item item="::sc_cat_item"></sp-cat-item>
+                <div ng-if="c.mandatory.length > 0" class="sc-cat-item-legend m-b m-t"
+                     ng-attr-role="{{c.isNative ? 'text' : undefined}}">
+                  <span class="fa fa-asterisk mandatory" title="${asterisk}" style="padding-right: .25rem">
+                    <span class="sr-only">${asterisk}</span>
+                  </span>
+                  <span>${Indicates required}</span>
+                </div>
+                <form id="catalog-form">
+                  <!-- display view and model -->
+                  <sp-model form-model="::sc_cat_item" mandatory="c.mandatory"></sp-model>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ng-if="data.showSections" class="col-md-2 left-section-sticky">
+    <div style="width:100%">
+      <div class="panel panel-default">
+        <div role="region">
+          <div class="wrapper-md b-b break-word clearfix"  style="padding-top: 20px !important;">
+            <h2 class="h2 m-t-none m-b-sm font-thin item-header">Quick Links</h2>
+            <div class="sc-cat-item-short-description">Everything you need at a glance</div>
+          </div>
+        </div>
+        <div class="panel-body" >
+          <div style="flex-direction: column; display: flex; gap:5px">
+            <div ng-if="data.showVariableSets">
+              <ul class="stepper" ng-class="{'vertical-stepper': isLargeScreen, 'horizontal-stepper': !isLargeScreen}">
+                <li class="step" ng-repeat="section in leftNav" >
+                  <div class="step-number">{{section.sequence}}</div>
+                  <div class="step-description">{{section.name}}</div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div id="required_information_bottom" ng-if="hasMandatory(c.mandatory)" aria-hidden="true">${Required information} </div>
+              <div style="display:flex; flex-wrap:wrap; grid-row-gap:3px;">
+                <div ng-repeat="f in c.mandatory">
+                  <div role="alert">
+                    <span class="sr-only" id="req_info_bottom_{{::f.name}}">${Required information}</span>
+                    <button for="req_info_bottom_{{::f.name}}" class="label sc-field-error-label sc-reqd-info-btn" ng-click="getFocus(f)" title="{{::f.label}}">{{::f.label}}</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

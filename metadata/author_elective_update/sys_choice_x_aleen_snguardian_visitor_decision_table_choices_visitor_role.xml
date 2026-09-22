@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="visitor_role" table="x_aleen_snguardian_visitor_decision_table_choices" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>visitor_role</element>
+            <name>x_aleen_snguardian_visitor_decision_table_choices</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 05:50:45</sys_created_on>
+            <sys_id>915f2cf93b22431065adbfcc73e45a64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>visitor_role</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_visitor_decision_table_choices_visitor_role</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 05:50:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

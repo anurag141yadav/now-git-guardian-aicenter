@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7b5971481ba44e106962fe60cd4bcb6e" label="Identity Asset" max_length="40" name="x_aleen_snguardian_identity_asset" type="collection">
+        <element label="Status" max_length="32" name="status" reference="x_aleen_snguardian_status_code" reference_qual="applicable_toLIKEUSER-ASSET^EQ" reference_qual_condition="applicable_toLIKEUSER-ASSET^EQ" type="reference"/>
+        <element choice="3" default="PLASTIC" label="Issue Type" max_length="40" name="issue_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="QR" sequence="20" value="QR"/>
+                <element inactive_on_update="false" label="Mobile Credential" sequence="30" value="MC"/>
+                <element inactive_on_update="false" label="Plastic" sequence="10" value="PLASTIC"/>
+            </choice>
+        </element>
+        <element label="Review Action" max_length="32" name="review_action" reference="x_aleen_snguardian_request_entity_action" reference_qual="applicable_toLIKEACCESSREVIEW^EQ" reference_qual_condition="applicable_toLIKEACCESSREVIEW^EQ" type="reference"/>
+        <element label="Review Task" max_length="32" name="review_task" reference="x_aleen_snguardian_review_task" type="reference"/>
+        <element label="Provisioning Status" max_length="32" name="provisioning_status" reference="x_aleen_snguardian_provisioning_status" type="reference"/>
+        <element label="Provisioning Action" max_length="32" name="provisioning_action" reference="x_aleen_snguardian_request_entity_action" reference_qual="applicable_toLIKEASSET^EQ" reference_qual_condition="applicable_toLIKEASSET^EQ" type="reference"/>
+        <element label="Review Log" max_length="4000" name="review_log" type="journal_input"/>
+        <element label="Identifier" max_length="120" name="identifier" type="string"/>
+        <element display="true" label="Asset" max_length="32" name="asset" reference="x_aleen_snguardian_asset" reference_qual="javascript:new ConditionHelper().filterAsset();" type="reference" use_reference_qualifier="advanced"/>
+        <element label="PIN" max_length="255" name="pin" type="password2"/>
+        <element label="Valid From" max_length="40" name="valid_from" type="glide_date_time"/>
+        <element label="Valid To" max_length="40" name="valid_to" type="glide_date_time"/>
+        <element label="Is Replacement" max_length="40" name="is_replacement" type="boolean"/>
+        <element label="Manual Activation" max_length="40" name="manual_activation" type="boolean"/>
+        <element label="Datasource Table" max_length="64" name="datasource_table" type="table_name"/>
+        <element label="Delegated To" max_length="32" name="delegated_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Last Reviwed By" max_length="32" name="last_reviewed_by" reference="sys_user" type="reference"/>
+        <element label="Provisioning Message" max_length="300" name="provisioning_message" type="string"/>
+        <element label="Last Used" max_length="40" name="last_used_on" type="glide_date_time"/>
+        <element label="Review Assigned To" max_length="4000" name="review_assigned_to" reference="sys_user" type="glide_list"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Review Status" max_length="32" name="review_status" reference="x_aleen_snguardian_status_code" type="reference"/>
+        <element label="Identity" max_length="32" name="identity" reference="x_aleen_snguardian_identity" type="reference"/>
+        <element dependent="datasource_table" dependent_on_field="datasource_table" label="DataSource" max_length="32" name="datasource" type="document_id" use_dependent_field="true"/>
+        <element label="Last Reviewed" max_length="40" name="last_reviewed_on" type="glide_date_time"/>
+        <element label="Replace Asset" max_length="32" name="replace_asset" reference="x_aleen_snguardian_asset" type="reference"/>
+        <index name="index" unique="true">
+            <element name="asset"/>
+            <element name="identifier"/>
+        </index>
+        <index name="index2">
+            <element name="asset"/>
+        </index>
+        <index name="index3">
+            <element name="datasource"/>
+        </index>
+        <index name="index4">
+            <element name="datasource_table"/>
+        </index>
+        <index name="index5">
+            <element name="delegated_to"/>
+        </index>
+        <index name="index6">
+            <element name="identity"/>
+        </index>
+        <index name="index7">
+            <element name="last_reviewed_by"/>
+        </index>
+        <index name="index8">
+            <element name="provisioning_action"/>
+        </index>
+        <index name="index9">
+            <element name="provisioning_status"/>
+        </index>
+        <index name="index10">
+            <element name="replace_asset"/>
+        </index>
+        <index name="index11">
+            <element name="review_action"/>
+        </index>
+        <index name="index12">
+            <element name="review_status"/>
+        </index>
+        <index name="index13">
+            <element name="review_task"/>
+        </index>
+        <index name="index14">
+            <element name="status"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_id_scan" table="var__m_sys_decision_multi_result_element_e58556472bd61610d4dffd74ce91bf74" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_id_scan</element>
+            <name>var__m_sys_decision_multi_result_element_e58556472bd61610d4dffd74ce91bf74</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-10 15:35:17</sys_created_on>
+            <sys_id>164f6cb93b22431065adbfcc73e45a25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_id_scan</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_multi_result_element_e58556472bd61610d4dffd74ce91bf74_u_id_scan</sys_update_name>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-10 15:35:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_id_scan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>If visitor status in not verified</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_e58556472bd61610d4dffd74ce91bf74</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-10 15:35:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcf7fa51477b3210f487c24fe16d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-10 15:35:17</sys_updated_on>
+            <value>if_visitor_status_in_not_verified</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_id_scan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mandatory every time</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_e58556472bd61610d4dffd74ce91bf74</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-10 15:35:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4f7fa51477b3210f487c24fe16d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-10 15:35:17</sys_updated_on>
+            <value>mandatory_every_time</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

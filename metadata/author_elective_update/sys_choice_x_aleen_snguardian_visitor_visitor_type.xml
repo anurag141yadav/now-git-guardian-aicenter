@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="visitor_type" table="x_aleen_snguardian_visitor" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>visitor_type</element>
+            <name>x_aleen_snguardian_visitor</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:48:04</sys_created_on>
+            <sys_id>adfcacf13bae031065adbfcc73e45ac0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>visitor_type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_visitor_visitor_type</sys_update_name>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:48:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Partner</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:50:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ff7fa91477b3210f487c24fe16d4317</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:50:17</sys_updated_on>
+            <value>BUSINESS-PARNTER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contractors / Consultants</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:48:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebf7fa91477b3210f487c24fe16d431a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:49:02</sys_updated_on>
+            <value>CONTRACTOR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer / Client</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:50:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bf7fa91477b3210f487c24fe16d431d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:50:34</sys_updated_on>
+            <value>CUSTOMER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:48:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7f7fa91477b3210f487c24fe16d4320</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:48:30</sys_updated_on>
+            <value>EMPLOYEE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Facility / Maintenance Worker</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:50:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67f7fa91477b3210f487c24fe16d4323</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:50:04</sys_updated_on>
+            <value>FACILITY-WORKER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Family Member / Friend of Employee</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:50:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3f7fa91477b3210f487c24fe16d4326</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:50:46</sys_updated_on>
+            <value>FNF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Government / Regulatory Inspectors</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:48:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63f7fa91477b3210f487c24fe16d4329</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 10:49:45</sys_updated_on>
+            <value>GOVT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Event Attendee</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:49:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eff7fa91477b3210f487c24fe16d432b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:49:20</sys_updated_on>
+            <value>GUEST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Job Applicant</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:50:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ff7fa91477b3210f487c24fe16d432e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:50:59</sys_updated_on>
+            <value>JOB-APPLICANT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:48:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebf7fa91477b3210f487c24fe16d4331</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:48:44</sys_updated_on>
+            <value>OTHERS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security / Emergency Personnel</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:49:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bf7fa91477b3210f487c24fe16d4334</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:49:55</sys_updated_on>
+            <value>SECURITY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor / Supplier</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:48:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7f7fa91477b3210f487c24fe16d4337</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:48:10</sys_updated_on>
+            <value>VENDOR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visitor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VIP / Special Guest</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_visitor</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2026-02-09 09:49:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67f7fa91477b3210f487c24fe16d433a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2026-02-09 09:49:46</sys_updated_on>
+            <value>VIP</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

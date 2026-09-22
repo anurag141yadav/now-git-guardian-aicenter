@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7675597f33825250bf1221382e5c7b35</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_rule_master_config">
+    <x_aleen_snguardian_rule_master_config action="INSERT_OR_UPDATE">
+        <code>LOBBY-CONFIG</code>
+        <name>Lobby Configuration</name>
+        <number>RULEMASTER0001006</number>
+        <rule display_value="Alert Visitor Lobby Config">043bd6de337d9e10bf1221382e5c7b8a</rule>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-30 08:35:43</sys_created_on>
+        <sys_id>7675597f33825250bf1221382e5c7b35</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>akshgaur</sys_updated_by>
+        <sys_updated_on>2025-07-11 10:06:27</sys_updated_on>
+    </x_aleen_snguardian_rule_master_config>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-30 08:48:31</sys_created_on>
+        <sys_id>1388193333c25250bf1221382e5c7bf4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Lobby Configuration</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_1388193333c25250bf1221382e5c7bf4</sys_update_name>
+        <sys_updated_by>akshgaur</sys_updated_by>
+        <sys_updated_on>2025-07-11 10:06:57</sys_updated_on>
+        <tablename>x_aleen_snguardian_rule_master_config</tablename>
+    </sys_metadata_link>
+</record_update>

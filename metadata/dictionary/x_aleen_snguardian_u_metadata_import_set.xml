@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="870a1e0f1b544a106962fe60cd4bcbc3" extends="sys_import_set_row" label="U Metadata  Import Set" max_length="40" name="x_aleen_snguardian_u_metadata_import_set" type="collection">
+        <element label="Parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
+        <element label="Applicable To" max_length="4000" name="u_applicable_to" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category" label="Category" max_length="40" name="u_category" type="string"/>
+    </element>
+</database>

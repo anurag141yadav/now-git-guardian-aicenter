@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c211af48470d2e1051a3e84d416d43b2" label="Risk" max_length="40" name="x_aleen_snguardian_risk" text_index="true" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element default="MEDIUM" label="Severity" max_length="40" name="severity" type="string"/>
+        <element label="Resolution" max_length="40" name="resolution" type="string"/>
+        <element choice="1" label="Risk Type" max_length="32" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Reputational Risk" value="REPUTATIONAL-RISK"/>
+                <element inactive_on_update="false" label="Operational Risk" value="OPERATIONAL-RISK"/>
+                <element inactive_on_update="false" label="Financial Risk" value="FINANCIAL-RISK"/>
+                <element inactive_on_update="false" label="Compliance Risk" value="COMPLIANCE-RISK"/>
+                <element inactive_on_update="false" label="Security Risk" value="SECURITY-RISK"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element default="1 00:00:00" label="SLA" mandatory="true" max_length="40" name="sla" type="glide_duration"/>
+        <element label="Risk Rule" max_length="32" name="risk_rule" reference="x_aleen_snguardian_risk_rule" type="reference"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Entity" max_length="40" name="entity" type="string"/>
+        <index name="index">
+            <element name="risk_rule"/>
+        </index>
+        <index name="index2">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

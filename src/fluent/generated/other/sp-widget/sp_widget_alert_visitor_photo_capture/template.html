@@ -1,0 +1,13 @@
+<div class="camera-widget-wrapper">
+  	<p>{{consentText}}</p>
+    <sp-widget widget="c.data.cameraWidget" class="camera-widget animate-camera"></sp-widget>
+    <div>
+    <div ng-if="showDeletionCheckbox">
+    <input type="checkbox" ng-model="c.shouldDeletePhoto" ng-change="c.setPhotoDeletionValue()">
+		<label>Do not store my photo after the visit.</label>
+		<p>{{deletionNote}}</p>
+    </div>
+    <input type="checkbox" ng-model="c.shouldUpdatePhoto" ng-change="c.setPhotoUpdationValue()">
+    <label>Update Visitor Photo</label>
+  </div>
+</div>

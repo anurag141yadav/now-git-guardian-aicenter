@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9e27b8be1b4a0210759455342a4bcbee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_system_function_type">
+    <x_aleen_snguardian_system_function_type action="INSERT_OR_UPDATE">
+        <code>GET-USER-LOCATIONS</code>
+        <is_deleted>false</is_deleted>
+        <name>Get User Locations</name>
+        <number>SYSFUNTYPE06</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 07:38:11</sys_created_on>
+        <sys_id>9e27b8be1b4a0210759455342a4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 07:38:11</sys_updated_on>
+    </x_aleen_snguardian_system_function_type>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 11:18:44</sys_created_on>
+        <sys_id>06fc7fd71b82c210759455342a4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get User Locations</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_06fc7fd71b82c210759455342a4bcb7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-14 11:18:44</sys_updated_on>
+        <tablename>x_aleen_snguardian_system_function_type</tablename>
+    </sys_metadata_link>
+</record_update>

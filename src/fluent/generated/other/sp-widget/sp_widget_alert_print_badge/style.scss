@@ -1,0 +1,140 @@
+.button,.option{
+  
+}
+.badge-preview {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem; /* Base font size for preview */
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.badge-toggle-button {
+    width: 140px;
+    height: 42px;
+    margin: 0 auto 15px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.badge-toggle-button:hover {
+    background-color: #0056b3;
+}
+
+.print-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+   font-size: 1.1rem; /* Base font size for preview */
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.badge-template {
+    height: 42px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.print-button {
+    height: 42px;
+    padding: 8px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.print-button:hover {
+    background-color: #218838;
+}
+
+@media print {
+    .print-container,
+    .badge-toggle-button {
+        display: none !important;
+    }
+
+    .badge-preview {
+        box-shadow: none;
+        border: 1px solid #333;
+        page-break-inside: avoid;
+    }
+
+    /* Optional focus on badge only for printing */
+    body *:not(#visitor_badge):not(#visitor_badge *) {
+        visibility: hidden;
+    }
+
+    #visitor_badge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+.custom-dropdown {
+  position: relative;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.dropdown-selected {
+  font-weight: bold;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  margin-top: 2px;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-options li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-options li:hover {
+  background-color: #f1f1f1;

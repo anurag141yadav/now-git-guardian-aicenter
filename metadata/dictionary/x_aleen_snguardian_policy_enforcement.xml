@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c64b6b88474d2e1051a3e84d416d4368" label="Policy Enforcement" max_length="40" name="x_aleen_snguardian_policy_enforcement" type="collection">
+        <element label="Trigger Source" max_length="255" name="trigger_source" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="MITIGATIVE" label="Evaluation Strategy" max_length="40" name="eval_strategy" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Preventive" value="PREVENTIVE"/>
+                <element inactive_on_update="false" label="Mitigative" value="MITIGATIVE"/>
+                <element inactive_on_update="false" label="Corrective" value="CORRECTIVE"/>
+            </choice>
+        </element>
+        <element label="Policy" max_length="32" name="policy" reference="x_aleen_snguardian_policy" type="reference"/>
+        <element label="Trigger" max_length="40" name="trigger" type="string"/>
+        <element label="Send Notification" max_length="40" name="send_notification" type="boolean"/>
+        <index name="index">
+            <element name="policy"/>
+        </index>
+    </element>
+</database>

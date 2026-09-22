@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="338e1f44470d2e1051a3e84d416d43fa" label="Risk Rule" max_length="40" name="x_aleen_snguardian_risk_rule" text_index="true" type="collection">
+        <element label="Post Evaluation Action" max_length="8000" name="post_eval_action" type="script"/>
+        <element label="Evaluation Logic" max_length="8000" name="evaluation_logic" type="script"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Name" max_length="120" name="name" type="string"/>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+    </element>
+</database>

@@ -1,0 +1,32 @@
+<nav class="navbar-inverse" aria-label="Primary" role="navigation">
+    <div class="clearfix">
+        <div class="navbar-header nav-container">
+            <!-- Logo -->
+            <a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"
+                aria-label="{{::portal.title}}"><span>{{::portal.title}}</span></a>
+            <a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}"
+                aria-label="{{::portal.title}} - ${Home Page}" data-toggle="tooltip" data-placement="bottom"
+                data-title="{{::portal.title}} - ${Home Page}">
+                <img ng-src="{{::portal.logo}}" alt="{{::portal.title}} - ${Home Page}" />
+            </a>
+          
+             <div class="navbar-right" ng-if="c.data.showLogoutAvatar">
+                <div class="height-adjust header-group">
+                    <div class="avatar-drop-down gt-menu-item" role="presentation">
+                        <sp-widget widget="data.avatarDropDown" id="avatar_drop_down"></sp-widget>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  ng-if="c.data.showSubMenu" class="navbar-collapse sub-navbar clearfix collapse collapsed hidden-xs"
+        ng-class="{ 'in': expanded, 'collapsed': !expanded, 'sub-navbar--mobile-view': showMobileMenuOnDesktop }">
+        <div>
+            <sp-widget widget="data.escNavigation"></sp-widget>
+            <ul ng-if="::(!user.logged_in && page.id != portal.login_page_dv && !data.hasLogin)" class="nav navbar-nav">
+                <li><a href ng-click="openLogin()">${Login}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

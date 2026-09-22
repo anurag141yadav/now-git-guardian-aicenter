@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="983cea52eb4782500326f284dad0cd58" extends="sys_import_set_row" label="U Trainings Importset" max_length="40" name="x_aleen_snguardian_u_trainngs_import_set" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=System" label="System" max_length="40" name="u_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="63" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="70" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Deleted" label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Realtime Validation Required" label="Is Realtime Validation Required" max_length="40" name="u_is_realtime__ation_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Identifier" label="Identifier" max_length="40" name="u_identifier" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

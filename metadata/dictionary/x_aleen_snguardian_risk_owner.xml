@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa11ca714745265051a3e84d416d43a9" label="Risk Owners" max_length="40" name="x_aleen_snguardian_risk_owner" type="collection">
+        <element label="Risk" max_length="32" name="risk" reference="x_aleen_snguardian_risk" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owners" max_length="4000" name="owners" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="risk"/>
+        </index>
+    </element>
+</database>

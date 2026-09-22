@@ -1,0 +1,36 @@
+<div id="status-widget" class="status-widget">
+  <div class="status-item status-item-success" ng-if="c.data.content.status === 'success'" aria-live="polite">
+    <div class="status-icon" aria-hidden="true" style="font-size: 10rem; margin-bottom: 2rem;">✔</div>
+    <div class="status-text" style="font-size: 4rem;">{{c.data.content.message}}</div>
+    <div class="status-actions m-t">
+      <button class="btn btn-primary" ng-click="printBadge(c.data.record.visitId)" ng-if="c.data.content.show_print_badge">
+        <i class="fa fa-print"></i> Print Badge   
+      </button>
+      <button class="btn btn-secondary" ng-click="addMoreVisitors()" ng-if="c.data.content.add_more_visitors">
+        <i class="fa fa-user-plus"></i> Add More Visitors
+      </button>
+    </div>
+  </div>
+  <!-- The Traffic light was not visible and is replaced with Warning symbol and its unicode along with font family to Segio UI Emoji"-->
+ <div class="status-item status-item-pending" ng-if="c.data.content.status === 'pending'" aria-live="polite">
+   <div class="status-icon" aria-hidden="true" style="font-size: 10rem; margin-bottom: 2rem; font-family: 'Segoe UI Emoji', sans-serif;">!</div><!--⚠️-->
+   <div class="status-text status-item-pending-text" style="font-size: 4rem;">{{c.data.content.message}}</div>
+  </div>
+  <div class="status-item status-item-loading" ng-if="c.data.content.status === 'loading'" aria-live="polite">
+    <div class="loading-icon" aria-hidden="true" style="font-size: 10rem; margin-bottom: 2rem; font-family: 'Segoe UI Emoji', sans-serif;"><!--&#x1F501;--></div><!---->
+    <div class="loading">{{c.data.content.message}}<span>.</span><span>.</span><span>.</span><span>.</span></div>
+  </div>
+   <div class="status-item status-item-pending" ng-if="c.data.content.status === 'rejected'" aria-live="polite">
+    <div class="status-icon" aria-hidden="true" style="font-size: 10rem; margin-bottom: 2rem;">✖</div>
+    <div class="status-text status-item-pending-text" style="font-size: 4rem;">{{c.data.content.message}}</div>
+  </div>
+  <div>
+    <div class="status-item status-item-error" ng-if="c.data.content.status === 'error'" aria-live="polite">
+    <div class="status-icon" aria-hidden="true" style="font-size: 10rem; margin-bottom: 2rem;">❗</div>
+    <div class="status-text status-item-error-text" style="font-size: 4rem;">{{c.data.content.message}}</div>
+  </div>
+  <div>
+    <img ng-src="{{::c.data.logo}}" style=" width: 200px;    background: black;    padding: 5px;    border-radius: 5px;" />
+    <a href="?id={{::c.data.homepage}}">Click here to go home</a>
+</div>
+</div>

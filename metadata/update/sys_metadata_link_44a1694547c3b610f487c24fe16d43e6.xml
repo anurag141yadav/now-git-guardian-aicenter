@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ae9374e247cda250f487c24fe16d43d0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_risk_compliance">
+    <x_aleen_snguardian_risk_compliance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Secure handling of cardholder data and credit card transactions.</description>
+        <evaluation_frequency>1970-01-16 00:00:00</evaluation_frequency>
+        <evaluation_mode>Automatic</evaluation_mode>
+        <last_evaluated/>
+        <name>PCI-DSS</name>
+        <number>COM032</number>
+        <policies>9d255426474da250f487c24fe16d4355,85255426474da250f487c24fe16d4346,59255426474da250f487c24fe16d435a,89255426474da250f487c24fe16d434a</policies>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-24 12:03:02</sys_created_on>
+        <sys_id>ae9374e247cda250f487c24fe16d43d0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:01:17</sys_updated_on>
+    </x_aleen_snguardian_risk_compliance>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2026-02-12 05:49:57</sys_created_on>
+        <sys_id>44a1694547c3b610f487c24fe16d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PCI-DSS</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_44a1694547c3b610f487c24fe16d43e6</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-02-12 05:49:57</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk_compliance</tablename>
+    </sys_metadata_link>
+</record_update>

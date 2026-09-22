@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad0eda572bf09210d4dffd74ce91bf6c" label="NDA &amp; Email Template" max_length="40" name="x_aleen_snguardian_visitor_nda_email_templates" type="collection">
+        <element label="Template" max_length="8000" name="template" type="html"/>
+        <element label="Location" max_length="1024" name="location" reference="x_aleen_snguardian_location" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Scope" max_length="4000" name="scope" type="glide_list"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element choice="3" default="EMAIL" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NDA" value="NDA"/>
+                <element inactive_on_update="false" label="Email" value="EMAIL"/>
+                <element inactive_on_update="false" label="Header" value="HEADER"/>
+                <element inactive_on_update="false" label="Footer" value="FOOTER"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

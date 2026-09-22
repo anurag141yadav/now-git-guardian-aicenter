@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5a0994532bb85210d4dffd74ce91bf7e" label="Visitor Watch List" max_length="40" name="x_aleen_snguardian_visitor_watch_list" type="collection">
+        <element label="Location" max_length="32" name="location" reference="x_aleen_snguardian_location" type="reference"/>
+        <element choice="3" default="GLOBAL" label="Scope" max_length="32" name="scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Global Scope" value="GLOBAL"/>
+                <element inactive_on_update="false" label="Location Scope" value="LOCATION"/>
+            </choice>
+        </element>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Type" max_length="4000" name="type" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Past Offenders" value="OFFENDERS"/>
+                <element inactive_on_update="false" label="VIP / High-Profile Individuals" value="VIP"/>
+                <element inactive_on_update="false" label="Insider Threats" value="INSIDER"/>
+                <element inactive_on_update="false" label="Suspicious Behavior" value="SUSPICIOUS-BEHAVIOR"/>
+                <element inactive_on_update="false" label="High-Risk Visitor" value="HIGH-RISK-VISITOR"/>
+                <element inactive_on_update="false" label="Policy Violator" value="POLICY-VIOLATOR"/>
+                <element inactive_on_update="false" label="Do Not Admit List" value="DO-NOT-ADMIT"/>
+                <element inactive_on_update="false" label="Others" value="OTHERS"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="scope"/>
+        </index>
+        <index name="index3">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="401aa7421bbb9e10b8bea979b04bcbe4" extends="sys_import_set_row" label="U Event  Import Set" max_length="40" name="x_aleen_snguardian_u_event__import_set" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_attr_LOCAL_TIMESTAMP" label="Local Timestamp" max_length="40" name="u_alert_attr_local_timestamp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_attr_TIMESTAMP" label="Timestamp" max_length="40" name="u_alert_attr_timestamp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_Event_Position" label="Event position" max_length="40" name="u_alert_event_position" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_attr_PROFILE_Name" label="Profile name" max_length="40" name="u_alert_attr_profile_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_attr_Insertion_TIMESTAMP" label="Insertion timestamp" max_length="40" name="u_alert_attr_i_tion_timestamp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PACSSource" label="PACSSource" max_length="40" name="u_pacssource" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_attr_EventType" label="Event Type" max_length="40" name="u_alert_attr_eventtype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alert_attr_EventId" label="EventId" max_length="40" name="u_alert_attr_eventid" type="string"/>
+    </element>
+</database>

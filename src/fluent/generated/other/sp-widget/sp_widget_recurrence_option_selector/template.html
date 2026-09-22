@@ -1,0 +1,30 @@
+<div>
+  <div class="recurring-event-widget"> 
+    <div>
+      <h2>Recurring Selection</h2>
+    </div>
+    <div class="custom-recurring-selection" ng-show="showCustomRecurring">
+      <label>Repeat every:</label>
+      <input type="number" min="1" ng-model="repeatEvery" style="width: 50px;">
+      <select ng-model="repeatInterval" ng-options="interval.value as interval.label for interval in intervals">
+      </select>
+    </div>
+    <div class='visit-msg' ng-show="showVisitMessage">{{ visitMessage }}</div>
+    <div class="day-selection" ng-show="showDaySelection">
+      <label>Repeats On:</label>
+      <div class="day-buttons">
+        <button type="button" ng-repeat="day in days" 
+                ng-class="{'selected': day.selected}" 
+                ng-click="toggleDay(day)">
+          {{ day.label }}
+        </button>
+      </div>
+    </div>
+    <!--
+    <div class="date-selection" ng-show="showDateSelection">
+            <label>Select Date of the Month:</label>
+            <input type="date" ng-model="selectedDate" />
+            <p>Selected Day of Month: {{ selectedDate | date: 'd' }}</p>
+    </div> -->
+  </div> 
+</div>

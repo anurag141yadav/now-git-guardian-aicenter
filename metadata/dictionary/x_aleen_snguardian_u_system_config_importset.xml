@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b02915911bf88210759455342a4bcb55" extends="sys_import_set_row" label="U System Import Set" max_length="40" name="x_aleen_snguardian_u_system_config_importset" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Value" label="Property Value" max_length="500" name="u_property_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Payload" label="Payload" max_length="3000" name="u_payload" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Required" label="u_is_required" max_length="40" name="u_is_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Error Response Handler" label="u_error_response_handler" max_length="8000" name="u_error_response_handler" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Supports Background Job" label="Supports Background Job" max_length="40" name="u_supports_background_job" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="u_type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Http Request Type" label="u_http_request_type" max_length="40" name="u_http_request_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Function" label="Function" max_length="40" name="u_function" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=System" label="u_system" max_length="40" name="u_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=URL" label="u_url" max_length="200" name="u_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Default Value" label="u_default_value" max_length="40" name="u_default_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pre Validation Required" label="Pre Validation Required" max_length="40" name="u_pre_validation_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Feature" label="Feature" max_length="40" name="u_feature" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Datatype" label="u_datatype" max_length="40" name="u_datatype" type="string"/>
+        <element label="API Type" max_length="40" name="u_api_type" type="string"/>
+        <element label="Username" max_length="40" name="u_username" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Password" label="Password" max_length="40" name="u_password" type="string"/>
+        <element label="Host" max_length="200" name="u_host" type="string"/>
+        <element label="Description" max_length="200" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pre Validation Script" label="u_pre_validation_script" max_length="8000" name="u_pre_validation_script" type="string_full_utf8"/>
+        <element label="Category" max_length="40" name="u_category" type="string"/>
+        <element label="Authentication" max_length="40" name="u_authentication" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source" label="Source" max_length="40" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Success Response Handler" label="u_success_response_handler" max_length="8000" name="u_success_response_handler" type="string_full_utf8"/>
+        <element attributes="import_attribute_name=Sequence" label="Sequence" max_length="40" name="u_sequence" type="integer"/>
+        <element label="Version" max_length="40" name="u_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Name" label="Property Name" max_length="40" name="u_property_name" type="string"/>
+        <element label="Parallel Connections" max_length="40" name="u_rate_limit_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Script" label="u_script" max_length="8000" name="u_script" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=System Attribute" label="System Attribute" max_length="40" name="u_system_attribute" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Payload Handler" label="u_payload_handler" max_length="8000" name="u_payload_handler" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Attribute" label="Attribute" max_length="40" name="u_attribute" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Advanced" label="u_is_advanced" max_length="40" name="u_is_advanced" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target" label="Target" max_length="40" name="u_target" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Scope" label="Scope" max_length="40" name="u_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Deleted" label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element label="Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Value" label="Value" max_length="40" name="u_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dependency" label="u_dependency" max_length="40" name="u_dependency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Config Type" label="u_config_type" max_length="40" name="u_config_type" type="string"/>
+    </element>
+</database>

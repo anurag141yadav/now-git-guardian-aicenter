@@ -1,0 +1,1 @@
+producer.portal_redirect = "?id=alert_lobby_admin_home_page";

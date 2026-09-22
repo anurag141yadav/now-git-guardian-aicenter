@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>067cf02047b2ea10f487c24fe16d438a</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;FORGET-VISITOR&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Right to be Forgotten Email&lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;VISITOR,HOST,ADMIN&lt;/scope&gt;
+        &lt;sys_created_by&gt;chirag.chanana&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-07-14 07:24:38&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;067cf02047b2ea10f487c24fe16d438a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-07-14 07:35:51&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;style&gt;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        color: #333333;
+    }
+    .email-container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+        background-color: #007BFF;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .content h2 {
+        color: #007BFF;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .content p {
+        line-height: 1.6;
+        margin: 10px 0;
+    }
+    .content .info-box {
+        background-color: #f1f1f1;
+        padding: 15px;
+        border-left: 4px solid #007BFF;
+        margin: 10px 0;
+    }
+    .button-container {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .button {
+        background-color: #007BFF;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        display: inline-block;
+        font-size: 16px;
+    }
+    .footer {
+        background-color: #f7f7f7;
+        color: #666666;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .footer a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+&lt;/style&gt;
+&lt;div class="email-container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Right to Be Forgotten Request&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;h2&gt;Hi ${visitor.full_name},&lt;/h2&gt;
+&lt;p&gt;We have received your request to exercise your right to be forgotten under data protection regulations. Below are the details&lt;/p&gt;
+&lt;div class="info-box"&gt;
+&lt;p&gt;&lt;strong&gt;Request Date:&lt;/strong&gt; ${current_date}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; Received and being processed&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Timeframe:&lt;/strong&gt; Your data will be deleted within few minutes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We are processing your request to remove all personal data associated with your visits from our systems. This includes:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Your personal information (name, contact details, etc.)&lt;/li&gt;&lt;li&gt;Any other personal data we hold.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Once completed, you will receive a final confirmation that your data has been erased from our systems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="footer"&gt;
+&lt;p&gt;For any questions about our data protection practices, please contact our System Administrator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2025-07-14 08:25:50</sys_created_on>
+        <sys_id>3eaa45a8473aae1051a3e84d416d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Right to be Forgotten Email</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_3eaa45a8473aae1051a3e84d416d43ff</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2025-07-14 08:25:50</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_templates</tablename>
+    </sys_metadata_link>
+</record_update>

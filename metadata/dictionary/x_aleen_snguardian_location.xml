@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca8d0af41b7842106962fe60cd4bcb18" label="Location" max_length="40" name="x_aleen_snguardian_location" type="collection">
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+        <element label="Longitude" max_length="20" name="longitude" type="float"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_aleen_snguardian_location" type="reference"/>
+        <element label="Latitude" max_length="20" name="latitude" type="float"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Convention Center" value="CONVENTION"/>
+                <element inactive_on_update="false" label="Training Center" value="TRAINING"/>
+                <element inactive_on_update="false" label="Home" value="HOME"/>
+                <element inactive_on_update="false" label="Manufacturing Plant" value="MANUFACTURE"/>
+                <element inactive_on_update="false" label="Office" value="OFFICE"/>
+                <element inactive_on_update="false" label="Data Center" value="DATACENTER"/>
+                <element inactive_on_update="false" label="Regional Office" value="REGIONALOFFICE"/>
+                <element inactive_on_update="false" label="Distribution Center" value="DISTRIBUTIONCENTER"/>
+                <element inactive_on_update="false" label="Branch Office" value="BRANCHOFFICE"/>
+                <element inactive_on_update="false" label="Service Center" value="SERVICECENTER"/>
+                <element inactive_on_update="false" label="Headquarters" value="HEADQUARTERS"/>
+                <element inactive_on_update="false" label="Visitors Lobby" value="LOBBY"/>
+            </choice>
+        </element>
+        <element choice="1" label="Time Zone" max_length="40" name="time_zone" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Africa/Algiers" sequence="4" value="Africa/Algiers"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Freetown" sequence="22" value="Africa/Freetown"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Maseru" sequence="38" value="Africa/Maseru"/>
+                <element inactive="true" inactive_on_update="true" label="America/Anguilla" sequence="55" value="America/Anguilla"/>
+                <element inactive="true" inactive_on_update="true" label="America/Curacao" sequence="79" value="America/Curacao"/>
+                <element inactive="true" inactive_on_update="true" label="America/La_Paz" sequence="117" value="America/La_Paz"/>
+                <element inactive="true" inactive_on_update="true" label="America/Port-au-Prince" sequence="145" value="America/Port-au-Prince"/>
+                <element inactive="true" inactive_on_update="true" label="America/St_Vincent" sequence="165" value="America/St_Vincent"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Bissau" sequence="9" value="Africa/Bissau"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Kampala" sequence="26" value="Africa/Kampala"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Nairobi" sequence="42" value="Africa/Nairobi"/>
+                <element inactive="true" inactive_on_update="true" label="America/Barbados" sequence="61" value="America/Barbados"/>
+                <element inactive="true" inactive_on_update="true" label="America/Edmonton" sequence="86" value="America/Edmonton"/>
+                <element inactive="true" inactive_on_update="true" label="America/Manaus" sequence="123" value="America/Manaus"/>
+                <element inactive="true" inactive_on_update="true" label="America/Rio_Branco" sequence="154" value="America/Rio_Branco"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Cairo" sequence="13" value="Africa/Cairo"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Lagos" sequence="30" value="Africa/Lagos"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Ouagadougou" sequence="46" value="Africa/Ouagadougou"/>
+                <element inactive="true" inactive_on_update="true" label="America/Guadeloupe" sequence="97" value="America/Guadeloupe"/>
+                <element inactive="true" inactive_on_update="true" label="America/Montevideo" sequence="132" value="America/Montevideo"/>
+                <element inactive="true" inactive_on_update="true" label="America/Scoresbysund" sequence="159" value="America/Scoresbysund"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Dar_es_Salaam" sequence="18" value="Africa/Dar_es_Salaam"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Lubumbashi" sequence="34" value="Africa/Lubumbashi"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Tunis" sequence="51" value="Africa/Tunis"/>
+                <element inactive="true" inactive_on_update="true" label="America/Cayenne" sequence="72" value="America/Cayenne"/>
+                <element inactive="true" inactive_on_update="true" label="America/Halifax" sequence="101" value="America/Halifax"/>
+                <element inactive="true" inactive_on_update="true" label="America/Noronha" sequence="139" value="America/Noronha"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Phnom_Penh" sequence="243" value="Asia/Phnom_Penh"/>
+                <element inactive="true" inactive_on_update="true" label="Australia/Darwin" sequence="292" value="Australia/Darwin"/>
+                <element inactive_on_update="false" label="Europe/Brussels" sequence="335" value="Europe/Brussels"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Luxembourg" sequence="349" value="Europe/Luxembourg"/>
+                <element inactive_on_update="false" label="Europe/Rome" sequence="360" value="Europe/Rome"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Aden" sequence="188" value="Asia/Aden"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Hong_Kong" sequence="215" value="Asia/Hong_Kong"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Sakhalin" sequence="254" value="Asia/Sakhalin"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/Bermuda" sequence="277" value="Atlantic/Bermuda"/>
+                <element inactive_on_update="false" label="Europe/Copenhagen" sequence="339" value="Europe/Copenhagen"/>
+                <element inactive_on_update="false" label="Europe/Madrid" sequence="350" value="Europe/Madrid"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Warsaw" sequence="376" value="Europe/Warsaw"/>
+                <element inactive="true" inactive_on_update="true" label="America/Tortola" sequence="171" value="America/Tortola"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Ashgabat" sequence="194" value="Asia/Ashgabat"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Jayapura" sequence="220" value="Asia/Jayapura"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Makassar" sequence="236" value="Asia/Makassar"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Taipei" sequence="259" value="Asia/Taipei"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Thimphu" sequence="265" value="Asia/Thimphu"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/South_Georgia" sequence="284" value="Atlantic/South_Georgia"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Andorra" sequence="329" value="Europe/Andorra"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Moscow" sequence="354" value="Europe/Moscow"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Skopje" sequence="365" value="Europe/Skopje"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/Casey" sequence="178" value="Antarctica/Casey"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Bangkok" sequence="199" value="Asia/Bangkok"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Bishkek" sequence="201" value="Asia/Bishkek"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Jerusalem" sequence="221" value="Asia/Jerusalem"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Novosibirsk" sequence="240" value="Asia/Novosibirsk"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Vientiane" sequence="271" value="Asia/Vientiane"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/Stanley" sequence="285" value="Atlantic/Stanley"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Bratislava" sequence="334" value="Europe/Bratislava"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Kaliningrad" sequence="344" value="Europe/Kaliningrad"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Tirane" sequence="369" value="Europe/Tirane"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/McMurdo" sequence="182" value="Antarctica/McMurdo"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Dhaka" sequence="209" value="Asia/Dhaka"/>
+                <element inactive_on_update="false" label="Asia/Kolkata" sequence="227" value="Asia/Kolkata"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Mahe" sequence="386" value="Indian/Mahe"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Guam" sequence="409" value="Pacific/Guam"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Saipan" sequence="428" value="Pacific/Saipan"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Reunion" sequence="390" value="Indian/Reunion"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Majuro" sequence="415" value="Pacific/Majuro"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Wake" sequence="434" value="Pacific/Wake"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Easter" sequence="400" value="Pacific/Easter"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Niue" sequence="419" value="Pacific/Niue"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Christmas" sequence="382" value="Indian/Christmas"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Funafuti" sequence="405" value="Pacific/Funafuti"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Palau" sequence="423" value="Pacific/Palau"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Blantyre" sequence="10" value="Africa/Blantyre"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Khartoum" sequence="27" value="Africa/Khartoum"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Ndjamena" sequence="43" value="Africa/Ndjamena"/>
+                <element inactive="true" inactive_on_update="true" label="America/Belize" sequence="63" value="America/Belize"/>
+                <element inactive="true" inactive_on_update="true" label="America/El_Salvador" sequence="88" value="America/El_Salvador"/>
+                <element inactive="true" inactive_on_update="true" label="America/Martinique" sequence="124" value="America/Martinique"/>
+                <element inactive="true" inactive_on_update="true" label="America/Santiago" sequence="156" value="America/Santiago"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Casablanca" sequence="14" value="Africa/Casablanca"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Libreville" sequence="31" value="Africa/Libreville"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Porto-Novo" sequence="47" value="Africa/Porto-Novo"/>
+                <element inactive="true" inactive_on_update="true" label="America/Guatemala" sequence="98" value="America/Guatemala"/>
+                <element inactive="true" inactive_on_update="true" label="America/Montserrat" sequence="134" value="America/Montserrat"/>
+                <element inactive="true" inactive_on_update="true" label="America/St_Johns" sequence="161" value="America/St_Johns"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Abidjan" sequence="1" value="Africa/Abidjan"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Djibouti" sequence="19" value="Africa/Djibouti"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Lusaka" sequence="35" value="Africa/Lusaka"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Windhoek" sequence="52" value="Africa/Windhoek"/>
+                <element inactive="true" inactive_on_update="true" label="America/Cayman" sequence="73" value="America/Cayman"/>
+                <element inactive="true" inactive_on_update="true" label="America/Havana" sequence="102" value="America/Havana"/>
+                <element inactive="true" inactive_on_update="true" label="America/Panama" sequence="141" value="America/Panama"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Bamako" sequence="6" value="Africa/Bamako"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Gaborone" sequence="23" value="Africa/Gaborone"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Mbabane" sequence="39" value="Africa/Mbabane"/>
+                <element inactive="true" inactive_on_update="true" label="America/Antigua" sequence="56" value="America/Antigua"/>
+                <element inactive="true" inactive_on_update="true" label="America/Danmarkshavn" sequence="80" value="America/Danmarkshavn"/>
+                <element inactive="true" inactive_on_update="true" label="America/Lima" sequence="118" value="America/Lima"/>
+                <element inactive="true" inactive_on_update="true" label="America/Port_of_Spain" sequence="148" value="America/Port_of_Spain"/>
+                <element inactive="true" inactive_on_update="true" label="America/Tegucigalpa" sequence="167" value="America/Tegucigalpa"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Seoul" sequence="256" value="Asia/Seoul"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/Canary" sequence="278" value="Atlantic/Canary"/>
+                <element inactive_on_update="false" label="Europe/Dublin" sequence="340" value="Europe/Dublin"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Malta" sequence="351" value="Europe/Malta"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Zagreb" sequence="377" value="Europe/Zagreb"/>
+                <element inactive_on_update="false" label="America/Vancouver" sequence="172" value="America/Vancouver"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Baghdad" sequence="196" value="Asia/Baghdad"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Manila" sequence="237" value="Asia/Manila"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Tashkent" sequence="260" value="Asia/Tashkent"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Tokyo" sequence="266" value="Asia/Tokyo"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Athens" sequence="330" value="Europe/Athens"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Oslo" sequence="356" value="Europe/Oslo"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Sofia" sequence="366" value="Europe/Sofia"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/Davis" sequence="179" value="Antarctica/Davis"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Brunei" sequence="202" value="Asia/Brunei"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Kabul" sequence="222" value="Asia/Kabul"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Vladivostok" sequence="272" value="Asia/Vladivostok"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/St_Helena" sequence="286" value="Atlantic/St_Helena"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Lisbon" sequence="346" value="Europe/Lisbon"/>
+                <element inactive_on_update="false" label="Europe/Paris" sequence="357" value="Europe/Paris"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Vaduz" sequence="372" value="Europe/Vaduz"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/Palmer" sequence="183" value="Antarctica/Palmer"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Dili" sequence="210" value="Asia/Dili"/>
+                <element inactive="true" inactive_on_update="true" label="IST" sequence="228" value="Asia/Kolkata"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Pyongyang" sequence="245" value="Asia/Pyongyang"/>
+                <element inactive="true" inactive_on_update="true" label="Australia/Lord_Howe" sequence="296" value="Australia/Lord_Howe"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Bucharest" sequence="336" value="Europe/Bucharest"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Samara" sequence="361" value="Europe/Samara"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Vatican" sequence="373" value="Europe/Vatican"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Almaty" sequence="189" value="Asia/Almaty"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Hovd" sequence="216" value="Asia/Hovd"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Apia" sequence="397" value="Pacific/Apia"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Marquesas" sequence="416" value="Pacific/Marquesas"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Wallis" sequence="435" value="Pacific/Wallis"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Efate" sequence="401" value="Pacific/Efate"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Norfolk" sequence="420" value="Pacific/Norfolk"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Cocos" sequence="383" value="Indian/Cocos"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Galapagos" sequence="406" value="Pacific/Galapagos"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Pitcairn" sequence="424" value="Pacific/Pitcairn"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Maldives" sequence="387" value="Indian/Maldives"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Honolulu" sequence="410" value="Pacific/Honolulu"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Tahiti" sequence="430" value="Pacific/Tahiti"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Conakry" sequence="16" value="Africa/Conakry"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Lome" sequence="32" value="Africa/Lome"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Sao_Tome" sequence="48" value="Africa/Sao_Tome"/>
+                <element inactive="true" inactive_on_update="true" label="America/Guayaquil" sequence="99" value="America/Guayaquil"/>
+                <element inactive="true" inactive_on_update="true" label="America/Nassau" sequence="135" value="America/Nassau"/>
+                <element inactive="true" inactive_on_update="true" label="America/St_Kitts" sequence="162" value="America/St_Kitts"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Accra" sequence="2" value="Africa/Accra"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Douala" sequence="20" value="Africa/Douala"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Malabo" sequence="36" value="Africa/Malabo"/>
+                <element inactive="true" inactive_on_update="true" label="America/Adak" sequence="53" value="America/Adak"/>
+                <element inactive="true" inactive_on_update="true" label="America/Chicago" sequence="74" value="America/Chicago"/>
+                <element inactive="true" inactive_on_update="true" label="America/Hermosillo" sequence="103" value="America/Hermosillo"/>
+                <element inactive="true" inactive_on_update="true" label="America/Paramaribo" sequence="143" value="America/Paramaribo"/>
+                <element inactive="true" inactive_on_update="true" label="America/St_Lucia" sequence="163" value="America/St_Lucia"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Bangui" sequence="7" value="Africa/Bangui"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Harare" sequence="24" value="Africa/Harare"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Mogadishu" sequence="40" value="Africa/Mogadishu"/>
+                <element inactive="true" inactive_on_update="true" label="America/Aruba" sequence="58" value="America/Aruba"/>
+                <element inactive="true" inactive_on_update="true" label="America/Denver" sequence="83" value="America/Denver"/>
+                <element inactive="true" inactive_on_update="true" label="America/Los_Angeles" sequence="119" value="America/Los_Angeles"/>
+                <element inactive="true" inactive_on_update="true" label="America/Puerto_Rico" sequence="149" value="America/Puerto_Rico"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Brazzaville" sequence="11" value="Africa/Brazzaville"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Kigali" sequence="28" value="Africa/Kigali"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Niamey" sequence="44" value="Africa/Niamey"/>
+                <element inactive="true" inactive_on_update="true" label="America/Bogota" sequence="65" value="America/Bogota"/>
+                <element inactive="true" inactive_on_update="true" label="America/Grand_Turk" sequence="95" value="America/Grand_Turk"/>
+                <element inactive="true" inactive_on_update="true" label="America/Mexico_City" sequence="129" value="America/Mexico_City"/>
+                <element inactive="true" inactive_on_update="true" label="America/Santo_Domingo" sequence="157" value="America/Santo_Domingo"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Tbilisi" sequence="261" value="Asia/Tbilisi"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Ulaanbaatar" sequence="268" value="Asia/Ulaanbaatar"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Belgrade" sequence="332" value="Europe/Belgrade"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Helsinki" sequence="342" value="Europe/Helsinki"/>
+                <element inactive_on_update="false" label="Europe/Stockholm" sequence="367" value="Europe/Stockholm"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/DumontDUrville" sequence="180" value="Antarctica/DumontDUrville"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Colombo" sequence="206" value="Asia/Colombo"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Kamchatka" sequence="223" value="Asia/Kamchatka"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Yekaterinburg" sequence="274" value="Asia/Yekaterinburg"/>
+                <element inactive="true" inactive_on_update="true" label="Australia/Adelaide" sequence="288" value="Australia/Adelaide"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Ljubljana" sequence="347" value="Europe/Ljubljana"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Prague" sequence="358" value="Europe/Prague"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/Syowa" sequence="185" value="Antarctica/Syowa"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Dubai" sequence="211" value="Asia/Dubai"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Kuala_Lumpur" sequence="230" value="Asia/Kuala_Lumpur"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Qatar" sequence="246" value="Asia/Qatar"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Yerevan" sequence="275" value="Asia/Yerevan"/>
+                <element inactive="true" inactive_on_update="true" label="Australia/Perth" sequence="300" value="Australia/Perth"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Budapest" sequence="337" value="Europe/Budapest"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/San_Marino" sequence="362" value="Europe/San_Marino"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Vienna" sequence="374" value="Europe/Vienna"/>
+                <element inactive="true" inactive_on_update="true" label="America/Thule" sequence="168" value="America/Thule"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Amman" sequence="190" value="Asia/Amman"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Irkutsk" sequence="217" value="Asia/Irkutsk"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Kuwait" sequence="232" value="Asia/Kuwait"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Shanghai" sequence="257" value="Asia/Shanghai"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/Cape_Verde" sequence="279" value="Atlantic/Cape_Verde"/>
+                <element inactive_on_update="false" label="Australia/Sydney" sequence="303" value="Australia/Sydney"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Gibraltar" sequence="341" value="Europe/Gibraltar"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Minsk" sequence="352" value="Europe/Minsk"/>
+                <element inactive_on_update="false" label="Europe/Zurich" sequence="379" value="Europe/Zurich"/>
+                <element inactive="true" inactive_on_update="true" label="America/Whitehorse" sequence="174" value="America/Whitehorse"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Bahrain" sequence="197" value="Asia/Bahrain"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Muscat" sequence="238" value="Asia/Muscat"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Fakaofo" sequence="403" value="Pacific/Fakaofo"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Noumea" sequence="421" value="Pacific/Noumea"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Comoro" sequence="384" value="Indian/Comoro"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Gambier" sequence="407" value="Pacific/Gambier"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Port_Moresby" sequence="426" value="Pacific/Port_Moresby"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Mauritius" sequence="388" value="Indian/Mauritius"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Kiritimati" sequence="412" value="Pacific/Kiritimati"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Tarawa" sequence="431" value="Pacific/Tarawa"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Auckland" sequence="398" value="Pacific/Auckland"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Midway" sequence="417" value="Pacific/Midway"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Addis_Ababa" sequence="3" value="Africa/Addis_Ababa"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/El_Aaiun" sequence="21" value="Africa/El_Aaiun"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Maputo" sequence="37" value="Africa/Maputo"/>
+                <element inactive="true" inactive_on_update="true" label="America/Anchorage" sequence="54" value="America/Anchorage"/>
+                <element inactive="true" inactive_on_update="true" label="America/Costa_Rica" sequence="77" value="America/Costa_Rica"/>
+                <element inactive="true" inactive_on_update="true" label="America/Jamaica" sequence="111" value="America/Jamaica"/>
+                <element inactive="true" inactive_on_update="true" label="America/Phoenix" sequence="144" value="America/Phoenix"/>
+                <element inactive="true" inactive_on_update="true" label="America/St_Thomas" sequence="164" value="America/St_Thomas"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Banjul" sequence="8" value="Africa/Banjul"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Johannesburg" sequence="25" value="Africa/Johannesburg"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Monrovia" sequence="41" value="Africa/Monrovia"/>
+                <element inactive="true" inactive_on_update="true" label="America/Asuncion" sequence="59" value="America/Asuncion"/>
+                <element inactive="true" inactive_on_update="true" label="America/Dominica" sequence="85" value="America/Dominica"/>
+                <element inactive="true" inactive_on_update="true" label="America/Managua" sequence="122" value="America/Managua"/>
+                <element inactive="true" inactive_on_update="true" label="America/Regina" sequence="153" value="America/Regina"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Bujumbura" sequence="12" value="Africa/Bujumbura"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Kinshasa" sequence="29" value="Africa/Kinshasa"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Nouakchott" sequence="45" value="Africa/Nouakchott"/>
+                <element inactive="true" inactive_on_update="true" label="America/Cancun" sequence="69" value="America/Cancun"/>
+                <element inactive="true" inactive_on_update="true" label="America/Grenada" sequence="96" value="America/Grenada"/>
+                <element inactive="true" inactive_on_update="true" label="America/Miquelon" sequence="130" value="America/Miquelon"/>
+                <element inactive="true" inactive_on_update="true" label="America/Sao_Paulo" sequence="158" value="America/Sao_Paulo"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Dakar" sequence="17" value="Africa/Dakar"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Luanda" sequence="33" value="Africa/Luanda"/>
+                <element inactive="true" inactive_on_update="true" label="Africa/Tripoli" sequence="50" value="Africa/Tripoli"/>
+                <element inactive="true" inactive_on_update="true" label="America/Caracas" sequence="70" value="America/Caracas"/>
+                <element inactive="true" inactive_on_update="true" label="America/Guyana" sequence="100" value="America/Guyana"/>
+                <element inactive_on_update="false" label="America/New_York" sequence="136" value="America/New_York"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Omsk" sequence="241" value="Asia/Omsk"/>
+                <element inactive="true" inactive_on_update="true" label="Australia/Brisbane" sequence="289" value="Australia/Brisbane"/>
+                <element inactive_on_update="false" label="Europe/London" sequence="348" value="Europe/London"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Riga" sequence="359" value="Europe/Riga"/>
+                <element inactive="true" inactive_on_update="true" label="Arctic/Longyearbyen" sequence="187" value="Arctic/Longyearbyen"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Dushanbe" sequence="212" value="Asia/Dushanbe"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Riyadh" sequence="249" value="Asia/Riyadh"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/Azores" sequence="276" value="Atlantic/Azores"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Chisinau" sequence="338" value="Europe/Chisinau"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Sarajevo" sequence="363" value="Europe/Sarajevo"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Vilnius" sequence="375" value="Europe/Vilnius"/>
+                <element inactive="true" inactive_on_update="true" label="America/Tijuana" sequence="170" value="America/Tijuana"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Aqtobe" sequence="193" value="Asia/Aqtobe"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Jakarta" sequence="219" value="Asia/Jakarta"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Macau" sequence="234" value="Asia/Macau"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Singapore" sequence="258" value="Asia/Singapore"/>
+                <element inactive="true" inactive_on_update="true" label="Atlantic/Reykjavik" sequence="283" value="Atlantic/Reykjavik"/>
+                <element inactive_on_update="false" label="Europe/Amsterdam" sequence="328" value="Europe/Amsterdam"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Monaco" sequence="353" value="Europe/Monaco"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Simferopol" sequence="364" value="Europe/Simferopol"/>
+                <element inactive="true" inactive_on_update="true" label="America/Winnipeg" sequence="175" value="America/Winnipeg"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Baku" sequence="198" value="Asia/Baku"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Beirut" sequence="200" value="Asia/Beirut"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Nicosia" sequence="239" value="Asia/Nicosia"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Tehran" sequence="262" value="Asia/Tehran"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Urumqi" sequence="270" value="Asia/Urumqi"/>
+                <element inactive_on_update="false" label="Europe/Berlin" sequence="333" value="Europe/Berlin"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Istanbul" sequence="343" value="Europe/Istanbul"/>
+                <element inactive="true" inactive_on_update="true" label="Europe/Tallinn" sequence="368" value="Europe/Tallinn"/>
+                <element inactive="true" inactive_on_update="true" label="Antarctica/Mawson" sequence="181" value="Antarctica/Mawson"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Damascus" sequence="208" value="Asia/Damascus"/>
+                <element inactive="true" inactive_on_update="true" label="Asia/Karachi" sequence="224" value="Asia/Karachi"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Kerguelen" sequence="385" value="Indian/Kerguelen"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Guadalcanal" sequence="408" value="Pacific/Guadalcanal"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Rarotonga" sequence="427" value="Pacific/Rarotonga"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Mayotte" sequence="389" value="Indian/Mayotte"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Kosrae" sequence="413" value="Pacific/Kosrae"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Tongatapu" sequence="432" value="Pacific/Tongatapu"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Antananarivo" sequence="380" value="Indian/Antananarivo"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Chatham" sequence="399" value="Pacific/Chatham"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Nauru" sequence="418" value="Pacific/Nauru"/>
+                <element inactive="true" inactive_on_update="true" label="Indian/Chagos" sequence="381" value="Indian/Chagos"/>
+                <element inactive_on_update="false" label="Pacific/Fiji" sequence="404" value="Pacific/Fiji"/>
+                <element inactive="true" inactive_on_update="true" label="Pacific/Pago_Pago" sequence="422" value="Pacific/Pago_Pago"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Master Location" max_length="32" name="master_location" reference="cmn_location" type="reference"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <index name="index">
+            <element name="master_location"/>
+        </index>
+        <index name="index2">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

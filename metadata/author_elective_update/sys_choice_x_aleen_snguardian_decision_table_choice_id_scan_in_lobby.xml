@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="id_scan_in_lobby" table="x_aleen_snguardian_decision_table_choice" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>id_scan_in_lobby</element>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 13:46:40</sys_created_on>
+            <sys_id>2ffce4353bae031065adbfcc73e45a51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>id_scan_in_lobby</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_decision_table_choice_id_scan_in_lobby</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 13:46:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_scan_in_lobby</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>If visitor status in not verified</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 13:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15f7be51477b3210f487c24fe16d4309</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 13:46:54</sys_updated_on>
+            <value>if_visitor_status_in_not_verified</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>id_scan_in_lobby</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mandatory every time</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 13:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11f7be51477b3210f487c24fe16d430c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 13:48:10</sys_updated_on>
+            <value>mandatory_every_time</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,1 @@
+producer.portal_redirect = "?id=alert_action_result_page&action=checkin&sys_id="+ producer.visit_id;

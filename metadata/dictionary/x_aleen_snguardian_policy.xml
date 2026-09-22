@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b042f00474d2e1051a3e84d416d43f4" label="Policy" max_length="40" name="x_aleen_snguardian_policy" text_index="true" type="collection">
+        <element label="Last Evaluated" max_length="40" name="last_evaluated" type="glide_date_time"/>
+        <element label="Risks" max_length="4000" name="risk" reference="x_aleen_snguardian_risk" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Version" max_length="40" name="version" type="integer"/>
+        <element label="Evaluation Mode" max_length="40" name="evaluation_mode" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Evaluation Frequency" max_length="40" name="evaluation_frequency" type="glide_duration"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d00a84d02b4a5610d4dffd74ce91bff5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>de0a08d02b4a5610d4dffd74ce91bf8a</answer>
+        <condition table="var__m_sys_decision_input_92bbdd1e2b39de10d4dffd74ce91bffb">u_location=Delhi^u_type=otp^EQ<item endquery="false" field="u_location" goto="false" newquery="false" operator="=" or="false" value="Delhi"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="otp"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Alert Visitor Default Notification Templates">92bbdd1e2b39de10d4dffd74ce91bffb</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_92bbdd1e2b39de10d4dffd74ce91bffb</input_table>
+        <label>Alert Visitor Default Notification Templates_500</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2024-11-19 06:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d00a84d02b4a5610d4dffd74ce91bff5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Alert Visitor Default Notification Templates_500</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Guardian" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Guardian">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_decision_question_d00a84d02b4a5610d4dffd74ce91bff5</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2024-11-19 06:18:36</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2024-11-19 06:06:36</sys_created_on>
+        <sys_id>dc0a84d02b4a5610d4dffd74ce91bff7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Alert Visitor Default Notification Templates_500</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_dc0a84d02b4a5610d4dffd74ce91bff7</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2024-11-19 06:19:26</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

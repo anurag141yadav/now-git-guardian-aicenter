@@ -1,0 +1,126 @@
+.tab-container {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+.tab-header {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  background-color: #fbfbfb;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.tab-button.active {
+  background-color: #d6e8fb;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tab-content {
+  padding: 15px;
+  margin-top: 15px;
+}
+h2 {
+  color: #007bff;
+}
+.input-field, .chat-box {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.chat-input-field {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.chat-submit-btn, .chat-send-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15%;
+  margin-top: 10px;
+  max-height: 40px;
+}
+.visibility-options, .survey-option {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.submit-btn, .send-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+.submit-btn:hover, .send-btn:hover {
+  background-color: #218838;
+}
+
+.chat-box {
+  min-height: 400px;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+}
+.system-message {
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+}
+.sender-message {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 15px 15px 0 15px;
+  max-width: 70%;
+  margin: 5px 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.receiver-message {
+  background-color: #e2e3e5;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 15px 15px 15px 0;
+  max-width: 70%;
+  margin: 5px 0;
+  display: inline-block;
+  text-align: left;
+}
+	.chat-button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Align sender message to the right and receiver message to the left */
+.sender-message {
+  float: right;
+  clear: both;
+}
+
+.receiver-message {
+  float: left;
+  clear: both;
+}

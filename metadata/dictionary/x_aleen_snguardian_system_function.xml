@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91f850fb1bdcca106962fe60cd4bcb81" label="System Function" max_length="40" name="x_aleen_snguardian_system_function" type="collection">
+        <element default="/*&#13;&#10; * Always return:&#13;&#10; * answer['success'] = Boolean;&#13;&#10; * answer['message'] = new StringUtil().getMessage(&quot;&lt;MESSAGE_CODE&gt;&quot;, data);&#13;&#10; *&#13;&#10; * Message Handling:&#13;&#10; * - The message must be fetched from the Messages table using the defined message code.&#13;&#10; * - The system_id (or relevant identifier) present in 'data' will be used for dynamic value replacement.&#13;&#10; *&#13;&#10; * Custom Messages:&#13;&#10; * - If a custom message is required, it must still follow the same structure:&#13;&#10; *     answer['message'] = new StringUtil().getMessage(&quot;&lt;CUSTOM_MESSAGE_CODE&gt;&quot;, data);&#13;&#10; * - Ensure the message code exists in the Messages table before using it.&#13;&#10; */&#13;&#10;processResponse();&#13;&#10;&#13;&#10;function processResponse() {&#13;&#10;    var answer = {};&#13;&#10;    if (data !== null &amp;&amp; responseBody !== null) {&#13;&#10;        answer['success'] = true;&#13;&#10;        answer['message'] =new StringUtil().getMessage(&quot;&lt;SUCCESS_MESSAGE_CODE&gt;&quot;, data);&#13;&#10;    }else{&#13;&#10;&#9;&#9;answer['success'] = false;&#13;&#10;        answer['message'] = new StringUtil().getMessage(&quot;&lt;FAILURE_MESSAGE_CODE&gt;&quot;, data);&#13;&#10;&#9;}&#13;&#10;    return answer;&#13;&#10;}" label="Success Response Handler" max_length="8000" name="success_response_handler" type="script"/>
+        <element label="Pre Validation Required" max_length="40" name="pre_validation_required" type="boolean"/>
+        <element label="Succeeding" max_length="4000" name="succeeding" reference="x_aleen_snguardian_system_function_type" type="glide_list"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="URL" max_length="200" name="url" type="string"/>
+        <element label="Supports Background Job" max_length="40" name="supports_background_job" type="boolean"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Preceding" max_length="4000" name="preceding" reference="x_aleen_snguardian_system_function_type" type="glide_list"/>
+        <element label="Payload" max_length="3000" name="payload" type="string"/>
+        <element choice="3" default="POST" label="Type" mandatory="true" max_length="32" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PATCH" value="PATCH"/>
+                <element inactive_on_update="false" label="DELETE" value="DELETE"/>
+                <element inactive_on_update="false" label="CONNECT" value="CONNECT"/>
+                <element inactive_on_update="false" label="TRACE" value="TRACE"/>
+                <element inactive_on_update="false" label="OPTIONS" value="OPTIONS"/>
+                <element inactive_on_update="false" label="PUT" value="PUT"/>
+                <element inactive_on_update="false" label="HEAD" value="HEAD"/>
+                <element inactive_on_update="false" label="POST" value="POST"/>
+                <element inactive_on_update="false" label="GET" value="GET"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Last event position" max_length="40" name="last_event_position" type="string"/>
+        <element label="Last Failure Run Datetime" max_length="40" name="last_failure_datetime" type="glide_date_time"/>
+        <element default="preparePayload();&#13;&#10;&#13;&#10;function preparePayload(){&#13;&#10; return {};&#13;&#10;}" label="Payload Handler" max_length="8000" name="payload_handler" type="script"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Last Success Run Datetime" max_length="40" name="last_success_datetime" type="glide_date_time"/>
+        <element default="/*&#13;&#10; * Expected return structure:&#13;&#10; * {&#13;&#10; *    prevalidation : Boolean (mandatory)&#13;&#10; *    success       : Boolean (mandatory if prevalidation = false)&#13;&#10; *    message       : String  (mandatory if prevalidation = false)&#13;&#10; *    identifier    : String  (optional if prevalidation = false)&#13;&#10; *    request_url   : String  (optional - can override or append, if prevalidation = true)&#13;&#10; *    payload       :  String (optional - can override request body, if prevalidation = true)&#13;&#10; * }&#13;&#10; */&#13;&#10;performPreValidation();&#13;&#10;&#13;&#10;function performPreValidation() {&#13;&#10;    return {&#13;&#10;        'prevalidation': true&#13;&#10;    };&#13;&#10;}" label="Pre Validation Script" max_length="8000" name="pre_validation_script" type="script"/>
+        <element choice="3" default="PROVISIONING" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Provisioning" sequence="10" value="PROVISIONING"/>
+                <element inactive_on_update="false" label="Others" sequence="40" value="OTHERS"/>
+                <element inactive_on_update="false" label="Data Fetch" sequence="30" value="DATA"/>
+                <element inactive_on_update="false" label="Reconciliation" sequence="20" value="RECON"/>
+            </choice>
+        </element>
+        <element default="/*&#13;&#10; * Always return:&#13;&#10; * answer['success'] = Boolean;&#13;&#10; * answer['message'] = new StringUtil().getMessage(&quot;&lt;MESSAGE_CODE&gt;&quot;, data);&#13;&#10; *&#13;&#10; * Message Handling:&#13;&#10; * - The message must be fetched from the Messages table using the defined message code.&#13;&#10; * - The system_id (or relevant identifier) present in 'data' will be used for dynamic value replacement.&#13;&#10; *&#13;&#10; * Custom Messages:&#13;&#10; * - If a custom message is required, it must still follow the same structure:&#13;&#10; *     answer['message'] = new StringUtil().getMessage(&quot;&lt;CUSTOM_MESSAGE_CODE&gt;&quot;, data);&#13;&#10; * - Ensure the message code exists in the Messages table before using it.&#13;&#10; */&#13;&#10;processErrorResponse();&#13;&#10;&#13;&#10;function processErrorResponse() {&#13;&#10;    var answer = {};&#13;&#10;    answer['success'] = false;&#13;&#10;    if (data !== null &amp;&amp; responseBody !== null) {&#13;&#10;        answer['message'] = new StringUtil().getMessage(&quot;MESSAGE_CODE&quot;, data);&#13;&#10;    } else {&#13;&#10;        answer['message'] = new StringUtil().getMessage(&quot;GENERAL_EXCEPTION_MESSAGE&quot;, data);&#13;&#10;        return answer;&#13;&#10;    }&#13;&#10;}" label="Error Response Handler" max_length="8000" name="error_response_handler" type="script"/>
+        <element label="Allow Periodic Schedule" max_length="40" name="allow_periodic_schedule" type="boolean"/>
+        <element label="Function" max_length="32" name="function" reference="x_aleen_snguardian_system_function_type" type="reference"/>
+        <index name="index">
+            <element name="function"/>
+        </index>
+        <index name="index2">
+            <element name="system"/>
+        </index>
+        <index name="index3">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

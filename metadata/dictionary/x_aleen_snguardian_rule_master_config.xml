@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4734913f33825250bf1221382e5c7b64" label="Rule Master Config" max_length="40" name="x_aleen_snguardian_rule_master_config" type="collection">
+        <element label="Description" max_length="200" name="name" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Rule" max_length="32" name="rule" reference="sys_decision" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="rule"/>
+        </index>
+    </element>
+</database>

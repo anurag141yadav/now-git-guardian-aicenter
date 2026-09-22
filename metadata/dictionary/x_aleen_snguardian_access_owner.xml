@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f10e2741bedc6506962fe60cd4bcba3" label="Access Owner" max_length="40" name="x_aleen_snguardian_access_owner" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Access Level" max_length="32" name="access_level" reference="x_aleen_snguardian_access_level" type="reference"/>
+        <element choice="3" default="OWNER" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Owner" value="OWNER"/>
+                <element inactive_on_update="false" label="Approver" value="APPROVER"/>
+            </choice>
+        </element>
+        <element label="Owner" max_length="32" name="owner" reference="x_aleen_snguardian_identity" reference_qual="type=777f8ed51bbc8210759455342a4bcb58^master_user_idISNOTEMPTY^EQ" reference_qual_condition="type=777f8ed51bbc8210759455342a4bcb58^master_user_idISNOTEMPTY^EQ" type="reference"/>
+        <index name="index">
+            <element name="access_level"/>
+        </index>
+        <index name="index2">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

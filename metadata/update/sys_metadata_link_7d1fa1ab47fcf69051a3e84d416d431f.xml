@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bb7eed2b47fcf69051a3e84d416d4378</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_system_feature">
+    <x_aleen_snguardian_system_feature action="INSERT_OR_UPDATE">
+        <code>COPY_REALTIME_DATA_FROM_SYSTEM</code>
+        <description>Fetch Realtime Data from Another Server before provisioning</description>
+        <is_deleted>false</is_deleted>
+        <name>Fetch Realtime Data from Another Server</name>
+        <number>SYSFEATURE02</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 04:49:44</sys_created_on>
+        <sys_id>bb7eed2b47fcf69051a3e84d416d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 04:49:44</sys_updated_on>
+    </x_aleen_snguardian_system_feature>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 04:52:19</sys_created_on>
+        <sys_id>7d1fa1ab47fcf69051a3e84d416d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch Realtime Data from Another Server</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_7d1fa1ab47fcf69051a3e84d416d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 04:52:19</sys_updated_on>
+        <tablename>x_aleen_snguardian_system_feature</tablename>
+    </sys_metadata_link>
+</record_update>

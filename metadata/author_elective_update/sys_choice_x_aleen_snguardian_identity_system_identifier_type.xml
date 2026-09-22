@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="identifier_type" table="x_aleen_snguardian_identity_system" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>identifier_type</element>
+            <name>x_aleen_snguardian_identity_system</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-13 10:46:01</sys_created_on>
+            <sys_id>b20da0753bae031065adbfcc73e45a1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>identifier_type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_identity_system_identifier_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-13 10:46:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Primary Key</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_identity_system</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-13 10:46:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61f7fe51477b3210f487c24fe16d43e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-13 10:46:12</sys_updated_on>
+            <value>PRIMARY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>identifier_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Secondary</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_identity_system</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-13 10:46:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adf7fe51477b3210f487c24fe16d43e7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-13 10:47:02</sys_updated_on>
+            <value>SECONDARY</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

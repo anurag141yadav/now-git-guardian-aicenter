@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="06b7265b1b8502106962fe60cd4bcb18" label="Review" max_length="40" name="x_aleen_snguardian_review" type="collection">
+        <element choice="1" label="Using Status" max_length="40" name="using_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Rarely Used" value="USEDRARE"/>
+                <element inactive_on_update="false" label="Commonly Used" value="USEDCOMMON"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date_time"/>
+        <element choice="3" default="APPROVE" label="Post Due Date Action" mandatory="true" max_length="40" name="post_due_date_action" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Auto Approve" sequence="20" value="APPROVE"/>
+                <element inactive_on_update="false" label="Auto Reject" sequence="30" value="REJECT"/>
+            </choice>
+        </element>
+        <element label="Override Records" max_length="40" name="override_records" type="boolean"/>
+        <element choice="1" label="Criteria" max_length="40" name="criteria" type="string">
+            <choice>
+                <element inactive_on_update="false" label="By Access Levels" sequence="2" value="ACCESLEVELS"/>
+                <element inactive_on_update="false" label="By Process Deleted Data" sequence="6" value="PROCESSDELETED"/>
+                <element inactive_on_update="false" label="By Review Status" sequence="3" value="REVIEW"/>
+                <element inactive_on_update="false" label="By Expiry Period" sequence="4" value="EXPIRY"/>
+                <element inactive_on_update="false" label="By Location" sequence="1" value="LOCATION"/>
+                <element inactive_on_update="false" label="By Usage" sequence="5" value="USAGE"/>
+            </choice>
+        </element>
+        <element choice="3" default="AREAOWNER" label="Type" mandatory="true" max_length="32" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Training Expiry Review" value="EXPIRY_TRAINING"/>
+                <element inactive_on_update="false" label="Manager Access Review" value="MANAGER"/>
+                <element inactive_on_update="false" label="Others" value="OTHERS"/>
+                <element inactive_on_update="false" label="Area owner Access Review" value="AREAOWNER"/>
+                <element inactive_on_update="false" label="Expiring Badge Review" value="EXPIRY_BADGE"/>
+            </choice>
+        </element>
+        <element choice="1" label="Review State" max_length="40" name="review_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Never Reviewed" value="REVIEWNEVER"/>
+                <element inactive_on_update="false" label="Reviewed 90 Days ago" value="REVIEWED90D"/>
+            </choice>
+        </element>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="Status" max_length="40" name="status" reference="x_aleen_snguardian_status_code" reference_qual="applicable_toLIKEREVIEW^EQ" reference_qual_condition="applicable_toLIKEREVIEW^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Expiry Status" max_length="40" name="expiry_status" reference_qual="null" reference_qual_condition="null" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Expires in Next 30 Days" value="EXP30"/>
+                <element inactive_on_update="false" label="Expires in Next 5 days" value="EXP5"/>
+                <element inactive_on_update="false" label="Expires in Next 15 Days" value="EXP15"/>
+            </choice>
+        </element>
+        <element label="Access Levels" max_length="4000" name="access_levels" reference="x_aleen_snguardian_access_level" type="glide_list"/>
+        <element label="Task Owners" max_length="4000" name="task_owners" reference="sys_user" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Locations" max_length="4000" name="locations" reference="x_aleen_snguardian_location" type="glide_list"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="status"/>
+        </index>
+        <index name="index3">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

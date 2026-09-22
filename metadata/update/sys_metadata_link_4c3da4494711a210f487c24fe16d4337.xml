@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ea11dc6a47c1e65051a3e84d416d4305</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_risk_rule"&gt;
+    &lt;x_aleen_snguardian_risk_rule action="INSERT_OR_UPDATE"&gt;
+        &lt;description&gt;Animal Detection&lt;/description&gt;
+        &lt;evaluation_logic&gt;&lt;![CDATA[vision.AI.detection == 'animal' &amp;&amp; location IN indoorZones]]&gt;&lt;/evaluation_logic&gt;
+        &lt;name&gt;Animal Detection Rule&lt;/name&gt;
+        &lt;number&gt;RISKRULE0001033&lt;/number&gt;
+        &lt;post_eval_action&gt;&lt;![CDATA[insert]]&gt;&lt;/post_eval_action&gt;
+        &lt;sys_created_by&gt;Harmandeep.Kaur&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-04-24 09:32:18&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ea11dc6a47c1e65051a3e84d416d4305&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;Harmandeep.Kaur&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-05-02 05:54:19&lt;/sys_updated_on&gt;
+    &lt;/x_aleen_snguardian_risk_rule&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-05-02 05:59:49</sys_created_on>
+        <sys_id>4c3da4494711a210f487c24fe16d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Animal Detection Rule</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_4c3da4494711a210f487c24fe16d4337</sys_update_name>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:59:49</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk_rule</tablename>
+    </sys_metadata_link>
+</record_update>

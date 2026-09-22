@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+/*.recurring-event-widget {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}*/
+
+.custom-recurring-selection input[type="number"],
+.custom-recurring-selection select {
+    width: auto; /* Adjusts based on content */
+    min-width: 80px; /* Minimum width to ensure consistency */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+/* Visit Message */
+.visit-msg {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Day Selection */
+.day-selection {
+    margin-bottom: 20px;
+}
+
+.day-buttons button {
+    background-color: #f0f0f0; /* Light gray for unselected */
+    color: #333; /* Dark text for visibility */
+    padding: 12px;
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Selected state */
+.day-buttons button.selected {
+    background-color: #4CAF50; /* Green for selected */
+    color: white; /* White text for better contrast */
+    border-color: #388E3C; /* Darker green border for selected state */
+}
+
+/* Hover effect */
+.day-buttons button:hover {
+    background-color: #dcdcdc; /* Light gray on hover for unselected */
+    border-color: #aaa; /* Slightly darker border on hover */
+}
+
+/* Selected state hover effect */
+.day-buttons button.selected:hover {
+    background-color: #388E3C; /* Dark green hover effect for selected */
+    border-color: #2c6f31; /* Even darker green border */
+}
+
+/* Date Selection */
+.date-selection {
+    margin-top: 20px;
+}
+
+.date-selection label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.date-selection input[type="date"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.date-selection p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .recurring-event-widget {
+        padding: 15px;
+    }
+
+    .day-buttons button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .date-selection input[type="date"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

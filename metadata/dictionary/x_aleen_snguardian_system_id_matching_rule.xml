@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f7315c731bdcca106962fe60cd4bcbf7" label="System ID Matching Rule" max_length="40" name="x_aleen_snguardian_system_id_matching_rule" type="collection">
+        <element label="Attribute" max_length="40" name="attribute" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="System Attribute" max_length="40" name="system_attribute" type="string"/>
+        <element label="Script" max_length="8000" name="script" type="script"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Scope" max_length="32" name="scope" reference="x_aleen_snguardian_field_mapping_type" reference_qual="category=RECON^EQ" reference_qual_condition="category=RECON^EQ" type="reference"/>
+        <element label="Is Advanced" max_length="40" name="is_advanced" type="boolean"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <index name="index">
+            <element name="scope"/>
+        </index>
+        <index name="index2">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

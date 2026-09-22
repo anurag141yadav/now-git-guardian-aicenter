@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b4f859547eeea1051a3e84d416d431c" label="Provisioning Queue" max_length="40" name="x_aleen_snguardian_provisioning_queue" type="collection">
+        <element default="False" label="Is Processed" max_length="40" name="is_processed" type="boolean"/>
+        <element label="Record ID" max_length="40" name="record_id" type="string"/>
+        <element label="Function" max_length="50" name="function" type="string"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Options" max_length="1000" name="options" type="string_full_utf8"/>
+        <element label="Data" max_length="2000" name="data" type="string_full_utf8"/>
+        <element label="Provisioning Monitor" max_length="32" name="provisioning_record" reference="x_aleen_snguardian_provisioning_monitor" type="reference"/>
+        <index name="index">
+            <element name="provisioning_record"/>
+        </index>
+        <index name="index2">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

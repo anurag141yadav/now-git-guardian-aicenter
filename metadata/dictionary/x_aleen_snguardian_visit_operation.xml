@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="72e327e72b71d210d4dffd74ce91bfab" label="Visit Operation" max_length="40" name="x_aleen_snguardian_visit_operation" type="collection">
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="Operation" max_length="40" name="operation" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Comments" max_length="255" name="comments" type="string_full_utf8"/>
+        <element label="Visit" max_length="32" name="visit" reference="x_aleen_snguardian_visitor_visit" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="visit"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>229374e247cda250f487c24fe16d43cf</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_risk_compliance">
+    <x_aleen_snguardian_risk_compliance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>US law protecting the privacy of student education records.</description>
+        <evaluation_frequency>1970-01-08 00:00:00</evaluation_frequency>
+        <evaluation_mode>Automatic</evaluation_mode>
+        <last_evaluated/>
+        <name>FERPA</name>
+        <number>COM048</number>
+        <policies>99255426474da250f487c24fe16d435e,d5255426474da250f487c24fe16d4352</policies>
+        <sys_created_by>Harmandeep.Kaur</sys_created_by>
+        <sys_created_on>2025-04-24 12:03:02</sys_created_on>
+        <sys_id>229374e247cda250f487c24fe16d43cf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+        <sys_updated_on>2025-05-02 05:01:17</sys_updated_on>
+    </x_aleen_snguardian_risk_compliance>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2026-02-12 05:49:56</sys_created_on>
+        <sys_id>ab91654547c3b610f487c24fe16d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FERPA</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_ab91654547c3b610f487c24fe16d43ff</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-02-12 05:49:56</sys_updated_on>
+        <tablename>x_aleen_snguardian_risk_compliance</tablename>
+    </sys_metadata_link>
+</record_update>

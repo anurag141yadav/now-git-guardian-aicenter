@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e9c0041447cd2e1051a3e84d416d4322" label="Risk Instance" max_length="40" name="x_aleen_snguardian_risk_instance" type="collection">
+        <element label="Identity" max_length="32" name="identity" reference="x_aleen_snguardian_identity" type="reference"/>
+        <element label="ETA" max_length="40" name="eta" type="glide_date_time"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_aleen_snguardian_policy" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Applied Mitigation" max_length="32" name="mitigation" reference="x_aleen_snguardian_mitigation" type="reference"/>
+        <element label="Detected At" max_length="40" name="detected_at" type="glide_date_time"/>
+        <element label="Document Table" max_length="64" name="document_table" type="table_name"/>
+        <element label="Comments" max_length="255" name="comments" type="string_full_utf8"/>
+        <element label="Risk Evidence" max_length="1024" name="risk_evidence" type="url"/>
+        <element dependent="document_table" dependent_on_field="document_table" label="Document" max_length="32" name="document" type="document_id" use_dependent_field="true"/>
+        <element label="Risk" max_length="32" name="risk" reference="x_aleen_snguardian_risk" type="reference"/>
+        <element label="Policy Execution" max_length="32" name="policy_execution" reference="x_aleen_snguardian_policy_execution" type="reference"/>
+        <element choice="3" default="OPEN" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Invalid" sequence="5" value="CLOSED"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="OPEN"/>
+                <element inactive_on_update="false" label="Mitigation Cancelled" sequence="9" value="MIT_CANCELLED"/>
+                <element inactive_on_update="false" label="Mitigation Skipped" sequence="8" value="MIT_SKIPPED"/>
+                <element inactive_on_update="false" label="Accepted" sequence="4" value="ACCEPTED"/>
+                <element inactive_on_update="false" label="Mitigated" sequence="3" value="MITIGATED"/>
+                <element inactive_on_update="false" label="Partially Mitigated" sequence="7" value="MIT_PARTIAL"/>
+                <element inactive_on_update="false" label="Mitigation Failed" sequence="10" value="MIT_FAILED"/>
+                <element inactive_on_update="false" label="Mitigation In Progress" sequence="6" value="MIT_IN_PROGRESS"/>
+                <element inactive_on_update="false" label="Mitigation Applied" sequence="2" value="MIT_APPLIED"/>
+            </choice>
+        </element>
+        <element label="Action At" max_length="40" name="action_at" type="glide_date_time"/>
+        <element function_definition="glidefunction:datediff(action_at,eta)" function_field="true" label="SLA Due" max_length="20" name="sla_due" read_only="true" type="string"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="document"/>
+        </index>
+        <index name="index3">
+            <element name="document_table"/>
+        </index>
+        <index name="index4">
+            <element name="identity"/>
+        </index>
+        <index name="index5">
+            <element name="mitigation"/>
+        </index>
+        <index name="index6">
+            <element name="policy"/>
+        </index>
+        <index name="index7">
+            <element name="policy_execution"/>
+        </index>
+        <index name="index8">
+            <element name="risk"/>
+        </index>
+    </element>
+</database>

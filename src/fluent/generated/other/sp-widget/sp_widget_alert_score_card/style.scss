@@ -1,0 +1,36 @@
+.status-summary {
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  background-color: transparent; 
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+  animation: border-color-change 30s linear infinite;
+}
+
+.status-summary .col-xs-2 {
+  padding: 15px;
+  color: #ffffff;
+}
+
+
+.status-summary .label {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.status-summary .value {
+  font-size: 2em;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+@keyframes border-color-change {
+  0% { border-color: #ff6767; }
+  15% { border-color: #ffa64d; }
+  30% { border-color: #ffff41; }
+  50% { border-color: #ffff41; }
+  70% { border-color: #9b9bff; }
+  85% { border-color: #d79eff; }
+  100% { border-color: #fe9efe; }
+}

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:46:31</sys_created_on>
+            <sys_id>fa4ea0393bee031065adbfcc73e45a68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-12 12:46:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:46:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45f77e51477b3210f487c24fe16d4325</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>harmandeep.kaur</sys_updated_by>
+            <sys_updated_on>2024-12-12 12:47:02</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Host</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0df77e51477b3210f487c24fe16d4326</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>approvalHost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Security Admin</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1f77e51477b3210f487c24fe16d4328</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>approvalSecurity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quick Checkin By Kiosk</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89f77e51477b3210f487c24fe16d4329</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>quickcheckinbyKiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quick Checkin by Lobby Admin</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41f77e51477b3210f487c24fe16d432b</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>quickcheckinbyLobbyAdmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visit Request Rejected</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:46:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09f77e51477b3210f487c24fe16d432c</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>visReqRejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visitor Checked In</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdf77e51477b3210f487c24fe16d432d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>visitorCheckedIn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regular Email</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85f77e51477b3210f487c24fe16d432f</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTP</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4df77e51477b3210f487c24fe16d4330</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>otp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instant Mail</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05f77e51477b3210f487c24fe16d4332</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>instant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Force Exit Email</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9f77e51477b3210f487c24fe16d4333</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>forceExit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency For One</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81f77e51477b3210f487c24fe16d4335</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>emergencyForOne</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency For All</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49f77e51477b3210f487c24fe16d4336</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>emergencyForAll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Out by Lobby Admin</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01f77e51477b3210f487c24fe16d4338</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>checkoutbyLobbyAdmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Out by Host</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5f77e51477b3210f487c24fe16d4339</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>checkoutbyHost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check Out by Kiosk</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8df77e51477b3210f487c24fe16d433a</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>checkoutbyKiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visit Scheduled</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45f77e51477b3210f487c24fe16d433c</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>visitScheduled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Forget a Visitor</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_3141843733d69610bf1221382e5c7b13</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>harmandeep.kaur</sys_created_by>
+            <sys_created_on>2024-12-12 12:51:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0df77e51477b3210f487c24fe16d433d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Harmandeep.Kaur</sys_updated_by>
+            <sys_updated_on>2026-02-19 05:59:53</sys_updated_on>
+            <value>forgetVisitor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

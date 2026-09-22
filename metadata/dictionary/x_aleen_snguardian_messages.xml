@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f76a06c478ff210f487c24fe16d4325" label="Messages" max_length="40" name="x_aleen_snguardian_messages" type="collection">
+        <element label="Message" max_length="5000" name="message" type="string"/>
+        <element default="False" label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

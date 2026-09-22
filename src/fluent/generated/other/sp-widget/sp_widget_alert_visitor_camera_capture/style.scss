@@ -1,0 +1,76 @@
+/* General styling for the widget */
+.camera-capture-widget {
+  margin: 0 auto; /* Center the widget horizontally */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Button styles */
+.camera-capture-widget .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.camera-capture-widget .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.camera-capture-widget .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.camera-capture-widget .btn-warn {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+}
+
+.camera-capture-widget .btn-warn:hover {
+  background-color: #c7001e;
+}
+
+/* Dropdown styles */
+.camera-capture-widget select {
+  width: 100%;
+  max-width: 300px;
+  margin: 2px auto;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Video preview styles */
+.camera-capture-widget video {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 10px 0;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+}
+
+/* Image preview styles */
+.camera-capture-widget img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+}
+
+/* Additional spacing */
+.camera-capture-widget .m-t {
+  margin-top: 20px;
+}
+
+.camera-capture-widget .row {
+  margin: 10px 0;
+}

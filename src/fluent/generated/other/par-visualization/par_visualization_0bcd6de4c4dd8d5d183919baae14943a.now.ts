@@ -1,0 +1,17 @@
+import { Record } from '@servicenow/sdk/core'
+
+Record({
+    $id: Now.ID['0bcd6de4c4dd8d5d183919baae14943a'],
+    table: 'par_visualization',
+    data: {
+        active: 'true',
+        certified: 'false',
+        macroponent: '85855283b7e03010097cb81cde11a91d',
+        name: 'Visits By Status',
+        properties:
+            '{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"x_aleen_snguardian_visitor_visit","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X2FsZWVuX3NuZ3VhcmRpYW5fdmlzaXRvcl92aXNpdDE3NzMyODA5MDQ1MTYzNjk0MzMzNy4wMTAwNDU=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Visits By Status","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV4X2FsZWVuX3NuZ3VhcmRpYW5fdmlzaXRvcl92aXNpdDE3NzMyODA5MDQ1MTYzNjk0MzMzNy4wMTAwNDU=","id":"ZEdGaWJHVjRYMkZzWldWdVgzTnVaM1ZoY21ScFlXNWZkbWx6YVhSdmNsOTJhWE5wZERFM056TXlPREE1TURRMU1UWXpOamswTXpNek55NHdNVEF3TkRVPTE3NzMyODA5MDQ1MTc4NTg4NDg0NS4yNjIzMjQzOA==","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X2FsZWVuX3NuZ3VhcmRpYW5fdmlzaXRvcl92aXNpdDE3NzMyODA5MDQ1MTYzNjk0MzMzNy4wMTAwNDU=","groupByField":"status","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","chartVariation":"grouped","colorConfig":{"type":"default"}}',
+        sys_domain: 'global',
+        sys_domain_path: '/',
+        type: 'Horizontal bar',
+    },
+})

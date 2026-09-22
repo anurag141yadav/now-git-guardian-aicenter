@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="26117340478d2e1051a3e84d416d4341" label="Policy Execution" max_length="40" name="x_aleen_snguardian_policy_execution" type="collection">
+        <element label="Rejected" max_length="40" name="rejected" type="integer"/>
+        <element label="Risks" max_length="4000" name="risk" reference="x_aleen_snguardian_risk" type="glide_list"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_aleen_snguardian_policy" type="reference"/>
+        <element label="Compliance" max_length="32" name="compliance" reference="x_aleen_snguardian_risk_compliance" type="reference"/>
+        <element choice="3" default="EVALUATION-INPROGRESS" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Enforced" value="ENFORCED"/>
+                <element inactive_on_update="false" label="Under Review" value="UNDER-REVIEW"/>
+                <element inactive_on_update="false" label="Not Enforced" value="NOT-FORCED"/>
+                <element inactive_on_update="false" label="Evaluation In Progress" value="EVALUATION-INPROGRESS"/>
+            </choice>
+        </element>
+        <element label="Mitigated" max_length="40" name="mitigated" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Accepted" max_length="40" name="accepted" type="integer"/>
+        <element label="Total" max_length="40" name="total" type="integer"/>
+        <index name="index">
+            <element name="compliance"/>
+        </index>
+        <index name="index2">
+            <element name="policy"/>
+        </index>
+    </element>
+</database>

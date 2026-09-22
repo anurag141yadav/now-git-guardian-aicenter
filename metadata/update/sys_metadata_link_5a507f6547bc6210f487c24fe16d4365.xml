@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>66f28b2147f4621051a3e84d416d43c1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_location">
+    <x_aleen_snguardian_location action="INSERT_OR_UPDATE">
+        <code/>
+        <country>Global</country>
+        <is_deleted>false</is_deleted>
+        <latitude>0</latitude>
+        <longitude>0</longitude>
+        <name>Global</name>
+        <number>LOCATION0001001</number>
+        <parent/>
+        <state/>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2025-04-09 09:41:28</sys_created_on>
+        <sys_id>66f28b2147f4621051a3e84d416d43c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>anurag.yadav</sys_updated_by>
+        <sys_updated_on>2025-04-09 12:57:51</sys_updated_on>
+        <time_zone>America/New_York</time_zone>
+        <type>HEADQUARTERS</type>
+        <zip/>
+    </x_aleen_snguardian_location>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>anurag.yadav</sys_created_by>
+        <sys_created_on>2025-04-09 12:58:04</sys_created_on>
+        <sys_id>5a507f6547bc6210f487c24fe16d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_5a507f6547bc6210f487c24fe16d4365</sys_update_name>
+        <sys_updated_by>anurag.yadav</sys_updated_by>
+        <sys_updated_on>2025-04-09 12:58:04</sys_updated_on>
+        <tablename>x_aleen_snguardian_location</tablename>
+    </sys_metadata_link>
+</record_update>

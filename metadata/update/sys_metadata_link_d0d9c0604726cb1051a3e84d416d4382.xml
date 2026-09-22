@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>60b9086847e2cb1051a3e84d416d435f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_system_function_type">
+    <x_aleen_snguardian_system_function_type action="INSERT_OR_UPDATE">
+        <code>ADD-IMAGE</code>
+        <is_deleted>false</is_deleted>
+        <name>Add Image</name>
+        <number>SYSFUNTYPE03</number>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2026-08-03 09:48:35</sys_created_on>
+        <sys_id>60b9086847e2cb1051a3e84d416d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-08-03 09:48:35</sys_updated_on>
+    </x_aleen_snguardian_system_function_type>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chirag.chanana</sys_created_by>
+        <sys_created_on>2026-08-03 09:49:07</sys_created_on>
+        <sys_id>d0d9c0604726cb1051a3e84d416d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Image</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_d0d9c0604726cb1051a3e84d416d4382</sys_update_name>
+        <sys_updated_by>chirag.chanana</sys_updated_by>
+        <sys_updated_on>2026-08-03 09:49:07</sys_updated_on>
+        <tablename>x_aleen_snguardian_system_function_type</tablename>
+    </sys_metadata_link>
+</record_update>

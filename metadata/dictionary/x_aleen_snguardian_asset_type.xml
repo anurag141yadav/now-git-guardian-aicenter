@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="95ea50af1b9c8a106962fe60cd4bcbf3" label="Asset Type" max_length="40" name="x_aleen_snguardian_asset_type" text_index="true" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_aleen_snguardian_asset_type" type="reference"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+        <index name="index2">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

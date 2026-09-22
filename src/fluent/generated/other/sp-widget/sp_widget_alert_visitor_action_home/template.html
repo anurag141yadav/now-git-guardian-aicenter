@@ -1,0 +1,65 @@
+<div class="visit-widget">
+  <h2>Visitor Verification & Pre-Check-In</h2>
+  <div ng-if="c.data.search_type == 'email'">
+    <p style="text-align:center">Welcome! Please enter the visitor's email to search for scheduled visits.</p>
+    <div style="display: flex; justify-content: center;"> 
+      <div class="search-section"> <label for="email">Email:</label> 
+        <div class="input-group"> 
+          <input id="email" type="email" ng-model="c.data.email" placeholder="Enter email" class="ng-pristine ng-untouched ng-valid ng-empty ng-valid-email" role="textbox"> <button class="btn btn-primary" ng-click="search()">Search</button> 
+        </div> 
+      </div> 
+    </div>
+  </div>
+  <div ng-if="data.search_type == 'qr'">
+    <div class="qr-section">
+      <!-- Left Section: Instructions -->
+      <div class="qr-instructions">
+        <h3>Instructions</h3>
+        <p>Position the QR code in front of the camera. The system will automatically scan it.</p>
+        <img src="x_aleen_snguardian.QRCamera.png" width="150" height="120"/>
+        <img src="x_aleen_snguardian.QRScanner.png" width="150" height="120"/>
+      </div>
+      <div class="qr-scanner">
+        <widget id="alert-qr-code-reader" options='{"data_type": "json","data_attribute": "data"}'></widget>
+      </div>
+    </div>
+  </div>
+  <div ng-if="data.search_type == 'idscan'">
+    <widget id="alert-id-verification-widget"></widget>
+  </div>
+  <div class="results-section" ng-if="data.message && searchCompleted">
+    <p class="message">{{ data.message }}</p>
+  </div>
+  <div class="visits-list" ng-if="data.visitsGr.length!=0">
+    <h3>Scheduled Visits</h3>
+    <ul>
+      <li ng-repeat="visit in data.visitsGr" class="visit-card">
+        <div>
+          <p>
+            <strong>Location:</strong> {{ visit['location.name'] }} <br />
+            <strong>Date:</strong> {{ visit['start_date'] }} <br />
+            <strong>Status:</strong> {{ visit['status.name'] }}
+          </p>
+        </div>
+        <div>
+          <span ng-repeat="addlButton in ::data.visitActions">
+            <button name="{{addlButton.title}}" ng-if="displayCheck(addlButton, visit)"
+                    role="button" 
+                    ng-click="performAction(visit,addlButton)"
+                    class="btn {{addlButton.style}} " 
+                    aria-label="{{addlButton.title}}">
+              <i class="{{addlButton.icon}}"></i> {{addlButton.title}}
+            </button>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="no-visit" ng-if="!data.visitFound && searchCompleted">
+    <button class="btn btn-warning" ng-click="registerWalkIn()">Register Walk-In</button>
+  </div>
+</div>
+
+
+
+

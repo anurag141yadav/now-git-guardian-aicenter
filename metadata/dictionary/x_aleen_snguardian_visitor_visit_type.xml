@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="176ad0d32bb85210d4dffd74ce91bf92" label="Visit Type" max_length="40" name="x_aleen_snguardian_visitor_visit_type" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Description" max_length="100" name="name" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+    </element>
+</database>

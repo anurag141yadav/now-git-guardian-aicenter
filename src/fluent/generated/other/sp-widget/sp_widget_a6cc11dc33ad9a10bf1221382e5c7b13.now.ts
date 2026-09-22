@@ -1,0 +1,60 @@
+import { SPWidget } from '@servicenow/sdk/core'
+
+SPWidget({
+    $id: Now.ID['a6cc11dc33ad9a10bf1221382e5c7b13'],
+    name: 'Alert Cool Clock',
+    category: 'sample',
+    clientScript: Now.include('./sp_widget_alert_cool_clock/client_script.js'),
+    serverScript: Now.include('./sp_widget_alert_cool_clock/server_script.js'),
+    htmlTemplate: Now.include('./sp_widget_alert_cool_clock/template.html'),
+    customCss: Now.include('./sp_widget_alert_cool_clock/style.scss'),
+    demoData: {
+        options: {
+            default_timezone: 'America/New_York',
+            default_location_name: 'New York',
+            date_format: 'YYYY-MM-DD',
+            time_format: 'HH:mm:ss',
+        },
+    },
+    description: 'Alert Cool Clock',
+    fields: ['title'],
+    hasPreview: true,
+    id: 'alert_cool_clock',
+    linkScript: Now.include('./sp_widget_alert_cool_clock/link-script.js'),
+    roles: ['x_aleen_snguardian.visitor', 'x_aleen_snguardian.portal'],
+    optionSchema: [
+        {
+            hint: 'Default Time Zone',
+            name: 'default_timezone',
+            defaultValue: 'UTC',
+            section: 'Presentation',
+            label: 'Default Time Zone',
+            type: 'string',
+        },
+        {
+            hint: 'Default Location Name ',
+            name: 'default_location_name',
+            section: 'Presentation',
+            defaultValue: 'UTC',
+            label: 'Default Location Name',
+            type: 'string',
+        },
+        {
+            hint: 'Time Format',
+            name: 'time_format',
+            section: 'Presentation',
+            defaultValue: 'hh:mm:ss',
+            label: 'Time Format',
+            type: 'string',
+        },
+        {
+            hint: 'Date Format',
+            name: 'date_format',
+            section: 'Presentation',
+            defaultValue: 'YYYY-MM-DD',
+            label: 'Date Format',
+            type: 'string',
+        },
+    ],
+    dependencies: ['db6689c1cb11120000f8d856634c9c3b'],
+})

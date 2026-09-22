@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1611f431b8a82106962fe60cd4bcb32" label="Events Refined" max_length="40" name="x_aleen_snguardian_events_refined" type="collection">
+        <element label="Access level" max_length="40" name="access_level" type="string"/>
+        <element label="Batch ID" max_length="40" name="batch_id" type="string"/>
+        <element label="asset" max_length="40" name="asset" type="string"/>
+        <element label="identity" max_length="40" name="identity" type="string"/>
+        <element label="category" max_length="40" name="category" type="string"/>
+        <element label="reader" max_length="40" name="reader" type="string"/>
+        <element label="Event date time" max_length="40" name="event_date_time" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="time_zone" table="x_aleen_snguardian_system_scheduled_job" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_id>d15fe8f93b22431065adbfcc73e45a7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>time_zone</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_system_scheduled_job_time_zone</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Use System Time Zone</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbf73a91477b3210f487c24fe16d43dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>floating</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Atlantic</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bf73a91477b3210f487c24fe16d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>Canada/Atlantic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Central</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7f73a91477b3210f487c24fe16d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>Canada/Central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Eastern</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57f73a91477b3210f487c24fe16d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>Canada/Eastern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Mountain</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3f73a91477b3210f487c24fe16d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>Canada/Mountain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Pacific</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53f73a91477b3210f487c24fe16d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>Canada/Pacific</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Amsterdam</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dff73a91477b3210f487c24fe16d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:00</sys_updated_on>
+            <value>Europe/Amsterdam</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Berlin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ff73a91477b3210f487c24fe16d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Berlin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Brussels</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbf73a91477b3210f487c24fe16d43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Brussels</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Copenhagen</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13f77a91477b3210f487c24fe16d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Copenhagen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Dublin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ff77a91477b3210f487c24fe16d4305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Dublin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/London</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ff77a91477b3210f487c24fe16d4308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/London</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Madrid</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bf77a91477b3210f487c24fe16d430b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Madrid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Paris</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bf77a91477b3210f487c24fe16d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Paris</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Rome</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97f77a91477b3210f487c24fe16d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Rome</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Stockholm</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17f77a91477b3210f487c24fe16d4314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Stockholm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Europe/Zurich</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93f77a91477b3210f487c24fe16d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Europe/Zurich</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GMT</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7f77a91477b3210f487c24fe16d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>GMT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hongkong</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57f77a91477b3210f487c24fe16d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>Hongkong</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Arizona</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3f77a91477b3210f487c24fe16d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>US/Arizona</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Central</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53f77a91477b3210f487c24fe16d432f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>US/Central</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Eastern</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dff77a91477b3210f487c24fe16d4331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>US/Eastern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Hawaii</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17f77a91477b3210f487c24fe16d4341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>US/Hawaii</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Mountain</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93f77a91477b3210f487c24fe16d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>US/Mountain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>US/Pacific</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 09:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13f77a91477b3210f487c24fe16d4347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 09:05:01</sys_updated_on>
+            <value>US/Pacific</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IST</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 15:52:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ff77a91477b3210f487c24fe16d4349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 15:52:31</sys_updated_on>
+            <value>IST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>time_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asia/Kolkata</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_system_scheduled_job</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 15:52:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3f77a91477b3210f487c24fe16d4359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 15:52:31</sys_updated_on>
+            <value>Asia/Kolkata</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

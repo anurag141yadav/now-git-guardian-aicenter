@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="850a7ba91b485610bf7ea82b234bcbc2" label="System Scheduled Job History" max_length="40" name="x_aleen_snguardian_system_scheduled_job_history" type="collection">
+        <element label="Remarks" max_length="255" name="remarks" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Data Source Table" max_length="64" name="datasource_table" type="table_name"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Start Time" max_length="40" name="start_time" type="glide_date_time" use_dynamic_default="true"/>
+        <element dependent="datasource_table" dependent_on_field="datasource_table" label="Datasource" max_length="32" name="datasource" type="document_id" use_dependent_field="true"/>
+        <element label="Script" max_length="32" name="script" reference="x_aleen_snguardian_system_scheduled_job" type="reference"/>
+        <element label="Importset" max_length="40" name="importset" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Description" max_length="200" name="description" type="string_full_utf8"/>
+        <index name="index">
+            <element name="datasource"/>
+        </index>
+        <index name="index2">
+            <element name="datasource_table"/>
+        </index>
+        <index name="index3">
+            <element name="script"/>
+        </index>
+    </element>
+</database>

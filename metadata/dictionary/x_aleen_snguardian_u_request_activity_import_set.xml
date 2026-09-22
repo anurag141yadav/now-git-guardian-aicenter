@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cc4e84241bb8ce506962fe60cd4bcb94" extends="sys_import_set_row" label="U Request Activity Import Set" max_length="40" name="x_aleen_snguardian_u_request_activity_import_set" type="collection">
+        <element label="Provisioning Status" max_length="40" name="u_provisioning_status" type="string"/>
+        <element label="Request" max_length="40" name="u_request" type="string"/>
+        <element label="Datasource Table" max_length="40" name="u_datasource_table" type="string"/>
+        <element label="Datasource" max_length="40" name="u_datasource" type="string"/>
+        <element label="description" max_length="255" name="u_description" type="string"/>
+        <element label="Provisioning Action" max_length="40" name="u_provisioning_action" type="string"/>
+    </element>
+</database>

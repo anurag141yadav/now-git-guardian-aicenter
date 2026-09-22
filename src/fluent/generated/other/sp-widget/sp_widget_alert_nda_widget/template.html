@@ -1,0 +1,26 @@
+<div class="widget-container"  ng-if="ndaFound">
+  <div class="action-bar" ng-if="c.data.isPortal">
+    <button class="btn btn-secondary" ng-click="c.downloadNDA()"><i class="fa fa-download m-r" ></i>Download</button>
+    <button class="btn btn-success" ng-click="c.emailNDA()"><i class="fa fa-paper-plane-o m-r "></i>Email</button>
+  </div>
+   <div class="content-container">
+    <div class="nda-header">
+      <h2>Non-Disclosure Agreement (NDA)</h2>
+      <p>Please read the agreement below and accept to proceed.</p>
+    </div>
+    <div ng-bind-html="sanitizedHtml"></div>
+    <div  ng-if="!ndaSigned || ndaExpired">
+    <widget id="alert-signature-pad"></widget>
+    <div class="cc-toggle" >
+      <input ng-model="c.isAgreed" ng-disabled="!c.signed" type="checkbox" id="agreeCheckbox" name="isAgreed">
+      <label for="agreeCheckbox">I agree to the terms and conditions</label>
+    </div>
+    <div class="nda-footer" ng-if="c.data.isPortal">
+      <button  ng-disabled="!c.isAgreed" class="btn btn-primary" ng-click="c.acceptNDA()">I Accept NDA</button>
+    </div>
+    </div>
+  </div>
+</div>
+ <div class="widget-container" ng-if="!ndaFound">
+    No NDA was found for this record.
+</div>

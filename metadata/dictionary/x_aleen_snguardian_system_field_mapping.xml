@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9369890c1b6c8a10759455342a4bcb34" label="System Field Mapping" max_length="40" name="x_aleen_snguardian_system_field_mapping" type="collection">
+        <element label="Is Required" max_length="40" name="is_required" type="boolean"/>
+        <element label="Source" max_length="200" name="source" type="string"/>
+        <element label="Type" max_length="32" name="type" reference="x_aleen_snguardian_field_mapping_type" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Is Advanced" max_length="40" name="is_advanced" type="boolean"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="Script" max_length="8000" name="script" type="script"/>
+        <element label="Default Value" max_length="40" name="default_value" type="string"/>
+        <element label="Target" mandatory="true" max_length="40" name="target" type="string"/>
+        <element choice="3" default="String" label="Datatype" max_length="40" name="datatype" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="String" sequence="2" value="String"/>
+                <element inactive="true" inactive_on_update="true" label="Integer" sequence="1" value="Integer"/>
+                <element inactive="true" inactive_on_update="true" label="Boolean" sequence="0" value="Boolean"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="system"/>
+        </index>
+        <index name="index2">
+            <element name="type"/>
+        </index>
+    </element>
+</database>

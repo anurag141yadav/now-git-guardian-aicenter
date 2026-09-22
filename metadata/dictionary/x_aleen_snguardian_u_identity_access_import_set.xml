@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1d6317a01bf54290759455342a4bcb8d" extends="sys_import_set_row" label="U Identity Access Import Set" max_length="40" name="x_aleen_snguardian_u_identity_access_import_set" type="collection">
+        <element label="Valid from" max_length="40" name="u_valid_from" type="string"/>
+        <element label="Valid to" max_length="40" name="u_valid_to" type="string"/>
+        <element label="Asset Id" max_length="50" name="u_asset_id" type="string"/>
+        <element label="Identifier" max_length="40" name="u_identifier" type="string"/>
+        <element label="System" max_length="40" name="u_system" type="string"/>
+        <element label="Access ID" max_length="40" name="u_access_id" type="string"/>
+        <element label="User ID" max_length="40" name="u_user_id" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+    </element>
+</database>

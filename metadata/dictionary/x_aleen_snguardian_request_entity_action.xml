@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ddec2e041ba84e106962fe60cd4bcb86" label="Request Entity Action" max_length="40" name="x_aleen_snguardian_request_entity_action" type="collection">
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="code" type="string"/>
+        <element label="Applicable To" max_length="4000" name="applicable_to" type="glide_list"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+    </element>
+</database>

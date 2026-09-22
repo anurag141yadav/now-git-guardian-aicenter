@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e4b415082b0e1610d4dffd74ce91bf36</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_aleen_snguardian_visitor_nda_email_templates"&gt;
+    &lt;x_aleen_snguardian_visitor_nda_email_templates action="INSERT_OR_UPDATE"&gt;
+        &lt;code&gt;VISITOR-ORIENTATION&lt;/code&gt;
+        &lt;is_deleted&gt;false&lt;/is_deleted&gt;
+        &lt;location/&gt;
+        &lt;name&gt;Visitor Orientation &lt;/name&gt;
+        &lt;number/&gt;
+        &lt;scope&gt;ADMIN,HOST,VISITOR&lt;/scope&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-11-18 16:55:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e4b415082b0e1610d4dffd74ce91bf36&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chirag.chanana&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-11-21 04:49:46&lt;/sys_updated_on&gt;
+        &lt;template&gt;&lt;![CDATA[&lt;div class="email-container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Welcome to [Company Name]&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;p&gt;Dear ${visitor.full_name},&lt;/p&gt;
+&lt;p&gt;We are excited to welcome you to our premises. To ensure a seamless visit, please take a moment to review the important information below:&lt;/p&gt;
+&lt;div class="instructions"&gt;
+&lt;h3&gt;Orientation Checklist:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Date &amp;amp; Time:&lt;/strong&gt; ${start_date} - ${end_date}&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; ${location.name}&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Host Contact:&lt;/strong&gt; ${host.full_name}&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Check-In Process:&lt;/strong&gt; Upon arrival, please use the kiosk or front desk to check in.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Parking Information:&lt;/strong&gt; [Insert Parking Details or Map Link]&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Safety Protocols:&lt;/strong&gt; Masks are required in all common areas, and hand sanitizers are available throughout the facility.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Visitor Badge:&lt;/strong&gt; A badge will be issued at check-in and must be worn at all times.&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;We recommend arriving 10-15 minutes early to allow time for check-in and orientation. If you have any specific needs or require special assistance, please let us know in advance.&lt;/p&gt;
+&lt;p&gt;For a detailed guide on our policies, safety procedures, and more, click the link below:&lt;/p&gt;
+&lt;a class="cta-button" href="[Insert Orientation Guide URL]" rel="nofollow"&gt;View Visitor Guide&lt;/a&gt;&lt;/div&gt;
+&lt;div class="footer"&gt;
+&lt;p&gt;If you have any questions, feel free to reach out to us at &lt;a href="mailto:support&amp;#64;yourcompany.com" rel="nofollow"&gt;support&amp;#64;yourcompany.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;© 2024 [Company Name]. All rights reserved.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .instructions {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            background: #f9f9f9;
+            padding: 10px;
+        }
+    &lt;/style&gt;]]&gt;&lt;/template&gt;
+        &lt;type&gt;EMAIL&lt;/type&gt;
+    &lt;/x_aleen_snguardian_visitor_nda_email_templates&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 06:51:42</sys_created_on>
+        <sys_id>ff141fea2b969210d4dffd74ce91bf01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_ff141fea2b969210d4dffd74ce91bf01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 06:51:42</sys_updated_on>
+        <tablename>x_aleen_snguardian_visitor_nda_email_tem</tablename>
+    </sys_metadata_link>
+</record_update>

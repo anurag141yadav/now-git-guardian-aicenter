@@ -1,0 +1,8 @@
+import { List, default_view } from '@servicenow/sdk/core'
+
+List({
+    table: 'x_aleen_snguardian_access_location',
+    view: default_view,
+    parent: 'x_aleen_snguardian_location',
+    columns: ['access_level'],
+})

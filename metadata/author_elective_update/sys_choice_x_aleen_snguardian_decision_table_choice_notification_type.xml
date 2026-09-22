@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="notification_type" table="x_aleen_snguardian_decision_table_choice" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>notification_type</element>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:05:51</sys_created_on>
+            <sys_id>2bfce4353bae031065adbfcc73e45a40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>notification_type</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_aleen_snguardian_decision_table_choice_notification_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:05:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Host</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5df7be51477b3210f487c24fe16d43a6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:45</sys_updated_on>
+            <value>approvalHost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Security</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:14:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59f7be51477b3210f487c24fe16d43a9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:14:47</sys_updated_on>
+            <value>approvalSecurity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checkout</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:07:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55f7be51477b3210f487c24fe16d43ac</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:25</sys_updated_on>
+            <value>checkout</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:06:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51f7be51477b3210f487c24fe16d43af</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:07</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency For All</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5df7be51477b3210f487c24fe16d43b1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:04</sys_updated_on>
+            <value>emergencyForAll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:06:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11f7be51477b3210f487c24fe16d43c1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:09:50</sys_updated_on>
+            <value>emergencyForOne</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Force Exit</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:06:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1df7be51477b3210f487c24fe16d43c3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:12</sys_updated_on>
+            <value>forceExit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Right to be Forgotten</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>chirag.chanana</sys_created_by>
+            <sys_created_on>2025-06-26 09:20:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19f7be51477b3210f487c24fe16d43c6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>chirag.chanana</sys_updated_by>
+            <sys_updated_on>2025-07-01 05:57:57</sys_updated_on>
+            <value>forgetVisitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instant</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:06:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15f7be51477b3210f487c24fe16d43c9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:19</sys_updated_on>
+            <value>instant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTP</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:05:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11f7be51477b3210f487c24fe16d43cc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:05:57</sys_updated_on>
+            <value>otp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quick Checkin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:08:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1f7be51477b3210f487c24fe16d43db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:12:06</sys_updated_on>
+            <value>quickcheckin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check in By Kiosk</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:08:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddf7be51477b3210f487c24fe16d43dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:11:15</sys_updated_on>
+            <value>quickcheckinbyKiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check In By Lobby Admin</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:08:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9f7be51477b3210f487c24fe16d43e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:11:30</sys_updated_on>
+            <value>quickcheckinbyLobbyAdmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visitor Checked In</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5f7be51477b3210f487c24fe16d43e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:55</sys_updated_on>
+            <value>visitorCheckedIn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visit Scheduled</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:07:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99f7be51477b3210f487c24fe16d43f2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:10:35</sys_updated_on>
+            <value>visitScheduled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visit Request Rejected</label>
+            <language>en</language>
+            <name>x_aleen_snguardian_decision_table_choice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 15:15:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95f7be51477b3210f487c24fe16d43f5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 15:15:18</sys_updated_on>
+            <value>visReqRejected</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

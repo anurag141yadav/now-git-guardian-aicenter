@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_visitor_nda_sign" table="var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_visitor_nda_sign</element>
+            <name>var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-27 10:27:11</sys_created_on>
+            <sys_id>424f2cb93b22431065adbfcc73e45a01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_visitor_nda_sign</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0_u_visitor_nda_sign</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-27 10:27:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_visitor_nda_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mandatory, For every check in</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-27 10:27:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8f7fa51477b3210f487c24fe16d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-27 10:27:11</sys_updated_on>
+            <value>mandatory_for_every_check_in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_visitor_nda_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mandatory, First Checkin</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-27 10:27:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60f7fa51477b3210f487c24fe16d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-27 10:27:11</sys_updated_on>
+            <value>mandatory_first_checkin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_visitor_nda_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mandatory, If NDA is expired</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-27 10:27:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28f7fa51477b3210f487c24fe16d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-27 10:27:11</sys_updated_on>
+            <value>mandatory_if_nda_is_expired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_visitor_nda_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Optional</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-27 10:27:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecf7fa51477b3210f487c24fe16d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-27 10:27:11</sys_updated_on>
+            <value>optional</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_visitor_nda_sign</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Required</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_b93d0afa33865e10bf1221382e5c7bd0</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-27 10:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4f7fa51477b3210f487c24fe16d433b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-27 10:27:12</sys_updated_on>
+            <value>not_required</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ffffa19e1be88250759455342a4bcb07" extends="sys_import_set_row" label="U User Importset" max_length="40" name="x_aleen_snguardian_u_import_set_user" type="collection">
+        <element label="Skip Propogation" max_length="40" name="u_skip_propogation" type="string"/>
+        <element label="Mobile Credential Id" max_length="60" name="u_mobile_credential_id" type="string"/>
+        <element default="'NONE'" label="Prov Action" max_length="40" name="u_prov_action" type="string"/>
+        <element label="Valid To" max_length="40" name="u_valid_to" type="glide_date_time"/>
+        <element label="Location" max_length="100" name="u_location" type="string"/>
+        <element label="Photo" max_length="10000" name="u_photo" type="string"/>
+        <element label="Master user ID" max_length="40" name="u_master_user_id" type="string"/>
+        <element label="Identifier Type" max_length="40" name="u_identifier_type" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="Work Notes" max_length="200" name="u_work_notes" type="string"/>
+        <element label="First name" max_length="40" name="u_first_name" type="string"/>
+        <element label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="Full Name" max_length="100" name="u_full_name" type="string"/>
+        <element label="Identifier" max_length="60" name="u_identifier" type="string"/>
+        <element label="Source system code" max_length="40" name="u_source_system_code" type="string"/>
+        <element label="Valid From" max_length="40" name="u_valid_from" type="glide_date_time"/>
+        <element label="Datasource" max_length="40" name="u_datasource" type="string"/>
+        <element label="Manager" max_length="32" name="u_manager" reference="x_aleen_snguardian_identity" type="reference"/>
+        <element label="Is Deleted" max_length="40" name="u_is_deleted" type="string"/>
+        <element label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element label="Data Source Table" max_length="40" name="u_datasource_table" type="string"/>
+        <element label="User name" max_length="40" name="u_user_name" type="string"/>
+        <element label="Department" max_length="40" name="u_department" type="string"/>
+        <element label="Type" max_length="40" name="u_type" type="string"/>
+        <index name="index">
+            <element name="u_manager"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,87 @@
+.badge-preview {
+    width:500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.badge-toggle-button {
+     width: 120px;
+    height: 40px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.badge-toggle-button:hover {
+    background-color: #0056b3; /* Same hover effect */
+}
+
+.print-container {
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Space between dropdown and button */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.badge-template,.print-button {
+    height: 40px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.print-button {
+    width: 120px; /* Adjust width for consistency */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.print-button:hover {
+    background-color: #0056b3;
+}
+
+
+@media print {
+    .print-button-container {
+        display: none;
+    }
+    .badge-preview {
+        box-shadow: none;
+        border: 1px solid #333;
+        page-break-inside: avoid;
+    }
+  	/*body *:not(#visitor_badge):not(#visitor_badge *){
+      visibility:hidden;
+  	}
+  	#visitor_badge{
+      position:absolute;
+      top:0;
+      left:0;
+		}*/
+}

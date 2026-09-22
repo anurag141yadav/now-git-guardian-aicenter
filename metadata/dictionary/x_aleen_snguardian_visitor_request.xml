@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7b55883333591a10bf1221382e5c7b10" extends="task" label="Visitor Request" max_length="40" name="x_aleen_snguardian_visitor_request" type="collection">
+        <element label="Stage" max_length="40" name="stage" type="string"/>
+        <element label="Visit" max_length="32" name="visit" reference="x_aleen_snguardian_visitor_visit" type="reference"/>
+        <element label="Status" max_length="32" name="status" reference="x_aleen_snguardian_request_status" type="reference"/>
+        <element attributes="encode_utf8=false" label="Request Type" max_length="32" name="request_type" reference="sc_cat_item_producer" type="reference"/>
+    </element>
+</database>

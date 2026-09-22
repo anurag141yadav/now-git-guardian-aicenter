@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="bbeb18572bb85210d4dffd74ce91bf40" extends="x_aleen_snguardian_identity" label="Visitor" max_length="40" name="x_aleen_snguardian_visitor" type="collection">
+        <element label="Document Number" max_length="255" name="document_number" type="password2"/>
+        <element label="Identity Validation Date" max_length="40" name="identity_validation_date" type="glide_date_time"/>
+        <element choice="3" default="GUEST" label="Visitor Type" max_length="32" name="visitor_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Government / Regulatory Inspectors" value="GOVT"/>
+                <element inactive_on_update="false" label="Facility / Maintenance Worker" value="FACILITY-WORKER"/>
+                <element inactive_on_update="false" label="VIP / Special Guest" value="VIP"/>
+                <element inactive_on_update="false" label="Customer / Client" value="CUSTOMER"/>
+                <element inactive_on_update="false" label="Security / Emergency Personnel" value="SECURITY"/>
+                <element inactive_on_update="false" label="Business Partner" value="BUSINESS-PARNTER"/>
+                <element inactive_on_update="false" label="Job Applicant" value="JOB-APPLICANT"/>
+                <element inactive_on_update="false" label="Family Member / Friend of Employee" value="FNF"/>
+                <element inactive_on_update="false" label="Employee" value="EMPLOYEE"/>
+                <element inactive_on_update="false" label="Vendor / Supplier" value="VENDOR"/>
+                <element inactive_on_update="false" label="Contractors / Consultants" value="CONTRACTOR"/>
+                <element inactive_on_update="false" label="Others" value="OTHERS"/>
+                <element inactive_on_update="false" label="Event Attendee" value="GUEST"/>
+            </choice>
+        </element>
+        <element label="Identity Validation Expires On" max_length="40" name="identity_validation_expires_on" type="glide_date_time"/>
+        <element default="true" hint="The photo will be deleted after all scheduled visits if keep photo is false." label="Keep Photo" max_length="40" name="keep_photo" type="boolean"/>
+        <element choice="1" label="Identity Validation Type" max_length="40" name="identity_validation_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="National ID" value="NATIONAL-ID-CARD"/>
+                <element inactive_on_update="false" label="Passport" value="PASSPORT"/>
+                <element inactive_on_update="false" label="Employee ID" value="EMPLOYEE-ID"/>
+                <element inactive_on_update="false" label="Student ID" value="STUDENT-ID"/>
+                <element inactive_on_update="false" label="Others" value="OTHERS"/>
+                <element inactive_on_update="false" label="Military Card" value="MILITARY-CARD"/>
+                <element inactive_on_update="false" label="Driving Licence" value="DL"/>
+                <element inactive_on_update="false" label="Voter ID" value="VOTER-ID"/>
+            </choice>
+        </element>
+        <element label="Need Assistance" max_length="40" name="need_assistance" type="boolean"/>
+        <element label="Visitor Status" max_length="32" name="visitor_status" reference="x_aleen_snguardian_visitor_status" type="reference"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <index name="index">
+            <element name="identity_validation_type"/>
+        </index>
+        <index name="index2">
+            <element name="visitor_status"/>
+        </index>
+        <index name="index3">
+            <element name="visitor_type"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="23e0045f1b100a10759455342a4bcbba" label="System" max_length="40" name="x_aleen_snguardian_system" type="collection">
+        <element label="Host" max_length="200" name="host" type="string"/>
+        <element label="Description" max_length="150" name="description" type="string"/>
+        <element choice="3" default="USERNAMEPASSOWRD" label="Authentication" max_length="40" name="authentication" type="string">
+            <choice>
+                <element inactive_on_update="false" label="OAuth" sequence="30" value="OAUTH"/>
+                <element inactive_on_update="false" label="API Credentials" sequence="10" value="USERNAMEPASSOWRD"/>
+            </choice>
+        </element>
+        <element label="Version" max_length="40" name="version" read_only="true" type="string"/>
+        <element default="YYYY-MM-DD hh:mm:ss" label="Date Format" max_length="40" name="date_format" type="string"/>
+        <element label="Credential" max_length="32" name="credential" reference="x_aleen_snguardian_connector_credntial" type="reference"/>
+        <element label="MID Server" max_length="32" name="mid_server" reference="ecc_agent" type="reference"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element default="UTC" label="Time Zone" max_length="40" name="time_zone" type="string"/>
+        <element choice="3" default="REST" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Others" sequence="40" value="OTHERS"/>
+                <element inactive_on_update="false" label="REST API" sequence="10" value="REST"/>
+                <element inactive_on_update="false" label="SOAP API" sequence="20" value="SOAP"/>
+                <element inactive_on_update="false" label="Spoke" sequence="30" value="SPOKE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="OAuth Entity Profile" max_length="32" name="oauth_entity_profile" reference="oauth_entity_profile" type="reference"/>
+        <element label="Password" max_length="255" name="password" type="password2"/>
+        <element label="UserName" max_length="80" name="username" type="string"/>
+        <element display="true" label="Code" max_length="40" name="code" type="string"/>
+        <element default="0" label="Parallel Connections" max_length="40" name="rate_limit_count" type="integer"/>
+        <index name="index">
+            <element name="code"/>
+        </index>
+        <index name="index2">
+            <element name="credential"/>
+        </index>
+        <index name="index3">
+            <element name="mid_server"/>
+        </index>
+        <index name="index4">
+            <element name="oauth_entity_profile"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>608f8ed51bbc8210759455342a4bcbce</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_aleen_snguardian_asset_type">
+    <x_aleen_snguardian_asset_type action="INSERT_OR_UPDATE">
+        <code>WAVELYNX</code>
+        <description>Wavelynx</description>
+        <is_deleted>false</is_deleted>
+        <name>Wavelynx</name>
+        <number>ASSETTYPE104</number>
+        <parent display_value="MobileCredentials">e08f8ed51bbc8210759455342a4bcbcb</parent>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 18:54:10</sys_created_on>
+        <sys_id>608f8ed51bbc8210759455342a4bcbce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dev.admin</sys_updated_by>
+        <sys_updated_on>2025-04-09 05:01:24</sys_updated_on>
+    </x_aleen_snguardian_asset_type>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-14 12:05:52</sys_created_on>
+        <sys_id>59ce7d371bb8c210759455342a4bcba3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Wavelynx</sys_name>
+        <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+        <sys_update_name>sys_metadata_link_59ce7d371bb8c210759455342a4bcba3</sys_update_name>
+        <sys_updated_by>anurag.yadav</sys_updated_by>
+        <sys_updated_on>2025-04-09 12:21:15</sys_updated_on>
+        <tablename>x_aleen_snguardian_asset_type</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d914b5c01ba44e106962fe60cd4bcbea" label="Identity Location" max_length="40" name="x_aleen_snguardian_identity_location" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="x_aleen_snguardian_location" type="reference"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element label="Identity" max_length="32" name="identity" reference="x_aleen_snguardian_identity" type="reference"/>
+        <index name="index">
+            <element name="identity"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

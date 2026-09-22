@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3ba80201bb8ce506962fe60cd4bcbf3" label="Request Activity" max_length="40" name="x_aleen_snguardian_request_activity" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Description" max_length="100" name="description" type="string_full_utf8"/>
+        <element label="Activity" max_length="40" name="activity" type="string"/>
+        <element label="Datasource Table" max_length="64" name="datasource_table" type="table_name"/>
+        <element label="Request" max_length="32" name="request" reference="x_aleen_snguardian_request" type="reference"/>
+        <element label="Provisioning  Action" max_length="32" name="provisioning_action" reference="x_aleen_snguardian_request_entity_action" type="reference"/>
+        <element dependent="datasource_table" dependent_on_field="datasource_table" label="Datasource" max_length="32" name="datasource" type="document_id" use_dependent_field="true"/>
+        <element label="Provisioning Status" max_length="32" name="provisioning_status" reference="x_aleen_snguardian_provisioning_status" type="reference"/>
+        <index name="index">
+            <element name="datasource"/>
+        </index>
+        <index name="index2">
+            <element name="provisioning_action"/>
+        </index>
+        <index name="index3">
+            <element name="provisioning_status"/>
+        </index>
+        <index name="index4">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

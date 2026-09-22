@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b6f0cda1bc60a106962fe60cd4bcb6c" label="Access Requisite" max_length="40" name="x_aleen_snguardian_access_requisite" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Access Level" max_length="32" name="access_level" reference="x_aleen_snguardian_access_level" type="reference"/>
+        <element label="Assertion" max_length="32" name="assertion" reference="x_aleen_snguardian_assertion" type="reference"/>
+        <element default="REACTIVE" label="Enforcement Type" max_length="4000" name="enforcement_type" type="glide_list"/>
+        <index name="index">
+            <element name="access_level"/>
+        </index>
+        <index name="index2">
+            <element name="assertion"/>
+        </index>
+    </element>
+</database>

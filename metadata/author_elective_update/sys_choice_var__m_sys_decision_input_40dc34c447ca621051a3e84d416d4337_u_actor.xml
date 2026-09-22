@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_actor" table="var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_actor</element>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_id>3f3fa0b93b22431065adbfcc73e45afe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_actor</sys_name>
+            <sys_package display_value="Guardian Workplace Access &amp; Identity Governance" source="x_aleen_snguardian">6026f9b41b14c6106962fe60cd4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Guardian Workplace Access &amp; Identity Governance">6026f9b41b14c6106962fe60cd4bcb64</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337_u_actor</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOBBYADMIN</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ae7f251477b3210f487c24fe16d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>lobbyadmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOBBYADMIN</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72e7f251477b3210f487c24fe16d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>lobbyadmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOBBYADMIN</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bae7f251477b3210f487c24fe16d4300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>lobbyadmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOBBYADMIN</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2e7b251477b3210f487c24fe16d43ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>lobbyadmin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KIOSK</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36e7f251477b3210f487c24fe16d4309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>kiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KIOSK</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ee7f251477b3210f487c24fe16d4307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>kiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KIOSK</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6e7f251477b3210f487c24fe16d4306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>kiosk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_actor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KIOSK</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_40dc34c447ca621051a3e84d416d4337</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-05 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fee7f251477b3210f487c24fe16d4304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-05 11:21:20</sys_updated_on>
+            <value>kiosk</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

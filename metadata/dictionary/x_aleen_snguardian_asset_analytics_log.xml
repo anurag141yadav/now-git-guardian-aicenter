@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f66a5bcc47c92e1051a3e84d416d4343" label="Asset Analytics Log" max_length="40" name="x_aleen_snguardian_asset_analytics_log" type="collection">
+        <element label="Confidence Score" max_length="40" name="confidence_score" type="float"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Event ID" max_length="40" name="event_id" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string_full_utf8"/>
+        <element label="Asset" max_length="32" name="asset" reference="x_aleen_snguardian_asset" type="reference"/>
+        <element label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+    </element>
+</database>

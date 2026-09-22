@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="98d6ee1b1b8502106962fe60cd4bcbeb" label="Event" max_length="40" name="x_aleen_snguardian_event" type="collection">
+        <element label="System" max_length="32" name="system" reference="x_aleen_snguardian_system" type="reference"/>
+        <element label="User ID" max_length="40" name="user_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="CHECKIN" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Reader Malfunction" value="READER_MALFUMCTION"/>
+                <element inactive_on_update="false" label="Duplicate Swipe" value="DUPLICATE_SWIPE"/>
+                <element inactive_on_update="false" label="OfflineSynchronizationSuccess" sequence="0" value="OfflineSynchronizationSuccess"/>
+                <element inactive_on_update="false" label="OfflineSynchronizationStarted" sequence="0" value="OfflineSynchronizationStarted"/>
+                <element inactive_on_update="false" label="Out-of-Range Swipe" value="OUT_OF_RANGE_SWIPE"/>
+                <element inactive_on_update="false" label="Check-Out" value="CHECKOUT"/>
+                <element inactive_on_update="false" label="Invalid Badge" value="INVALID_BADGE"/>
+                <element inactive_on_update="false" label="Check-In" value="CHECKIN"/>
+                <element inactive_on_update="false" label="UnitConnected" sequence="0" value="UnitConnected"/>
+                <element inactive_on_update="false" label="DoorOnline" sequence="0" value="DoorOnline"/>
+                <element inactive_on_update="false" label="undefined" sequence="0" value="undefined"/>
+                <element inactive_on_update="false" label="Tampered Badge" value="TAMPERED_BADGE"/>
+                <element inactive_on_update="false" label="Insufficient Permissions" value="INSUFFICIENT_PERM"/>
+                <element inactive_on_update="false" label="Access Denied" value="ACCESS_DENIED"/>
+            </choice>
+        </element>
+        <element label="Event Position" max_length="40" name="event_position" type="string"/>
+        <element label="Event ID" max_length="40" name="event_id" type="string"/>
+        <element label="Reader ID" max_length="40" name="reader_id" type="string"/>
+        <element label="Badge ID" max_length="40" name="badge_id" type="string"/>
+        <element default="javascript: new GlideDateTime();" label="Event Date Time" max_length="40" name="event_date_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="system"/>
+        </index>
+    </element>
+</database>

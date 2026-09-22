@@ -1,0 +1,1 @@
+producer.portal_redirect = "?id=alert_action_result_page&action=schedule&sys_id="+ current.getUniqueValue();

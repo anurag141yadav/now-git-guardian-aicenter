@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7f81ee381b1002106962fe60cd4bcbdb" label="Identity" max_length="40" name="x_aleen_snguardian_identity" type="collection">
+        <element label="DataSource Table" max_length="64" name="datasource_table" type="table_name"/>
+        <element label="Master User ID" max_length="32" name="master_user_id" reference="sys_user" type="reference"/>
+        <element label="OTP Expires On" max_length="40" name="otp_expires_on" type="glide_date_time"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="User ID" max_length="40" name="user_name" type="string"/>
+        <element default="Service Now" label="Source System Code" max_length="40" name="source_system_code" type="string"/>
+        <element label="Journal" max_length="4000" name="journal" type="journal"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element label="Status" max_length="32" name="status" reference="x_aleen_snguardian_status_code" reference_qual="applicable_toLIKEUSER^EQ" reference_qual_condition="applicable_toLIKEUSER^EQ" type="reference"/>
+        <element label="Additional Comments" max_length="4000" name="additional_comments" type="journal_input"/>
+        <element display="true" label="Full Name" max_length="100" name="full_name" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Manager" max_length="32" name="manager" read_only="true" reference="x_aleen_snguardian_identity" type="reference"/>
+        <element dependent="datasource_table" dependent_on_field="datasource_table" label="DataSource" max_length="32" name="datasource" read_only="true" type="document_id" use_dependent_field="true"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="OTP" max_length="255" name="otp" type="password2"/>
+        <element default="FALSE" label="Skip Propogation" max_length="40" name="u_skip_propogation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Is Deleted" max_length="40" name="is_deleted" type="boolean"/>
+        <element attributes="ref_contributions=capture_image" label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element label="Type" max_length="32" name="type" reference="x_aleen_snguardian_identitytype" type="reference"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <index name="index">
+            <element name="datasource"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+        <index name="index3" unique="true">
+            <element name="master_user_id"/>
+        </index>
+        <index name="index4">
+            <element name="master_user_id"/>
+        </index>
+        <index name="index5">
+            <element name="status"/>
+        </index>
+        <index name="index6">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index7">
+            <element name="type"/>
+        </index>
+        <index name="index8">
+            <element name="user_name"/>
+        </index>
+    </element>
+</database>
